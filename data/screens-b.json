@@ -1,0 +1,2521 @@
+[
+ {
+  "id": "noted-home-04",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Home — today",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Card",
+   "Checkbox",
+   "Avatar",
+   "FAB",
+   "Progress Bar",
+   "Banner",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Tuesday, October 15 · 3 of 6 done Morning briefing 3 tasks due before noon View 50% complete Today’s progress 3 of 6 tasks finished 2h 15m in focus so far Up next See all Review Q4 roadmap deck 9:30 AM · with Lena Fischer Work Send invoice #1042 Overdue since yesterday Finance Book dentist appointment Done at 8:05 AM Health Water the monstera 6:00 PM · recurring Home Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-home-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-product-04",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Product detail",
+  "pattern": "Product Detail",
+  "elements": [
+   "Carousel",
+   "Rating",
+   "Stepper",
+   "Button",
+   "Accordion",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#E4D6BE"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Bestseller MAISON ATELIER Aria Lounge Chair 4.8 212 reviews €349 €429 -19% Only 3 left Fabric — Oat Bouclé Quantity 1 Details & materials Solid oak frame, high-resilience foam and a washable bouclé cover. W 68 × D 72 × H 76 cm. Shipping & returns Care guide Total €349.00 Add to bag",
+  "image": "assets/screens/maison-product-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 42,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-feed-12",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Feed",
+  "pattern": "Feed",
+  "elements": [
+   "Tab Bar",
+   "Avatar",
+   "Badge",
+   "Card",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B",
+   "#F4F4F5"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "orbit 3 You JW jonas.w MK mia.k LT leo.t AS ava.s JW jonas.weber 2h · Hamburg 1/3 2,418 likes jonas.weber Golden hour over the harbor. No filter needed. View all 184 comments MK mia.kim 5h · Berlin Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-feed-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 71,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-onboarding-01",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Onboarding",
+  "pattern": "Onboarding",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "A calmer to-do list Capture tasks in seconds, plan your day with focus, and actually finish things. Get started I already have an account",
+  "image": "assets/screens/noted-onboarding-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-login-02",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Login",
+  "pattern": "Login",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Checkbox"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "N Welcome back Log in to pick up where you left off. Email jonas.weber@mail.de Password •••••••••• Remember me Forgot password? Log in or continue with Google Apple New to Noted? Create account",
+  "image": "assets/screens/noted-login-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 49,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-forgot-password-03",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Forgot password",
+  "pattern": "Forgot Password",
+  "elements": [
+   "Text Field",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Back Reset password Enter the email you signed up with and we’ll send you a reset link. Email jonas.weber@mail.de Send reset link Back to log in",
+  "image": "assets/screens/noted-forgot-password-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 68,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-calendar-05",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Calendar — month",
+  "pattern": "Calendar",
+  "elements": [
+   "Calendar",
+   "List Item",
+   "FAB"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Calendar October 2026 S M T W T F S 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Thursday, Oct 15 Sprint review 10:00 – 11:00 AM · Studio room Lunch with Priya 12:30 PM · Café Krämer Deep work: thesis 3:00 – 5:00 PM · Focus block Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-calendar-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 54,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-search-06",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Search",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "roadmap All Tasks Projects Notes Files 3 RESULTS Review Q4 roadmap deck Task · Work · Due today Roadmap 2026 Project · 14 tasks · Updated 2h ago Roadmap feedback notes Note · Edited yesterday RECENT dentist invoice template Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-search-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-chat-07",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Chat — team",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Text Field",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Design team Today Morning! The Q4 deck is ready for review — link is in the task. 9:12 AM On it. I’ll leave comments before the 10 AM review. 9:18 AM Perfect. Also, can you add the onboarding metrics slide? 9:20 AM Already added — check slide 14. Numbers look strong. 9:24 AM LF Lena is typing… Message the team…",
+  "image": "assets/screens/noted-chat-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-settings-08",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Segmented Control",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Settings JW Jonas Weber jonas.weber@mail.de · Free plan PREFERENCES Notifications Reminders & mentions Sync Across all devices Sounds Task complete chime APPEARANCE Light System Dark GENERAL Account Privacy Help & feedback Log out Noted 4.2.0 · Made with care in Bremen Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-settings-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 73,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-profile-09",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Button",
+   "List Item",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Profile JW Jonas Weber Product designer · Bremen Free plan 12-day streak 128 Tasks 96 Done 75% Rate My tasks 6 due today 6 Shared with me 3 projects Pinned 8 items Settings Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 81,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-notifications-10",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#EF4444"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Mark all read Notifications TODAY Reminder: Sprint review Starts in 30 minutes · Studio room 9:30 AM Lena mentioned you “Can you add the metrics slide?” 8:42 AM EARLIER Streak milestone 12-day streak! Keep it going. Yesterday Task completed “Book dentist appointment” done Yesterday Weekly report ready You finished 21 tasks this week Mon Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 94,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-empty-state-11",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Empty state — projects",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Projects No projects yet Group related tasks into projects to keep big goals on track. Create project Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-empty-state-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-subscription-12",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Subscription — Noted Plus",
+  "pattern": "Subscription",
+  "elements": [
+   "Radio",
+   "Accordion",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Noted Plus Do more with fewer taps. Unlimited projects & file uploads Smart reminders with location Calendar sync & team workspaces Monthly per month, billed monthly €4.99 Yearly Save 33% per year · €3.33/mo €39.99 Start 7-day free trial Free for 7 days, then €39.99/year. Cancel anytime. Can I cancel anytime? Is there a student discount?",
+  "image": "assets/screens/noted-subscription-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 96,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-new-task-13",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "New task — bottom sheet",
+  "pattern": "Home",
+  "elements": [
+   "Bottom Sheet",
+   "Text Field",
+   "Chip",
+   "Dropdown",
+   "Toggle",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Today’s progress New task What needs doing? Today Tomorrow Next week No date Project Work Reminder Tue, Oct 20 · 9:00 AM Add task",
+  "image": "assets/screens/noted-new-task-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 85,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-date-picker-14",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Set reminder — date picker",
+  "pattern": "Home",
+  "elements": [
+   "Date Picker",
+   "Calendar",
+   "Chip",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "New task Set reminder “Call the tax office” M 19 T 20 W 21 T 22 F 23 S 24 S 25 October 2026 S M T W T F S 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Time 9:00 AM 12:30 PM 3:00 PM 6:00 PM Set reminder",
+  "image": "assets/screens/noted-date-picker-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-task-done-15",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Task created — toast",
+  "pattern": "Home",
+  "elements": [
+   "Toast",
+   "Tab Bar",
+   "Card",
+   "Checkbox",
+   "FAB"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Tuesday, October 15 · 3 of 7 done Just added Call the tax office Tue, Oct 20 · 9:00 AM · Reminder on Work Up next See all Review Q4 roadmap deck 9:30 AM · with Lena Fischer Work Send invoice #1042 Overdue since yesterday Finance Task created · Reminder Tue 9:00 AM Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-task-done-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 78,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-welcome-01",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#EFE9DD",
+   "#111111",
+   "#D97706",
+   "#FFFFFF"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "MAISON Furniture for slow living Timeless pieces, honest materials, delivered to your door. Start shopping Log in",
+  "image": "assets/screens/maison-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 45,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-home-02",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Home — editorial",
+  "pattern": "Home",
+  "elements": [
+   "Carousel",
+   "Banner",
+   "Card",
+   "Search Bar",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "MAISON 2 Search furniture The Autumn Edit Up to 30% off warm minimalism Shop Editorial View all The Reading Corner 12 pieces Soft Light 9 pieces Small Spaces 15 pieces Shop by room Living room Bedroom Dining Office New arrivals See all Aria Lounge Chair €349 Duna Side Table €129 Halo Floor Lamp €189 Fjord 2-Seat Sofa €899 Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-search-03",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Search — filters",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Slider",
+   "Radio",
+   "Bottom Sheet",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "lounge chair 24 results -19% Aria Lounge Chair €349 Nube Accent Chair €279 Fjord 2-Seat Sofa €899 New Pouf Ottoman €89 Filters Max price · €350 €0 €500 Availability In stock On sale Solid oak Under €200 Sort by Most popular Price: low to high Newest Show 24 results",
+  "image": "assets/screens/maison-search-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 46,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-cart-05",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Cart",
+  "pattern": "Cart",
+  "elements": [
+   "List Item",
+   "Stepper",
+   "Text Field",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Bag (2) Aria Lounge Chair Oat Bouclé · Qty 1 €349 1 Duna Side Table Smoked oak · Qty 2 €258 2 Promo code Apply Subtotal €607.00 Shipping Free Total €607.00 Free carbon-neutral delivery · arrives Fri, Oct 23 Checkout · €607.00",
+  "image": "assets/screens/maison-cart-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-checkout-06",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Checkout — shipping",
+  "pattern": "Checkout",
+  "elements": [
+   "Text Field",
+   "Radio",
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Checkout 1 Shipping — 2 Payment — 3 Review Delivery address Sofia Rossi Osterstraße 14 28199 Bremen Shipping method Standard 3–5 business days Free Express 1–2 business days €9.00 Continue to payment",
+  "image": "assets/screens/maison-checkout-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-payment-07",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Payment method",
+  "pattern": "Payment Method",
+  "elements": [
+   "Text Field",
+   "Radio",
+   "Checkbox",
+   "Button",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#1C1917",
+   "#111111",
+   "#D97706",
+   "#FFFFFF"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Payment MAISON •••• •••• •••• 4021 Card holder SOFIA ROSSI Expires 08/28 Card details Card number MM / YY CVC Pay with Card PayPal Klarna · pay in 3 Save card for next time Pay €607.00",
+  "image": "assets/screens/maison-payment-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 88,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-orders-08",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Orders",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Progress Bar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Orders Track, return, reorder 12 Orders €2.4k Spent €312 Saved #MS-8421 Delivered Oct 10 · 2 items · undefined #MS-8390 In transit Oct 13 · 1 item · 65 #MS-8274 Delivered Sep 28 · 3 items · undefined Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-orders-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-profile-09",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Profile SR Sofia Rossi sofia.rossi@mail.de Gold member Orders 12 orders Wishlist 4 saved pieces 4 Addresses Home · Office Payment methods Visa ···· 4021 Help center Maison 3.8.1 Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 70,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-notifications-10",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Notifications Price drop Aria Lounge Chair is now €349 2h ago -19% Order shipped #MS-8390 is on its way 5h ago Back in stock Duna Side Table · Smoked oak 1d ago Sale ends Sunday The Autumn Edit · up to 30% off 2d ago Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 59,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-empty-11",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Empty state — wishlist",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Wishlist Your wishlist is empty Save pieces you love and we’ll keep an eye on the price for you. Discover pieces Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 97,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-error-12",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Error state",
+  "pattern": "Error State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#DC2626",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "New arrivals Something went wrong We couldn’t load this collection. Check your connection and try again. Try again Back to home Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-error-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 64,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-order-confirmed-13",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Order confirmed",
+  "pattern": "Checkout",
+  "elements": [
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#10B981",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Order confirmed Order #MS-8421 · Arriving Fri, Oct 23 Standard delivery · Free Osterstraße 14, 28199 Bremen Aria Lounge Chair Qty 1 · Oat Bouclé €349 Track order Continue shopping",
+  "image": "assets/screens/maison-order-confirmed-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 55,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-signup-01",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Sign up",
+  "pattern": "Sign Up",
+  "elements": [
+   "Text Field",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F5F3FF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "orbit Create your account Join 2M+ people sharing their world. Name Jonas Weber Email jonas.weber@mail.de Password •••••••••• Phone +49 170 123 456 Sign up By signing up you agree to our Terms and Privacy Policy. Have an account? Log in",
+  "image": "assets/screens/orbit-signup-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 88,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-otp-02",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "OTP verification",
+  "pattern": "OTP Verification",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F5F3FF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Back Verify your number We sent a 4-digit code to +49 170 123 456 4 7 Didn’t get it? Resend in 0:42 Verify",
+  "image": "assets/screens/orbit-otp-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 71,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-home-03",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Home",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Avatar",
+   "Badge",
+   "Card",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Good evening, Jonas 3 JW Share a moment… MK mia.k LT leo.t AS ava.s DR dan.r EP emi.p LT leo.teller 1h · Munich Just shipped our new studio site. Three months of work, finally live. Link in bio. 842 96 Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-home-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 61,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-explore-04",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Explore",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Search Orbit For you Travel Food Design Music Santorini Ramen Dolomites Studio Concert Ceramics Lisbon Brunch Norway Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-explore-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-composer-05",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "New post — composer",
+  "pattern": "Post Composer",
+  "elements": [
+   "Bottom Sheet",
+   "Text Field",
+   "Button",
+   "Radio",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "orbit Golden hour over the harbor… Cancel New post Share Write a caption… Add location Tag people Who can reply Everyone Share",
+  "image": "assets/screens/orbit-composer-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 66,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-profile-06",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Segmented Control",
+   "Button",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "jonas.weber JW 248 Posts 12.4k Followers 890 Following Jonas Weber Photographer · Hamburg Chasing light since 2019 Edit profile Share profile Posts Reels Tagged Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-profile-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-dms-07",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Messages",
+  "pattern": "Chat",
+  "elements": [
+   "List Item",
+   "Avatar",
+   "Badge",
+   "Search Bar"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#22C55E"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Messages Search conversations MK mia.kim That sunset shot is unreal 2m 2 LT leo.teller Sent you the studio link 1h AS ava.santos Are we still on for Saturday? 3h 1 DR dan.richter Thanks for the feedback! Yesterday EP emi.park Loved your latest reel Yesterday Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-dms-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 74,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-notifications-08",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Activity",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Avatar",
+   "Button",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#E11D48",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Activity TODAY mia.kim liked your photo. 12m leo.teller started following you. 1h Follow ava.santos mentioned you in a comment. 3h THIS WEEK Your reel hit 10k views. Keep going! 2d dan.richter and 48 others followed you. 4d Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-notifications-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 79,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-settings-09",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "List Item",
+   "Dropdown"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Settings ACCOUNT Private account Only followers see posts Push notifications Likes, comments, follows Autoplay videos On Wi-Fi only PREFERENCES Language English Privacy Blocked accounts Help center Log out Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-settings-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 68,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-empty-10",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Empty state — saved",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Saved No saved posts yet Tap the bookmark on any post to build your collection of favorites. Explore Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 98,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-insights-11",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Insights",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Segmented Control",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Insights 7 days 30 days 90 days Reach 48.2k +12.4% Likes 9,148 +8.1% Follows 312 -2.3% Profile visits This week M T W T F S S Top post Golden hour over the harbor 2,418 likes · 184 comments Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-insights-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-caption-13",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "New post — caption",
+  "pattern": "Post Composer",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Chip",
+   "Radio"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Cancel New post Share 1/3 Golden hour over the harbor. No filter needed. 48 / 220 Add location Tag people Add music Audience Everyone Followers only Share",
+  "image": "assets/screens/orbit-caption-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-otp-success-13",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Verified — success",
+  "pattern": "OTP Verification",
+  "elements": [
+   "Button",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F5F3FF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "You’re verified! Your number is confirmed. Let’s set up your profile and find your people. JW MK LT Mia, Leo and 3 friends are already here Continue",
+  "image": "assets/screens/orbit-otp-success-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 88,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-onboarding-01",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Onboarding",
+  "pattern": "Onboarding",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Learn anything, anywhere Bite-size video courses from world-class instructors. 15 minutes a day is enough. Get started Log in",
+  "image": "assets/screens/bright-onboarding-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 51,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-welcome-02",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Welcome — interests",
+  "pattern": "Welcome",
+  "elements": [
+   "Button",
+   "Chip",
+   "Segmented Control"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Welcome to Bright, Jonas Pick what you want to learn. We’ll build your path. I’m interested in Design Coding Business Languages Photography Music Marketing Data My level Beginner Intermediate Advanced Daily goal 15 min 30 min 1 hour Continue",
+  "image": "assets/screens/bright-welcome-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-home-03",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Home — continue learning",
+  "pattern": "Home",
+  "elements": [
+   "Card",
+   "Progress Bar",
+   "Avatar",
+   "Search Bar",
+   "Banner",
+   "Carousel",
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Hi, Jonas Search courses, topics… 12-day streak! You’re on fire. 3 more days to beat your record. Continue learning DESIGN Design Systems 101 Lesson 16 of 24 · 12 min left Resume lesson Recommended for you See all Figma Masterclass 18 lessons · 4.9 Color Theory Basics 12 lessons · 4.8 UX Research 20 lessons · 4.7 Home Search Plan Profile",
+  "image": "assets/screens/bright-home-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 45,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-search-04",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Search — courses",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Dropdown",
+   "Skeleton",
+   "Rating",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "design All Beginner Certificate Popular DESIGN Design Systems 101 24 lessons · 8h · 4.9 (3.2k) €49 DESIGN Figma Masterclass 18 lessons · 6h · 4.9 (5.1k) €39 Home Search Plan Profile",
+  "image": "assets/screens/bright-search-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 78,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-course-05",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Course detail",
+  "pattern": "Course Detail",
+  "elements": [
+   "Rating",
+   "Accordion",
+   "Button",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#1D4ED8",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "DESIGN · BEGINNER Design Systems 101 AR Amara Rossi Design Lead · 12 courses Follow 4.9 3,214 ratings · 24 lessons · 8h Certificate included · shareable on LinkedIn Curriculum 1 Foundations Tokens & variables · 12 min Done Component anatomy · 18 min Hands-on: build a button · 24 min 8 lessons · 2h 10m 2 Components in depth 10 lessons · 3h 05m 3 Shipping your system 6 lessons · 2h 40m One-time €49.00 Enroll now",
+  "image": "assets/screens/bright-course-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-stats-06",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Your progress",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Progress Bar",
+   "Card",
+   "Banner"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Your progress 72% of goal Weekly goal 5h 24m of 7h 30m 2 lessons to go Study time Minutes / day M T W T F S S 24h Learned 3 Courses 12 Day streak Level 7 reached You earned 420 XP this week. Home Search Plan Profile",
+  "image": "assets/screens/bright-stats-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-calendar-07",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Study plan",
+  "pattern": "Calendar",
+  "elements": [
+   "Date Picker",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#8B5CF6"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Study plan 3 sessions this week T 14 W 15 T 16 F 17 S 18 S 19 M 20 Today · Wednesday 6:00 PM Design Systems 101 Lesson 16 · Tokens & variables 7:30 PM Spanish: Unit 4 15 min review · Flashcards Tomorrow 8:00 AM Figma Masterclass Lesson 3 · Auto layout Home Search Plan Profile",
+  "image": "assets/screens/bright-calendar-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 49,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-paywall-08",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Bright Pro — paywall",
+  "pattern": "Paywall",
+  "elements": [
+   "Button",
+   "Card",
+   "Radio"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#FACC15",
+   "#0F172A"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Bright Pro Unlock every course, certificate and offline download. Unlimited access to 2,400+ courses Certificates for every completion Offline downloads & 1.5x audio Priority help from tutors Yearly Best value €6.58/month, billed yearly €79 Monthly Billed monthly, cancel anytime €9.99 Start 7-day free trial Free for 7 days, then €79/year. Cancel anytime in Settings.",
+  "image": "assets/screens/bright-paywall-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-profile-09",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Button",
+   "List Item",
+   "Progress Bar"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Profile JW Jonas Weber Learning since Mar 2026 PRO Level 7 · 4,280 XP 3 Courses 2 Certificates 12 Day streak My courses Certificates 2 Downloads Settings Home Search Plan Profile",
+  "image": "assets/screens/bright-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-settings-10",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Dropdown",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Settings LEARNING Study reminders Daily at 6:00 PM Downloads Wi-Fi only Streak freeze Protect 1 missed day / month PLAYBACK Default speed 1.25x Video quality Auto (HD on Wi-Fi) GENERAL Language English Help center Log out Home Search Plan Profile",
+  "image": "assets/screens/bright-settings-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 94,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-notifications-11",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Notifications New lesson dropped Design Systems 101 · Lesson 16 10m Streak reminder Study 12 min to keep your 12-day streak 2h Certificate ready Figma Masterclass · Download PDF 1d Study group invite Mia invited you to “Design Buddies” 2d Home Search Plan Profile",
+  "image": "assets/screens/bright-notifications-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-tutor-12",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Chat — AI tutor",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Text Field",
+   "Chip"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#7C3AED"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Back Mira · AI Tutor Online M Hi Jonas! I see you’re on Lesson 16: Tokens & variables . Want a quick recap before you start? Yes please — what’s the difference between a token and a variable? M Great question! A token is the raw value (e.g. #4F46E5 ). A variable in Figma is the container that holds it — so one token can feed many variables. Got it. And when would I use modes? Explain with example Quiz me Show lesson Summarize Ask Mira anything…",
+  "image": "assets/screens/bright-tutor-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 87,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-checkout-13",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Checkout",
+  "pattern": "Checkout",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#047857"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Course Checkout Design Systems 101 Amara Rossi · 24 lessons €49.00 Payment Visa ···· 4021 Expires 08/28 Change Promo code Course price €49.00 Launch discount −€10.00 Total €39.00 30-day money-back guarantee Pay €39.00",
+  "image": "assets/screens/bright-checkout-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 42,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-enrolled-14",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Enrolled — success",
+  "pattern": "Subscription",
+  "elements": [
+   "Toast",
+   "Button",
+   "Progress Bar",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#10B981",
+   "#0F172A"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "You’re enrolled! Design Systems 101 is now in your library. Design Systems 101 24 lessons · 8 hours Start learning Browse more courses Welcome aboard — lesson 1 unlocked",
+  "image": "assets/screens/bright-enrolled-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 50,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-welcome-01",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Build habits that stick Track water, movement and mindfulness. Small steps, every day. Get started Log in",
+  "image": "assets/screens/vitalis-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-home-02",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Home — habits",
+  "pattern": "Home",
+  "elements": [
+   "Card",
+   "Progress Bar",
+   "Checkbox",
+   "FAB",
+   "Avatar",
+   "Banner"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "TUESDAY, OCT 15 Good morning, Jonas JW 1.2 of 2.5 L 3 glasses to go today Log water Today’s habits Edit Meditate · 10 min Done at 7:15 AM Walk · 8,000 steps 6,240 so far Read · 20 pages Atomic Habits · p. 112 No sugar Day 4 of 7 12-week streak Your longest streak ever. Keep it alive today. Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-stats-03",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Activity",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Segmented Control",
+   "Progress Bar"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Activity Week Month Year 86% habits 12 week streak · personal best Habits completed per day M T W T F S S Water intake 2.1 L avg Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-stats-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-calendar-04",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Calendar",
+  "pattern": "Calendar",
+  "elements": [
+   "Calendar",
+   "Badge",
+   "List Item",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#4F46E5"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Calendar Every dot is a day you showed up October 2026 S M T W T F S 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 3 perfect weeks All habits completed, 3 weeks running Best Today’s plan Water · 500 ml After lunch Strength · 30 min 6:00 PM · Home workout Wind down · 10:30 PM No screens, herbal tea Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-calendar-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 48,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-coach-05",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Chat — coach",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Text Field",
+   "Chip",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Coach Ava Today A Morning Jonas! You’re 800 ml behind your usual water pace. Big meeting day? Yeah — back to back until 4. Any quick tips? A Keep a glass at your desk and finish it every hour. I’ll nudge you at 11, 1 and 3. Deal? Deal. Also — is my streak safe if I skip meditation once? A Totally. One rest day won’t break a 12-week streak. Consistency beats perfection. Log water Start workout Breathing exercise Message Ava…",
+  "image": "assets/screens/vitalis-coach-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-subscription-06",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Subscription — Vitalis Plus",
+  "pattern": "Subscription",
+  "elements": [
+   "Radio",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#5EEAD4"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Vitalis Plus Your habits, supercharged. AI coach with adaptive plans Advanced streaks & insights Apple Health & Garmin sync Guided meditations library Yearly 2 months free €4.99/month, billed yearly €59 Monthly Billed monthly €5.99 Start 14-day free trial Free for 14 days, then €59/year. Cancel anytime.",
+  "image": "assets/screens/vitalis-subscription-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-profile-07",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Button",
+   "List Item",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Profile JW Jonas Weber Member since January 2026 12-week streak 86% Adherence 214 Workouts 38 Meditations My stats Challenges 2 active 2 Achievements 14 unlocked Settings Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-profile-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-settings-08",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Dropdown",
+   "Slider",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#6B7280"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Settings GENERAL Units Metric (kg, km, ml) Week starts on Monday REMINDERS Habit reminders Gentle nudges through the day Water reminders Every 2 hours, 8 AM – 8 PM Bedtime wind-down 30 min before sleep Reminder intensity Soft Firm CONNECTIONS Apple Health Connected Garmin Not connected Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-settings-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 64,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-notifications-09",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#E11D48"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Mark all read Notifications Streak at risk! Meditation still open today 1h New studio nearby Atem Yoga · 400 m from you 4h Weekly report You hit 86% of habits — new best 1d Challenge update Mia overtook you in “October Miles” 2d Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-notifications-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-empty-10",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Empty state — saved studios",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Saved studios No saved studios yet Discover yoga, pilates and gyms near you and save your favorites here. Find studios Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 53,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-map-11",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Map — nearby studios",
+  "pattern": "Map",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Card",
+   "Button",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#F0FDFA",
+   "#FFFFFF",
+   "#0D9488",
+   "#FB7185",
+   "#BAE6FD"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Nearby studios Search studios, classes… Yoga Pilates Gym Swimming Atem Yoga Studio 4.9 · 400 m Book Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-map-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-search-12",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Search",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#B45309"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Search habits, workouts, recipes All Habits Workouts Recipes Meditations POPULAR HABITS Drink 2.5 L water Hydration · 2.1M doing this Walk 10,000 steps Movement · 3.4M doing this Read 20 pages Mind · 1.8M doing this Sleep by 11 PM Recovery · 2.6M doing this TRENDING WORKOUTS Full-body HIIT · 20 min No equipment · 4.9 Morning yoga flow 15 min · Beginner Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-search-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 72,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-water-logger-13",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Log water — modal",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Modal",
+   "Stepper",
+   "Button",
+   "Chip",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "TUESDAY, OCT 15 Good morning, Jonas 1.2 of 2.5 L Log water How much did you drink? 2 glasses 250 ml 500 ml 750 ml 500 ml Log water",
+  "image": "assets/screens/vitalis-water-logger-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 82,
+  "created": "2026-10-15"
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "button",
+  "name": "Button",
+  "description": "Primary, ghost and dark call-to-action buttons."
+ },
+ {
+  "id": "card",
+  "name": "Card",
+  "description": "Elevated content container with rounded corners."
+ },
+ {
+  "id": "tab-bar",
+  "name": "Tab Bar",
+  "description": "Bottom navigation with icons and labels."
+ },
+ {
+  "id": "bottom-sheet",
+  "name": "Bottom Sheet",
+  "description": "Slide-up panel over dimmed content."
+ },
+ {
+  "id": "modal",
+  "name": "Modal",
+  "description": "Centered dialog requiring a decision."
+ },
+ {
+  "id": "search-bar",
+  "name": "Search Bar",
+  "description": "Text input for queries with icon."
+ },
+ {
+  "id": "carousel",
+  "name": "Carousel",
+  "description": "Horizontal snap-scrolling card row."
+ },
+ {
+  "id": "toggle",
+  "name": "Toggle",
+  "description": "On/off switch for settings."
+ },
+ {
+  "id": "slider",
+  "name": "Slider",
+  "description": "Draggable control for a value range."
+ },
+ {
+  "id": "progress-bar",
+  "name": "Progress Bar",
+  "description": "Linear indicator of completion."
+ },
+ {
+  "id": "avatar",
+  "name": "Avatar",
+  "description": "Circular user mark with initials or gradient."
+ },
+ {
+  "id": "badge",
+  "name": "Badge",
+  "description": "Count pill for unread or status."
+ },
+ {
+  "id": "chip",
+  "name": "Chip",
+  "description": "Compact filter or tag pill."
+ },
+ {
+  "id": "fab",
+  "name": "FAB",
+  "description": "Floating action button for the primary action."
+ },
+ {
+  "id": "segmented-control",
+  "name": "Segmented Control",
+  "description": "Inline single-select option group."
+ },
+ {
+  "id": "list-item",
+  "name": "List Item",
+  "description": "Row with icon, title, subtitle and chevron."
+ },
+ {
+  "id": "text-field",
+  "name": "Text Field",
+  "description": "Labeled input for text entry."
+ },
+ {
+  "id": "checkbox",
+  "name": "Checkbox",
+  "description": "Multi-select square or round check."
+ },
+ {
+  "id": "radio",
+  "name": "Radio",
+  "description": "Single-select circular option."
+ },
+ {
+  "id": "dropdown",
+  "name": "Dropdown",
+  "description": "Collapsed select showing the chosen value."
+ },
+ {
+  "id": "date-picker",
+  "name": "Date Picker",
+  "description": "Day strip and calendar for picking dates."
+ },
+ {
+  "id": "chart",
+  "name": "Chart",
+  "description": "Bar, line and ring data visualizations."
+ },
+ {
+  "id": "skeleton",
+  "name": "Skeleton",
+  "description": "Shimmer placeholder while content loads."
+ },
+ {
+  "id": "toast",
+  "name": "Toast",
+  "description": "Temporary confirmation message."
+ },
+ {
+  "id": "banner",
+  "name": "Banner",
+  "description": "Inline promotional or informational strip."
+ },
+ {
+  "id": "accordion",
+  "name": "Accordion",
+  "description": "Expandable section list."
+ },
+ {
+  "id": "stepper",
+  "name": "Stepper",
+  "description": "Plus/minus quantity control."
+ },
+ {
+  "id": "rating",
+  "name": "Rating",
+  "description": "Star display for scores and reviews."
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "author": "Flowscope contributors",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "description": "Flowscope — the free, open-source UI/UX pattern library. Browse app screens and user flows; static site + tiny local dev API.",
+  "devDependencies": {
+    "puppeteer": "^25.14.0"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "design-patterns",
+    "mobile",
+    "inspiration",
+    "open-source"
+  ],
+  "license": "MIT",
+  "main": "api/server.js",
+  "name": "flowscope",
+  "scripts": {
+    "dev": "node api/server.js",
+    "screenshots:a": "node scripts/gen-screens-a.js",
+    "screenshots:b": "node scripts/gen-screens-b.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync-data": "cp data/screens.json data/flows.json data/apps.json data/patterns.json data/elements.json site/data/ && echo synced"
+  },
+  "version": "1.0.0"
+}

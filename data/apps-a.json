@@ -1,0 +1,72 @@
+[
+ {
+  "id": "finpulse",
+  "name": "FinPulse",
+  "tagline": "Money, minus the stress",
+  "category": "Finance",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#22D3EE",
+  "icon": "assets/apps/finpulse.png",
+  "featured": true,
+  "description": "FinPulse is a fictional mobile bank that unites every account, card and budget in one calm dark interface. Instant euro transfers, smart savings goals and spending insights keep money effortless."
+ },
+ {
+  "id": "pulsefit",
+  "name": "PulseFit",
+  "tagline": "Training that adapts to you",
+  "category": "Health & Fitness",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#A3E635",
+  "icon": "assets/apps/pulsefit.png",
+  "featured": false,
+  "description": "PulseFit is a fictional AI fitness coach with adaptive workout plans, live form feedback and deep activity stats. Dark, high-energy design built around streaks, rings and personal records."
+ },
+ {
+  "id": "wanderly",
+  "name": "Wanderly",
+  "tagline": "Trips that plan themselves",
+  "category": "Travel",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#EA580C",
+  "icon": "assets/apps/wanderly.png",
+  "featured": true,
+  "description": "Wanderly is a fictional travel companion for booking flights, tracking prices and collecting trip stories. Warm cream and terracotta surfaces keep every step of the journey friendly and clear."
+ },
+ {
+  "id": "crave",
+  "name": "Crave",
+  "tagline": "Good food, fast",
+  "category": "Food & Drink",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#F43F5E",
+  "icon": "assets/apps/crave.png",
+  "featured": false,
+  "description": "Crave is a fictional food-delivery app with live courier tracking, one-tap reorders and honest ETAs. Bright, appetising cards and a bold red-orange brand make hunger the only hard part."
+ },
+ {
+  "id": "tempo",
+  "name": "Tempo",
+  "tagline": "Every song you love",
+  "category": "Music",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#A855F7",
+  "icon": "assets/apps/tempo.png",
+  "featured": false,
+  "description": "Tempo is a fictional music streaming app with hi-fi audio, collaborative playlists and a social layer for sharing tracks. Deep purple gradients and neon accents give it a nightclub glow."
+ }
+]

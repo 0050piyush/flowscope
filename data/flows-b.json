@@ -1,0 +1,314 @@
+[
+ {
+  "id": "noted-create-task",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Create a task with reminder",
+  "description": "Add a new task from Home, set a reminder date and time, and get a confirmation toast.",
+  "category": "Productivity",
+  "platform": "iOS",
+  "popularity": 88,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "noted-home-04",
+    "caption": "Start from Home",
+    "hotspot": {
+     "x": 88,
+     "y": 92,
+     "label": "Tap +"
+    }
+   },
+   {
+    "screen_id": "noted-new-task-13",
+    "caption": "Fill in the task",
+    "hotspot": {
+     "x": 50,
+     "y": 60,
+     "label": "Type task title"
+    }
+   },
+   {
+    "screen_id": "noted-date-picker-14",
+    "caption": "Pick a date and time",
+    "hotspot": {
+     "x": 51,
+     "y": 24,
+     "label": "Tap Oct 22"
+    }
+   },
+   {
+    "screen_id": "noted-task-done-15",
+    "caption": "Toast confirms the reminder",
+    "hotspot": {
+     "x": 50,
+     "y": 84,
+     "label": "Task created"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maison-buy-chair",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Buy a chair",
+  "description": "Search for a lounge chair, open the product, add it to the bag and check out.",
+  "category": "Shopping",
+  "platform": "iOS",
+  "popularity": 91,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "maison-home-02",
+    "caption": "Start from Home",
+    "hotspot": {
+     "x": 50,
+     "y": 14,
+     "label": "Tap search"
+    }
+   },
+   {
+    "screen_id": "maison-search-03",
+    "caption": "Find the chair",
+    "hotspot": {
+     "x": 28,
+     "y": 36,
+     "label": "Tap Aria Lounge Chair"
+    }
+   },
+   {
+    "screen_id": "maison-product-04",
+    "caption": "Review details and options",
+    "hotspot": {
+     "x": 75,
+     "y": 94,
+     "label": "Tap Add to bag"
+    }
+   },
+   {
+    "screen_id": "maison-cart-05",
+    "caption": "Review the bag",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Tap Checkout"
+    }
+   },
+   {
+    "screen_id": "maison-checkout-06",
+    "caption": "Enter shipping details",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Continue to payment"
+    }
+   },
+   {
+    "screen_id": "maison-order-confirmed-13",
+    "caption": "Order confirmed",
+    "hotspot": {
+     "x": 50,
+     "y": 88,
+     "label": "Track order"
+    }
+   }
+  ]
+ },
+ {
+  "id": "orbit-post-photo",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Post a photo",
+  "description": "Compose a new post from Home, add a caption and share it to the feed.",
+  "category": "Social",
+  "platform": "iOS",
+  "popularity": 86,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "orbit-home-03",
+    "caption": "Start from Home",
+    "hotspot": {
+     "x": 50,
+     "y": 95,
+     "label": "Tap Post"
+    }
+   },
+   {
+    "screen_id": "orbit-composer-05",
+    "caption": "Pick a photo",
+    "hotspot": {
+     "x": 50,
+     "y": 72,
+     "label": "Add caption"
+    }
+   },
+   {
+    "screen_id": "orbit-caption-13",
+    "caption": "Write a caption",
+    "hotspot": {
+     "x": 85,
+     "y": 8,
+     "label": "Tap Share"
+    }
+   },
+   {
+    "screen_id": "orbit-feed-12",
+    "caption": "Post appears in the feed",
+    "hotspot": {
+     "x": 50,
+     "y": 45,
+     "label": "New post"
+    }
+   }
+  ]
+ },
+ {
+  "id": "bright-enroll-course",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Enroll in a course",
+  "description": "Open a course from Home, enroll through the paywall and checkout, then start learning.",
+  "category": "Education",
+  "platform": "iOS",
+  "popularity": 84,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "bright-home-03",
+    "caption": "Start from Home",
+    "hotspot": {
+     "x": 50,
+     "y": 38,
+     "label": "Tap Design Systems 101"
+    }
+   },
+   {
+    "screen_id": "bright-course-05",
+    "caption": "Review the course",
+    "hotspot": {
+     "x": 70,
+     "y": 95,
+     "label": "Tap Enroll now"
+    }
+   },
+   {
+    "screen_id": "bright-paywall-08",
+    "caption": "Choose Bright Pro or single course",
+    "hotspot": {
+     "x": 50,
+     "y": 86,
+     "label": "Start free trial"
+    }
+   },
+   {
+    "screen_id": "bright-checkout-13",
+    "caption": "Pay for the course",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Tap Pay €39.00"
+    }
+   },
+   {
+    "screen_id": "bright-enrolled-14",
+    "caption": "Enrolled — start learning",
+    "hotspot": {
+     "x": 50,
+     "y": 70,
+     "label": "Tap Start learning"
+    }
+   }
+  ]
+ },
+ {
+  "id": "vitalis-log-water",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Log water intake",
+  "description": "Log a glass of water from Home and watch the activity stats update.",
+  "category": "Lifestyle",
+  "platform": "iOS",
+  "popularity": 82,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "vitalis-home-02",
+    "caption": "Start from Home",
+    "hotspot": {
+     "x": 62,
+     "y": 30,
+     "label": "Tap Log water"
+    }
+   },
+   {
+    "screen_id": "vitalis-water-logger-13",
+    "caption": "Choose the amount",
+    "hotspot": {
+     "x": 50,
+     "y": 74,
+     "label": "Tap Log water"
+    }
+   },
+   {
+    "screen_id": "vitalis-stats-03",
+    "caption": "Stats update instantly",
+    "hotspot": {
+     "x": 50,
+     "y": 62,
+     "label": "Water chart"
+    }
+   }
+  ]
+ },
+ {
+  "id": "orbit-verify-phone",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Verify phone number",
+  "description": "Sign up, enter the SMS code, and land on Home verified.",
+  "category": "Social",
+  "platform": "iOS",
+  "popularity": 79,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "orbit-signup-01",
+    "caption": "Create an account",
+    "hotspot": {
+     "x": 50,
+     "y": 78,
+     "label": "Tap Sign up"
+    }
+   },
+   {
+    "screen_id": "orbit-otp-02",
+    "caption": "Enter the SMS code",
+    "hotspot": {
+     "x": 50,
+     "y": 50,
+     "label": "Type code"
+    }
+   },
+   {
+    "screen_id": "orbit-otp-success-13",
+    "caption": "Number verified",
+    "hotspot": {
+     "x": 50,
+     "y": 82,
+     "label": "Tap Continue"
+    }
+   },
+   {
+    "screen_id": "orbit-home-03",
+    "caption": "Land on Home",
+    "hotspot": {
+     "x": 50,
+     "y": 50,
+     "label": "Explore feed"
+    }
+   }
+  ]
+ }
+]

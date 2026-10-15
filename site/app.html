@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App — Flowscope</title>
+  <meta name="description" content="App teardown: every captured screen and user flow for one product.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="app">
+<main>
+  <div class="container section-sm">
+    <p style="margin-bottom:16px"><a href="browse.html?tab=apps">← Back to apps</a></p>
+    <div id="content">
+      <div class="state-box"><div class="skeleton" style="height:200px; margin-bottom:16px"></div><div class="skeleton" style="height:340px"></div></div>
+    </div>
+  </div>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* app.html — app profile: icon, tagline, description, stats, screens grid, flows */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var id = F.getParam('id');
+    D.loadAll().then(function (all) {
+      if (D.hadErrors() && !all.apps.length) { F.showDataError(D.getErrors()); return; }
+      var app = D.byId(all.apps, id);
+      if (!app) {
+        document.getElementById('content').innerHTML =
+          '<div class="state-box"><div class="big">📱</div><h3>App not found</h3>' +
+          '<a class="btn btn-ghost" href="browse.html?tab=apps">Back to apps</a></div>';
+        return;
+      }
+      document.title = app.name + ' — Flowscope';
+
+      var screens = D.screensForApp(all.screens, app.id);
+      var flows = D.flowsForApp(all.flows, app.id);
+      var patterns = {};
+      screens.forEach(function (s) { if (s.pattern) patterns[s.pattern] = true; });
+
+      var screensHtml = screens.map(function (s) {
+        F.cacheTrayMeta(s);
+        return '<article class="card"><div class="card-thumb">' +
+          '<a class="card-link" href="screen.html?id=' + encodeURIComponent(s.id) + '">' +
+          '<img src="' + esc(D.assetUrl(s.image)) + '" alt="' + esc(s.title) + '" loading="lazy"></a></div>' +
+          '<div class="card-body"><div class="card-title">' + esc(s.title) + '</div>' +
+          '<div class="card-sub">' + esc(s.pattern || '') + '</div></div></article>';
+      }).join('');
+
+      var flowsHtml = flows.map(function (f) {
+        var first = f.steps && f.steps.length ? D.byId(all.screens, f.steps[0].screen_id) : null;
+        var thumb = first ? D.assetUrl(first.image) : '';
+        return '<a class="card card-link" href="flow.html?id=' + encodeURIComponent(f.id) + '" style="text-decoration:none">' +
+          '<div class="card-thumb" style="aspect-ratio:16/10">' +
+          (thumb ? '<img src="' + esc(thumb) + '" alt="" loading="lazy" style="object-position:top">' : '') +
+          '<span class="steps-badge">' + (f.steps ? f.steps.length : 0) + ' steps</span></div>' +
+          '<div class="card-body"><div class="card-title">' + esc(f.title) + '</div>' +
+          '<div class="card-sub">' + esc(f.description || '').slice(0, 100) + '</div></div></a>';
+      }).join('');
+
+      document.getElementById('content').innerHTML =
+        '<div class="app-hero">' +
+          '<img class="app-icon" src="' + esc(D.assetUrl(app.icon)) + '" alt="' + esc(app.name) + ' icon">' +
+          '<div><span class="eyebrow">' + esc(app.category || '') + '</span>' +
+          '<h1 style="font-size:2rem">' + esc(app.name) + '</h1>' +
+          '<p class="lead">' + esc(app.tagline || '') + '</p></div>' +
+        '</div>' +
+        (app.description ? '<p style="max-width:720px; margin-bottom:24px">' + esc(app.description) + '</p>' : '') +
+        '<div class="stats-row" style="margin:0 0 32px; max-width:none">' +
+          '<div class="stat" style="background:var(--surface); border-color:var(--border-soft)"><div class="num" style="color:var(--text)">' + screens.length + '</div><div class="label" style="color:var(--muted)">screens</div></div>' +
+          '<div class="stat" style="background:var(--surface); border-color:var(--border-soft)"><div class="num" style="color:var(--text)">' + flows.length + '</div><div class="label" style="color:var(--muted)">flows</div></div>' +
+          '<div class="stat" style="background:var(--surface); border-color:var(--border-soft)"><div class="num" style="color:var(--text)">' + Object.keys(patterns).length + '</div><div class="label" style="color:var(--muted)">patterns</div></div>' +
+          '<div class="stat" style="background:var(--surface); border-color:var(--border-soft)"><div class="num" style="color:var(--text)">' + esc((app.platforms || []).join(' · ') || '—') + '</div><div class="label" style="color:var(--muted)">platforms</div></div>' +
+        '</div>' +
+        (flows.length ? '<h2>User flows</h2><div class="grid grid-flows" style="margin:16px 0 32px">' + flowsHtml + '</div>' : '') +
+        '<h2>Screens <span class="muted small">(' + screens.length + ')</span></h2>' +
+        (screensHtml ? '<div class="grid grid-screens" style="margin-top:16px">' + screensHtml + '</div>'
+                     : '<p class="muted">No screens captured for this app yet.</p>');
+    });
+  });
+})();
+</script>
+</body>
+</html>

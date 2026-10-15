@@ -1,0 +1,2753 @@
+[
+ {
+  "id": "finpulse-onboarding-01",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Onboarding",
+  "pattern": "Onboarding",
+  "elements": [
+   "Carousel",
+   "Button",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "FinPulse Skip +€250.00 Rent paid ✓ All your money, one clear view Link every account and card. FinPulse shows your true balance in real time. Get started I already have an account",
+  "image": "assets/screens/finpulse-onboarding-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-login-02",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Login",
+  "pattern": "Login",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Checkbox"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Welcome back Log in to keep your money moving. Email ava.sharma@mail.de Password •••••••••••• Remember me Stay logged in on this device Log in or Continue with Face ID New to FinPulse? Create account",
+  "image": "assets/screens/finpulse-login-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 70,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-home-03",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Home — balance overview",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Card",
+   "Progress Bar",
+   "Avatar",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#1E293B",
+   "#22D3EE",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 AS Good morning Ava Sharma TOTAL BALANCE EUR ↓ €4,280.50 ▲ €312.40 this month Send Request Top up Japan trip fund €1,840 / €2,500 €660 to go · on track for September Recent activity See all S Spotify −€9.99 Music · Today A Ava Sharma +€250.00 Received · Yesterday R REWE −€64.20 Groceries · Yesterday Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-home-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 72,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-wallet-04",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Wallet",
+  "pattern": "Wallet",
+  "elements": [
+   "Card",
+   "List Item",
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#A855F7"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Wallet FinPulse ··· 4021 5312 ···· ···· 4021 Card holder AVA SHARMA Expires 09/29 Add money Card details All accounts G Girokonto ···4821 €3,104.22 Sparkasse Bremen S Savings vault €1,840.00 4.1% p.a. C Cashback pot €36.28 This month Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-wallet-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 69,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-payment-method-05",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Payment methods",
+  "pattern": "Payment Method",
+  "elements": [
+   "Radio",
+   "List Item",
+   "FAB",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment methods VISA DEFAULT ···· ···· ···· 4021 09/29 · Ava Sharma Mastercard ···· ···· ···· 8814 04/28 · Ava Sharma Bank accounts Sparkasse Bremen DE89 ····4821 · Instant transfers Cards are tokenised and never stored on this device. 3-D Secure enabled. Home Wallet Stats Profile",
+  "image": "assets/screens/finpulse-payment-method-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 91,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-activity-06",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Activity & stats",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Segmented Control",
+   "Chart",
+   "List Item",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#FB7185"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Activity Week Month Year SPENT IN OCTOBER €1,284.90 −8% vs Sep Oct 1 Oct 15 Top categories Groceries €412.30 Dining out €238.15 Transport €186.40 Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-activity-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-notifications-07",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Banner",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications Invite friends, earn €15 each. 3 invites left this month. TODAY Money received 9:12 Lukas Meyer sent you €250.00 · “Dinner split” Suspicious login blocked 8:03 New sign-in from Hamburg was stopped. Was this you? EARLIER Budget alert Yesterday You have spent 80% of your Dining out budget. Card ending 4021 Tue Your new virtual card is ready to use online. Cashback earned Mon €4.20 cashback from REWE landed in your pot. Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-notifications-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-settings-08",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "List Item",
+   "Dropdown",
+   "Modal"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#FB7185"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings Push notifications Transfers, budgets, security Face ID login Unlock with biometrics Currency EUR € Privacy & security Linked banks 3 connected Help & support Statement language English Log out FinPulse v4.2.1 · Made in Bremen Log out? You will need your password and 2FA code to log back in. Stay Log out Home Wallet Stats Profile",
+  "image": "assets/screens/finpulse-settings-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 55,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-profile-09",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#A3E635"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile AS Ava Sharma ava.sharma@mail.de VERIFIED PLUS €48.2k Moved in 2026 126 Transfers 4.9 Trust score Personal details Name, address, tax ID Verification DONE Identity verified 12 Mar 2026 Referrals 6 friends joined · €90 earned About FinPulse Licenses, terms, imprint Home Wallet Stats Profile",
+  "image": "assets/screens/finpulse-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 96,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-empty-10",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Empty state — no transactions",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Activity No transactions yet Your activity will appear here once you send, receive or spend money. It only takes a minute to get started. Make first transfer Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-error-11",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Error state — connection failed",
+  "pattern": "Error State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#FB7185",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Activity Connection lost We could not reach FinPulse servers. Check your connection and try again — your money is safe. Try again Go back Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-error-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 80,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-contacts-12",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money — contacts",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Avatar",
+   "List Item",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Send money Name, @handle or IBAN All Favorites Recent FinPulse FAVORITES LM L PS P JT J MK M ALL CONTACTS LM Lukas Meyer @lukas_m · DE12 ····9912 PS Priya Singh @priya_s · DE44 ····3302 JT Jonas Weber @jonasw · DE09 ····7718 MK Maria Klein @mariak · DE77 ····2210",
+  "image": "assets/screens/finpulse-send-contacts-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-amount-13",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money — amount",
+  "pattern": "Checkout",
+  "elements": [
+   "Button",
+   "Banner"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Send money LM Lukas Meyer DE12 ····9912 · Instant YOU SEND €85 .00 No fees · Arrives in seconds Balance after transfer: €4,195.50 . Still within your weekly budget. 1 2 3 4 5 6 7 8 9 · 0 ⌫ Continue",
+  "image": "assets/screens/finpulse-send-amount-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 98,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-confirm-14",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money — confirm",
+  "pattern": "Checkout",
+  "elements": [
+   "Card",
+   "List Item",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Send money €85.00 AS LM Ava Sharma → Lukas Meyer Recipient Lukas Meyer · DE12 ····9912 Speed FREE Instant · free Message “Dinner split 🍝” Protected by FinPulse Shield · 3-D Secure Send €85.00 By sending you agree to the transfer terms",
+  "image": "assets/screens/finpulse-send-confirm-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-success-15",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money — success",
+  "pattern": "Checkout",
+  "elements": [
+   "Toast",
+   "Button",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#10B981",
+   "#1E293B",
+   "#F8FAFC",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 €85.00 sent Lukas Meyer received your transfer instantly · 9:41 AM +12 CASHBACK PTS LM Lukas Meyer Delivered DE12 ····9912 Done Send another Transfer complete — receipt saved",
+  "image": "assets/screens/finpulse-send-success-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 90,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-card-form-16",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add card — details",
+  "pattern": "Payment Method",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Checkbox"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Add card NEW CARD ···· ···· ···· ···· Card preview updates as you type Card number 5312 4401 8877 Name on card AVA SHARMA Expiry 09/29 CVC 123 Set as default card Use for instant top-ups Continue to verification",
+  "image": "assets/screens/finpulse-card-form-16.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-card-verify-17",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add card — verify",
+  "pattern": "Payment Method",
+  "elements": [
+   "Modal",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Card number 5312 4401 8877 Continue to verification Verify it's you 4 8 • • We sent a 6-digit code to +49 171 ··· 4420 . Enter it to link your card. Resend code Verify card",
+  "image": "assets/screens/finpulse-card-verify-17.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-card-done-18",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add card — done",
+  "pattern": "Payment Method",
+  "elements": [
+   "Toast",
+   "Card",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment methods VISA 5312 ···· ···· 8877 Verified · Ready to use Card linked securely Tokenised with 3-D Secure. Your full number never touches our servers. Back to wallet Card ending 8877 added successfully",
+  "image": "assets/screens/finpulse-card-done-18.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 57,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-welcome-01",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button",
+   "Carousel"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PulseFit Strength 24 plans HIIT 18 plans Cardio 31 plans Training that adapts to your body AI coaching, real-time form feedback, and plans that evolve every week. Start free trial Log in 7 days free · No card required",
+  "image": "assets/screens/pulsefit-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 69,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-home-02",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Home — today's workout",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Card",
+   "Chart",
+   "Avatar",
+   "Button",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 AR Tuesday, Oct 13 Morning, Arjun 💪 🔥 12 72% MOVE Daily activity Move 612 / 850 kcal Exercise 34 / 45 min Stand 9 / 12 hr Today's workout Week 4 · Day 2 Upper Body Power 45 min · 8 exercises · Intermediate 3 of 5 sessions done this week Start workout Continue HIIT Burn 20 20 min · 320 kcal Morning Yoga Flow 25 min · Recovery Home Train Stats You",
+  "image": "assets/screens/pulsefit-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-stats-03",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Activity & stats",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Segmented Control",
+   "Chart",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Your stats Week Month 6M ACTIVE CALORIES 4,218 kcal +14% Mon Wed Fri Sun 3:42 Avg pace /km 128 Avg HR bpm 42.6 VO₂ max Personal records Fastest 5K 24:18 12 Oct 2026 · Riverside loop Bench press 92.5 kg 8 Oct 2026 · 5 reps Home Train Stats You",
+  "image": "assets/screens/pulsefit-stats-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-calendar-04",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Schedule calendar",
+  "pattern": "Calendar",
+  "elements": [
+   "Date Picker",
+   "CalendarGrid",
+   "Card",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Schedule October 2026 M T W T F S S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Thu, Oct 15 Leg Day — Strength TODAY 18:00 · 50 min · with Coach Mia Yoga Flow Tomorrow · 07:30 · 25 min Book a session Home Plan Stats You",
+  "image": "assets/screens/pulsefit-calendar-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 70,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-map-05",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Run map",
+  "pattern": "Map",
+  "elements": [
+   "FAB",
+   "Chip",
+   "Card",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Start 5.2 km Search routes, parks, trails Nearby 5–10 km 10 km+ Riverside Loop 5.2 km · mostly flat · 4.8 ★ (212) POPULAR Start run",
+  "image": "assets/screens/pulsefit-map-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 49,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-search-06",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Search exercises",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Carousel",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Exercises kettlebell All Chest Legs Back Core Arms Featured Goblet Squat Legs · Dumbbell Deadlift Back · Barbell Plank Core · Bodyweight Legs · 48 results Barbell Squat 4 sets · 8–10 reps · Video guide Romanian Deadlift 3 sets · 10–12 reps · Video guide Walking Lunge 3 sets · 20 steps · Video guide Home Explore Stats You",
+  "image": "assets/screens/pulsefit-search-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 52,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-paywall-07",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Subscription — paywall",
+  "pattern": "Subscription",
+  "elements": [
+   "Button",
+   "Accordion",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PulseFit Pro Unlock the coach that never sleeps. Yearly SAVE 40% €71.99 /yr €6.00/mo Monthly €9.99 /mo AI workout plans Adaptive programs rebuilt every week Form check Real-time camera feedback on 40+ lifts Nutrition sync Meal plans matched to training days Start 7-day free trial Questions Can I cancel anytime? Yes. Cancel in two taps from Settings — you keep Pro until the end of the billing period. Does it work offline? Is there a student discount? Recurring billing · Cancel anytime",
+  "image": "assets/screens/pulsefit-paywall-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 51,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-profile-08",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Chart",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile AR Arjun Rao Intermediate · Goal: Build muscle Edit profile This week 80% 4/5 Workouts 4 Streak 12 days Minutes 186 Achievements 18 badges earned Health sync Apple Health · connected Friends Train with 6 friends Home Train Stats You",
+  "image": "assets/screens/pulsefit-profile-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-settings-09",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Slider",
+   "Dropdown",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings WORKOUT Default intensity Moderate Rest timer beep GENERAL Workout reminders Mon–Fri · 6:30 AM Auto-detect workouts Use motion sensors Units Metric Voice coach language English (UK) Home Train Stats You",
+  "image": "assets/screens/pulsefit-settings-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 73,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-notifications-10",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications MC Coach Mia 2m “Great squat depth today! Try 2.5 kg more next set.” Streak at risk NEW Work out today to keep your 12-day streak alive. DK Dev K. beat you 1h Dev finished Riverside Loop in 24:02 — 16s faster. New plan available 3h “Marathon Base — 12 weeks” was added to your library. Mark all as read Home Train Inbox You",
+  "image": "assets/screens/pulsefit-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 79,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-empty-11",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Empty state — no workouts",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 History No workouts logged Your completed sessions will live here with stats, PRs and progress photos. Ready when you are. Browse plans Home Train Stats You",
+  "image": "assets/screens/pulsefit-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-chat-12",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Coach chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 MC Coach Mia ● Online · replies instantly Today Morning Arjun! I reviewed yesterday's deadlift video — your back is rounding on rep 4. Drop to 70 kg and focus on bracing. 💪 8:02 Got it. Should I still do the accessory work? 8:15 Yes, but swap barbell rows for chest-supported rows. Less fatigue on the lower back. 8:16 I've updated today's plan accordingly. Tap below to open it 👇 8:16 Leg Day — updated 50 min · 7 exercises Message Coach Mia…",
+  "image": "assets/screens/pulsefit-chat-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 50,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-detail-13",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Workout detail",
+  "pattern": "Search",
+  "elements": [
+   "Rating",
+   "List Item",
+   "Button",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 STRENGTH INTERMEDIATE Leg Day — Strength 4.8 (2.1k ratings) 50 min 420 kcal High intensity Exercises · 5 1 Barbell Squat 4 × 8–10 · 80 kg 2 Romanian Deadlift 3 × 10–12 · 60 kg 3 Walking Lunge 3 × 20 steps · 2×16 kg 4 Leg Curl 3 × 12 · machine 5 Calf Raise 4 × 15 · bodyweight Start workout",
+  "image": "assets/screens/pulsefit-workout-detail-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-preview-14",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Exercise preview",
+  "pattern": "Search",
+  "elements": [
+   "Stepper",
+   "Button",
+   "Progress Bar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Up next ▶ 0:42 demo Barbell Squat Stand with feet shoulder-width apart, bar resting on your upper back. Brace your core, push your hips back and bend your knees until thighs are parallel to the floor. Drive up through your heels. Sets − 4 + Reps per set − 10 + Weight (kg) − 80 + 90s rest between sets · auto timer Begin set 1",
+  "image": "assets/screens/pulsefit-workout-preview-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 73,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-active-15",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Active workout",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Progress Bar",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 ● LIVE Set 2 of 4 Barbell Squat 64% 8 REPS LEFT 128 ❤ BPM 2:14 ELAPSED 186 KCAL Heart-rate zone Warm-up Fat burn Peak Pause Complete set",
+  "image": "assets/screens/pulsefit-workout-active-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 91,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-summary-16",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Workout summary",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Rating",
+   "Toast",
+   "Button",
+   "Card",
+   "Chart"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Workout complete! Leg Day — Strength · 48 min 420 kcal 3.2t volume +2 PRs How did it feel? Tap to rate Save & share Back to home New PR! Squat 82.5 kg × 8 🎉",
+  "image": "assets/screens/pulsefit-workout-summary-16.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 81,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-home-01",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Home — explore",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Search Bar",
+   "Carousel",
+   "Card",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 SL Where to next, Sofia? ✈️ Search destinations, hotels, flights Trending now See all ⛩️ Kyoto Japan from €486 round trip 🌊 Lisbon Portugal from €89 round trip 🏔️ Reykjavik Iceland from €214 round trip Your upcoming trip 🇪🇸 Barcelona, Spain Oct 24 – Oct 28 · 2 travelers ✓ Flights booked · hotel pending Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-home-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-search-02",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Search flights",
+  "pattern": "Search",
+  "elements": [
+   "Segmented Control",
+   "Date Picker",
+   "Stepper",
+   "Text Field",
+   "Button",
+   "Chip"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Find flights Round trip One way Multi-city From Bremen (BRE) To Where to? Barcelona Lisbon Rome Athens Dates Thu 15 Fri 16 Sat 17 Sun 18 Mon 19 Tue 20 Adults − 2 + Children − 0 + Search 240 flights Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-search-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 46,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-results-13",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Flight results",
+  "pattern": "Search",
+  "elements": [
+   "Chip",
+   "List Item",
+   "Dropdown",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 BRE → BCN Filters · 2 Nonstop Morning Sort by Cheapest first 07:05 → 09:35 CHEAPEST Wanderly Air · 2h 30m · Direct €89 Select 12:40 → 15:10 Nordwind · 2h 30m · Direct €104 Select 18:20 → 20:50 FLEX Wanderly Air · 2h 30m · Direct €129 Select Set price alert for this route",
+  "image": "assets/screens/wanderly-results-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 66,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-flight-detail-14",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Flight detail",
+  "pattern": "Search",
+  "elements": [
+   "Rating",
+   "Card",
+   "Button",
+   "Badge",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Flight WA 214 07:05 BRE Bremen 2h 30m · Direct 09:35 BCN Barcelona 4.6 · 8.2k reviews ON TIME What's included Cabin bag + personal item Up to 10 kg combined Seat selection Standard seat included Wi-Fi & power Free messaging, USB-C at seat Total for 2 travelers €178.00 −12% today Continue to checkout",
+  "image": "assets/screens/wanderly-flight-detail-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-map-03",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Destinations map",
+  "pattern": "Map",
+  "elements": [
+   "Bottom Sheet",
+   "Search Bar",
+   "Chip",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 €89 €104 €129 €76 Where to? Flights Hotels Experiences Lisbon, Portugal 4.9 ★ · 12k reviews · Best in October 🌊 Flights from €89 2h 55m direct · 14 hotels from €64/nt ☀ 21°C · Perfect beach weather Explore Lisbon",
+  "image": "assets/screens/wanderly-map-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-calendar-04",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Trip calendar",
+  "pattern": "Calendar",
+  "elements": [
+   "CalendarGrid",
+   "Button",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 October 2026 M T W T F S S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Selected dates Fri, Oct 24 → Tue, Oct 28 4 nights · flexible ±2 days 4 NIGHTS Price trend ✓ Oct 24 is the cheapest departure this month Apply dates",
+  "image": "assets/screens/wanderly-calendar-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-checkout-05",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Booking checkout",
+  "pattern": "Checkout",
+  "elements": [
+   "Card",
+   "List Item",
+   "Checkbox",
+   "Button",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Checkout Your trip 🇪🇸 Bremen → Barcelona Fri, Oct 24 · 07:05 · 2 travelers €178 Travelers SL Sofia Lindqvist Adult · Passport ····8821 + Add traveler Second passenger details Extras Priority boarding €12 · board first, extra cabin bag Travel insurance €18 · cancellation + medical I accept the fare conditions and privacy policy Total incl. taxes €190.00 Pay €190.00",
+  "image": "assets/screens/wanderly-checkout-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 50,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-confirm-15",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Booking confirmation",
+  "pattern": "Checkout",
+  "elements": [
+   "Banner",
+   "Button",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#0F766E",
+   "#FFFFFF",
+   "#1C1917",
+   "#EA580C"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 You're going to Barcelona! 🎉 Booking WDL-8X42KQ · confirmation sent to sofia@mail.de BOARDING PASS CONFIRMED BRE 07:05 WA 214 · 2h 30m BCN 09:35 Sofia Lindqvist · Seat 14A Fri, Oct 24 Add your hotel in Barcelona — members save an extra 10% when bundled. View my trips Back to explore",
+  "image": "assets/screens/wanderly-confirm-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 80,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-payment-06",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Payment method",
+  "pattern": "Payment Method",
+  "elements": [
+   "Radio",
+   "Card",
+   "Button",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment method Visa ···· 4021 Expires 09/29 · default Mastercard ···· 8814 Expires 04/28 PayPal ···· sofia@mail.de Instant · buyer protection Add new card Billing address Feldstraße 12, 28203 Bremen Germany · matches card Save & continue Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-payment-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 76,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-chat-07",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Support chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Chip",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 W Wanderly Support ● Online · avg reply 2 min Today Hi Sofia! 👋 I'm Nia from Wanderly support. How can I help with booking WDL-8X42KQ? 10:02 Can I change my return flight to Oct 29? 10:04 Of course! Moving BCN → BRE to Thu, Oct 29 adds €24 fare difference. Want me to apply it? 10:05 Yes, change it Show options Talk to agent Quick answers · Free cancellation within 24h · Baggage allowance by fare · Check-in opens 48h before Type your message…",
+  "image": "assets/screens/wanderly-chat-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-profile-08",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Badge",
+   "List Item",
+   "Card",
+   "Progress Bar"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile SL Sofia Lindqvist Explorer level 7 320 pts to Gold status 23 Trips 14 Countries 8.2k Points My bookings 2 2 upcoming · 21 past Saved places 18 destinations · 6 collections Rewards 8,200 pts · €41 value Travel buddies Invite friends, earn points Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-profile-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-notifications-09",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications ✈️ Check-in is open 2h WA 214 to Barcelona departs in 48h. Grab seat 14A now. 💰 Price drop: Lisbon 5h Round trips BRE → LIS fell to €76 (−15%). 🏨 Hotel deal in Barcelona Yesterday Hotel Brummell has 3 rooms left at €112/nt for your dates. 🎒 Trip reminder 2d Packing list for Barcelona is ready — 14 items. Explore Search Alerts Profile",
+  "image": "assets/screens/wanderly-notifications-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-empty-10",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Empty state — no saved trips",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Saved 🧳 No saved trips yet Tap the heart on any destination, hotel or experience and it will wait for you right here. Discover destinations Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 55,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-feed-11",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Travel stories feed",
+  "pattern": "Feed",
+  "elements": [
+   "Carousel",
+   "Skeleton",
+   "Avatar",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Stories From travelers you follow ⛩️ Kyoto 🌊 Lisbon 🏝️ Bali 🦙 Peru MC Maya Chen Kyoto, Japan · 2h ago Follow ⛩️ 1,284 likes Maya Three perfect days in Kyoto — save this itinerary 👇 TB Tom Becker Lisbon, Portugal · 2h ago Follow 🌊 862 likes Tom Three perfect days in Lisbon — save this itinerary 👇 Loading more stories… Explore Stories Saved Profile",
+  "image": "assets/screens/wanderly-feed-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 42,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-settings-12",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Accordion",
+   "Dropdown",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings Deal alerts Price drops on saved routes Nearby suggestions Use location while traveling Currency EUR € App language English Help How do price alerts work? We track your saved routes daily and notify you when fares drop more than 10% or hit a 30-day low. Can I book for someone else? What is the cancellation policy? Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-settings-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 96,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-home-01",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Home — restaurants",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Search Bar",
+   "Chip",
+   "Carousel",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Deliver to Feldstraße 12 Search restaurants, dishes… All Pizza Sushi Burgers Indian Healthy LUNCH RUSH 30% off until 2 PM On 40+ spots near you · code LUNCH30 🍕 Popular near you See all 🍕 25–35 min Bella Napoli ⭐ 4.8 Italian · Pizza 🍣 20–30 min Sushi Yama ⭐ 4.9 Japanese · Sushi 🍔 15–25 min Burger Werk ⭐ 4.7 American · Burgers Top rated 🍕 Bella Napoli ⭐ 4.8 Margherita Pizza · 25–35 min 🍣 Sushi Yama ⭐ 4.9 Salmon Nigiri Set · 20–30 min Home Search Orders Profile",
+  "image": "assets/screens/crave-home-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-search-02",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Search food",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Search ramen Under 30 min 4.5+ rated Offers Top rated TRENDING SEARCHES 🍜 ramen 🥗 poke bowl 🌯 burrito 🍰 tiramisu Results for “ramen” · 12 🍜 Tonkotsu Ramen €13.90 Ramen Bar Kibo · 20–30 min 🍜 Spicy Miso Ramen €14.50 Ramen Bar Kibo · 20–30 min 🍜 Shoyu Ramen €12.90 Tokyo Express · 25–35 min Home Search Orders Profile",
+  "image": "assets/screens/crave-search-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 65,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-restaurant-03",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Restaurant detail",
+  "pattern": "Search",
+  "elements": [
+   "Rating",
+   "Segmented Control",
+   "List Item",
+   "Accordion",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 🍕 Bella Napoli OPEN 4.8 (1.2k) · Italian · 25–35 min Popular Pizza Pasta Desserts 🍕 Margherita Pizza San Marzano tomato, fior di latte, basil €11.90 🍕 Diavola Spicy salami, tomato, mozzarella, honey €13.50 🍝 Tagliatelle al Ragù Slow-cooked beef ragù, parmigiano €14.90 About Delivery info Free delivery over €15 · 25–35 min average · Contactless drop-off available. Allergens View cart · €25.80",
+  "image": "assets/screens/crave-restaurant-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 44,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-cart-04",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Cart",
+  "pattern": "Cart",
+  "elements": [
+   "Stepper",
+   "Banner",
+   "List Item",
+   "Button",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Your cart Bella Napoli · 25–35 min Add €4.20 more for free delivery 🎉 🍕 Margherita Pizza €11.90 − 1 + 🍝 Tagliatelle al Ragù €14.90 − 1 + Subtotal €26.80 Delivery fee €1.90 Service fee €0.99 Total €29.69 Add promo code Go to checkout · €29.69",
+  "image": "assets/screens/crave-cart-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-checkout-05",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Checkout",
+  "pattern": "Checkout",
+  "elements": [
+   "Radio",
+   "Card",
+   "List Item",
+   "Button",
+   "Dropdown"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Checkout Delivery address Feldstraße 12, 28203 Bremen Apartment 4 · 2nd floor Delivery time ASAP · 25–35 min Schedule Payment Visa ···· 4021 Expires 09/29 €29.69 Cash on delivery Pay the courier directly Cutlery preference No cutlery — save plastic 🌿 By placing this order you agree to Crave's terms. The restaurant starts preparing after confirmation. Place order · €29.69",
+  "image": "assets/screens/crave-checkout-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-payment-06",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Payment methods",
+  "pattern": "Payment Method",
+  "elements": [
+   "Radio",
+   "Card",
+   "Button",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment Cards Visa ···· 4021 Ava Sharma · 09/29 DEFAULT Mastercard ···· 8814 Ava Sharma · 04/28 Add new card Other Crave Pay balance Use €12.40 available Gift cards 2 active · €25.00 total Payments encrypted · PCI-DSS compliant Home Search Orders Profile",
+  "image": "assets/screens/crave-payment-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-map-07",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Order tracking map",
+  "pattern": "Map",
+  "elements": [
+   "Bottom Sheet",
+   "Progress Bar",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 You Bella Napoli Arriving in 12 min Live Order confirmed On the way Arriving Your courier Order #CRV-88231 · Bella Napoli DK Denis K. 4.9 · 2.3k deliveries ☎ “Picked up your order — 2 stops away, see you soon!” · 2 min ago",
+  "image": "assets/screens/crave-map-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-chat-08",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Courier chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Chip"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 DK Denis K. ● Delivering your order Today Hi! I'm on my way with your Bella Napoli order 🍕 12:41 I'm at Feldstraße — which entrance should I use? 12:52 Side entrance, I'll meet you there! 12:53 Perfect, 2 minutes away 👍 12:53 Leave at door I'm outside Call me Message Denis…",
+  "image": "assets/screens/crave-chat-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 59,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-notifications-09",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications 🛵 Order on its way 2m Denis picked up your order from Bella Napoli . Arriving in ~12 min. 🎉 Weekend deal 1h 40% off sushi this weekend with code SUSHI40. ⭐ Rate your last order Yesterday How was Ramen Bar Kibo ? Your review helps the kitchen. 🎁 €10 voucher earned 2d You unlocked a voucher for 5 orders this month. Home Search Orders Profile",
+  "image": "assets/screens/crave-notifications-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-profile-10",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile AS Ava Sharma Gold member · since 2024 ★ 1,240 PTS €10 voucher available Expires Oct 31 · min. order €20 Use My orders 48 orders · €612 spent Addresses Home · Work · 1 more Favorites 12 restaurants Vouchers 3 active Home Search Orders Profile",
+  "image": "assets/screens/crave-profile-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 82,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-empty-11",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Empty state — no orders",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Orders 🍔 No orders yet Hungry? Your order history will appear here — along with one-tap reorders of your favorites. Find food near you Home Search Orders Profile",
+  "image": "assets/screens/crave-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 57,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-stats-12",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Order history & stats",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "List Item",
+   "Segmented Control",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Your year in food 2026 · 48 orders Month Cuisine Spending TOTAL SPENT €612.40 TOP 5% Jan Jun Dec Most ordered 🍕 Margherita Pizza €11.90 Ordered 9 times · Bella Napoli 🍜 Tonkotsu Ramen €13.90 Ordered 7 times · Ramen Bar Kibo Reorder favorites Home Search Orders Profile",
+  "image": "assets/screens/crave-stats-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-welcome-01",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button",
+   "Carousel"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Tempo Every song you love. Zero ads. Zero skips limits. Neon Skyline Midnight Parade Golden Hour Sahara Bloom Deep Blue Coral Echoes Try Premium free for 1 month Continue free or log in",
+  "image": "assets/screens/tempo-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 71,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-home-02",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Home",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Carousel",
+   "List Item",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Good evening NK All Music Podcasts Live Jump back in 🎧 After Hours Mix Your weekly blend 🎯 Focus Flow Deep work beats ⚡ Gym Energy 124 BPM club hits Recently played See all Blinding Lights The Weekends 3:20 2 Levitating Dua Lipa Tribute 3:23 3 Golden Hour Sahara Bloom 3:18 Blinding Lights The Weekends Home Search Library Profile",
+  "image": "assets/screens/tempo-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-search-03",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Search music",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Search synthwave Top Songs Artists Albums Podcasts Top result Synthwave Essentials Playlist · 84 songs Play Songs 1 Midnight Drive Neon Coast 4:02 2 Chrome Hearts Glass Petal 3:47 3 Nightcall ’84 Vector Seven 5:11 Home Search Library Profile",
+  "image": "assets/screens/tempo-search-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 98,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-feed-04",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "New releases feed",
+  "pattern": "Feed",
+  "elements": [
+   "Carousel",
+   "Card",
+   "Avatar",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 New releases Friday drops · updated weekly 🌃 NEW Neon Skyline Midnight Parade · Album · 12 tracks 🌊 Salt & Static Coral Echoes · Album · 12 tracks More this week Velvet Static Nova Rae Paper Moons Elif Aydin Home Search Library Profile",
+  "image": "assets/screens/tempo-feed-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-now-playing-05",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Now playing",
+  "pattern": "Feed",
+  "elements": [
+   "Progress Bar",
+   "Slider",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PLAYING FROM PLAYLIST After Hours Mix SYNTH POP · 2026 Blinding Lights The Weekends 2:05 3:20",
+  "image": "assets/screens/tempo-now-playing-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 57,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-playlist-06",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Playlist detail",
+  "pattern": "Feed",
+  "elements": [
+   "FAB",
+   "List Item",
+   "Card",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PLAYLIST Gym Energy Nina K. · 48 songs · 2h 51m PUBLIC Shuffle play Power Kanye West Tribute Band 3:42 2 Titanium Iron Vocals 4:05 3 Can't Hold Us Brass Collective 4:18 4 Lose Yourself Mic Masters 5:26",
+  "image": "assets/screens/tempo-playlist-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 59,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-paywall-07",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Subscription — paywall",
+  "pattern": "Paywall",
+  "elements": [
+   "Button",
+   "Accordion",
+   "Badge",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Hear everything. Ad-free. Tempo Premium · 1 month free, then €10.99/mo No ads, unlimited skips Play any song, anytime Offline downloads 10,000 songs per device HiFi audio Lossless 24-bit sound Try free for 1 month Then €10.99/month · Cancel anytime FAQ What happens after the trial? You are charged €10.99/month unless you cancel. We remind you 3 days before the trial ends. Can I share with family? Is there a student plan?",
+  "image": "assets/screens/tempo-paywall-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-profile-08",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Chart",
+   "List Item",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile NK Nina Kaur @ninahears · 1.2k followers PREMIUM Listening this week Pop 18h 20m Hip-hop 11h 05m Jazz 9h 40m 32h total · top 2% of listeners 🏆 Playlists · 12 Gym Energy 48 songs · by you Focus Flow 112 songs · by you Home Search Library Profile",
+  "image": "assets/screens/tempo-profile-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 44,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-settings-09",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Dropdown",
+   "List Item",
+   "Slider"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings PLAYBACK Crossfade 6s Gapless playback No silence between tracks Download over Wi-Fi only Save mobile data ACCOUNT New release alerts Artists you follow Private session Hide listening activity Audio quality Very high · 320 kbps Home Search Library Profile",
+  "image": "assets/screens/tempo-settings-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 67,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-notifications-10",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications 🌃 New album: Neon Skyline 1h Midnight Parade just dropped 12 tracks. JR Jonas shared a playlist 3h “Roadtrip ’26” · 32 songs · for you 🎫 Presale: Sahara Bloom 1d Live in Hamburg, Nov 28 · fans first. Home Search Inbox Profile",
+  "image": "assets/screens/tempo-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 48,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-empty-11",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Empty state — no liked songs",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Liked songs No liked songs yet Tap the heart on any track and it will be saved here — your personal greatest-hits collection. Discover music Home Search Library Profile",
+  "image": "assets/screens/tempo-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-chat-12",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Share with friends chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 JR Jonas R. ● Listening now Today You HAVE to hear this one 🎧 18:02 Midnight Drive Neon Coast Instant add to Gym Energy 🔥 18:05 Knew you'd like it. Blend playlist updated btw! 18:06 Message Jonas…",
+  "image": "assets/screens/tempo-chat-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 85,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-playlist-new-13",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "New playlist",
+  "pattern": "Feed",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 New playlist Add cover Playlist name Autumn Drives 🍂 Description (optional) What is this playlist for? Make public Anyone can find and follow it You can add songs right after creating it. Create playlist",
+  "image": "assets/screens/tempo-playlist-new-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-playlist-add-14",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Add songs to playlist",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Checkbox",
+   "List Item",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Add songs Search to add songs Suggested for this playlist 1 Golden Hour Sahara Bloom 3:18 2 Paper Moons Elif Aydin 4:02 3 Salt Air Coral Echoes 3:44 4 Velvet Static Nova Rae 3:29 5 Amber Lines Glass Petal 4:11 Add 3 songs",
+  "image": "assets/screens/tempo-playlist-add-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 74,
+  "created": "2026-10-15"
+ }
+]

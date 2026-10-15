@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections — Flowscope</title>
+  <meta name="description" content="Save screens and flows into collections, upload your own screenshots, and share collections with a link.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="collections">
+<main>
+  <div class="container section-sm">
+    <div id="content"></div>
+  </div>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* collections.html — personal collections stored in localStorage.
+   - Create / rename / delete collections; save screens AND flows into them.
+   - Upload your own screenshots (file input → dataURL, shown inline).
+   - Share via URL: state encoded in location.hash → "Copy share link".
+     (Uploaded dataURLs are too large for a URL, so they're excluded from
+     shared links and noted as such.)
+   - Opening a #shared link imports a read-only copy. */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+  var COLS_KEY = 'collections';
+  var viewingId = null; // collection currently open in detail view
+  var sharedView = null; // read-only collection imported from #hash
+
+  function getCols() { return F.lsGet(COLS_KEY, []); }
+  function setCols(c) { return F.lsSet(COLS_KEY, c); }
+  function findCol(id) { return getCols().filter(function (c) { return c.id === id; })[0]; }
+
+  /* ---- list view -------------------------------------------------------- */
+  function renderList(all) {
+    viewingId = null; sharedView = null;
+    var cols = getCols();
+    var cards = cols.map(function (c) {
+      var n = (c.items || []).length;
+      return '<div class="card collection-card" data-open="' + esc(c.id) + '" role="button" tabindex="0">' +
+        '<div class="card-body"><div class="card-title">' + esc(c.name) + '</div>' +
+        '<div class="card-sub">' + n + ' item' + (n === 1 ? '' : 's') + '</div></div></div>';
+    }).join('');
+
+    document.getElementById('content').innerHTML =
+      '<h1 style="margin-bottom:8px">Collections</h1>' +
+      '<p class="lead" style="margin-bottom:16px">Save screens and flows, upload your own screenshots, and share it all with a link. Stored privately in your browser.</p>' +
+      '<div class="btn-row" style="margin-bottom:24px">' +
+        '<button class="btn btn-primary" id="col-new">+ New collection</button>' +
+      '</div>' +
+      (cards ? '<div class="grid grid-apps" id="col-grid">' + cards + '</div>'
+             : '<div class="state-box"><div class="big">♥</div><h3>No collections yet</h3>' +
+               '<p>Save any screen or flow with the ♥ button, or create a collection to get started.</p></div>');
+
+    document.getElementById('col-new').addEventListener('click', function () {
+      var name = prompt('Collection name:');
+      if (!name || !name.trim()) return;
+      var cols2 = getCols();
+      var c = { id: 'c' + Date.now(), name: name.trim(), items: [], created: new Date().toISOString() };
+      cols2.push(c);
+      if (setCols(cols2)) { F.toast('Collection created'); renderDetail(c.id, all); }
+      else F.toast('Could not save (storage full)');
+    });
+    document.querySelectorAll('[data-open]').forEach(function (el) {
+      var open = function () { renderDetail(el.getAttribute('data-open'), all); };
+      el.addEventListener('click', open);
+      el.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
+    });
+  }
+
+  /* ---- detail view ------------------------------------------------------- */
+  function itemCard(item, all) {
+    if (item.kind === 'upload') {
+      return '<div class="card"><div class="card-thumb"><img src="' + item.dataUrl + '" alt="' + esc(item.name || 'Uploaded screenshot') + '" loading="lazy"></div>' +
+        '<div class="card-body"><div class="card-title">' + esc(item.name || 'Uploaded screenshot') + '</div>' +
+        '<div class="card-sub">Your upload</div>' +
+        '<button class="btn btn-ghost btn-sm" style="margin-top:8px" data-rm-item="' + esc(item.uid) + '">Remove</button></div></div>';
+    }
+    if (item.kind === 'screen') {
+      var s = D.byId(all.screens, item.id);
+      if (!s) return '';
+      return '<div class="card"><div class="card-thumb">' +
+        '<a class="card-link" href="screen.html?id=' + encodeURIComponent(s.id) + '"><img src="' + esc(D.assetUrl(s.image)) + '" alt="' + esc(s.title) + '" loading="lazy"></a></div>' +
+        '<div class="card-body"><div class="card-title">' + esc(s.title) + '</div>' +
+        '<div class="card-sub">' + esc(s.app_name || '') + ' · Screen</div>' +
+        '<button class="btn btn-ghost btn-sm" style="margin-top:8px" data-rm-item="' + esc(item.uid) + '">Remove</button></div></div>';
+    }
+    if (item.kind === 'flow') {
+      var f = D.byId(all.flows, item.id);
+      if (!f) return '';
+      var first = f.steps && f.steps.length ? D.byId(all.screens, f.steps[0].screen_id) : null;
+      var thumb = first ? D.assetUrl(first.image) : '';
+      return '<div class="card"><div class="card-thumb" style="aspect-ratio:16/10">' +
+        '<a class="card-link" href="flow.html?id=' + encodeURIComponent(f.id) + '">' +
+        (thumb ? '<img src="' + esc(thumb) + '" alt="" loading="lazy">' : '') +
+        '<span class="steps-badge">' + (f.steps ? f.steps.length : 0) + ' steps</span></a></div>' +
+        '<div class="card-body"><div class="card-title">' + esc(f.title) + '</div>' +
+        '<div class="card-sub">' + esc(f.app_name || '') + ' · Flow</div>' +
+        '<button class="btn btn-ghost btn-sm" style="margin-top:8px" data-rm-item="' + esc(item.uid) + '">Remove</button></div></div>';
+    }
+    return '';
+  }
+
+  function renderDetail(id, all, readOnly) {
+    var col = readOnly ? sharedView : findCol(id);
+    if (!col) { renderList(all); return; }
+    viewingId = readOnly ? null : id;
+
+    var items = (col.items || []).map(function (it) { return itemCard(it, all); }).join('');
+
+    document.getElementById('content').innerHTML =
+      '<p style="margin-bottom:16px"><a href="collections.html" id="back-link">← All collections</a></p>' +
+      '<div class="app-hero"><div>' +
+        '<h1 style="font-size:2rem">' + esc(col.name) + '</h1>' +
+        '<p class="muted">' + (col.items || []).length + ' items' + (readOnly ? ' · shared read-only copy' : '') + '</p>' +
+      '</div></div>' +
+      (readOnly ? '' :
+      '<div class="btn-row" style="margin-bottom:24px">' +
+        '<button class="btn btn-ghost btn-sm" id="col-rename">Rename</button>' +
+        '<button class="btn btn-ghost btn-sm" id="col-share">🔗 Copy share link</button>' +
+        '<button class="btn btn-ghost btn-sm" id="col-upload">⬆ Upload screenshot</button>' +
+        '<input type="file" id="upload-input" accept="image/*" style="display:none">' +
+        '<button class="btn btn-ghost btn-sm" id="col-delete" style="color:var(--accent)">Delete</button>' +
+      '</div>') +
+      (readOnly
+        ? '<div class="btn-row" style="margin-bottom:24px"><button class="btn btn-primary btn-sm" id="col-import">Save a copy to my collections</button></div>'
+        : '') +
+      (items ? '<div class="grid grid-screens">' + items + '</div>'
+             : '<div class="state-box"><div class="big">🗂️</div><h3>Empty collection</h3>' +
+               '<p>Save screens and flows with the ♥ button anywhere in the library.</p>' +
+               '<a class="btn btn-ghost" href="browse.html">Browse the library</a></div>');
+
+    if (readOnly) {
+      document.getElementById('col-import').addEventListener('click', function () {
+        var cols = getCols();
+        var copy = JSON.parse(JSON.stringify(sharedView));
+        copy.id = 'c' + Date.now();
+        copy.name = copy.name + ' (shared)';
+        copy.items = copy.items.filter(function (i) { return i.kind !== 'upload'; });
+        copy.items.forEach(function (i) { i.uid = 'u' + Date.now() + Math.random().toString(16).slice(2); });
+        cols.push(copy);
+        if (setCols(cols)) { F.toast('Saved to your collections'); renderDetail(copy.id, all); }
+        else F.toast('Could not save (storage full)');
+      });
+      return;
+    }
+
+    // Wire remove buttons
+    document.querySelectorAll('[data-rm-item]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var cols = getCols();
+        var c = cols.filter(function (x) { return x.id === id; })[0];
+        if (c) {
+          c.items = (c.items || []).filter(function (i) { return i.uid !== b.getAttribute('data-rm-item'); });
+          setCols(cols);
+          renderDetail(id, all);
+        }
+      });
+    });
+
+    document.getElementById('col-rename').addEventListener('click', function () {
+      var name = prompt('Rename collection:', col.name);
+      if (!name || !name.trim()) return;
+      var cols = getCols();
+      var c = cols.filter(function (x) { return x.id === id; })[0];
+      if (c) { c.name = name.trim(); setCols(cols); renderDetail(id, all); }
+    });
+
+    document.getElementById('col-delete').addEventListener('click', function () {
+      if (!confirm('Delete "' + col.name + '"? This cannot be undone.')) return;
+      setCols(getCols().filter(function (x) { return x.id !== id; }));
+      F.toast('Collection deleted');
+      renderList(all);
+    });
+
+    // Share link: encode shareable items (screens + flows only) in location.hash
+    document.getElementById('col-share').addEventListener('click', function () {
+      var shareable = (col.items || []).filter(function (i) { return i.kind === 'screen' || i.kind === 'flow'; });
+      var skipped = (col.items || []).length - shareable.length;
+      var payload = { v: 1, name: col.name, items: shareable.map(function (i) { return { kind: i.kind, id: i.id }; }) };
+      var hash = '#c=' + btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+      var url = window.location.origin + window.location.pathname + hash;
+      try { window.location.hash = hash; } catch (e) {}
+      F.copyText(url, 'Share link');
+      if (skipped) F.toast('Note: ' + skipped + ' uploaded image(s) can\'t go in a link');
+    });
+
+    // Upload screenshot → dataURL in localStorage
+    var fileInput = document.getElementById('upload-input');
+    document.getElementById('col-upload').addEventListener('click', function () { fileInput.click(); });
+    fileInput.addEventListener('change', function () {
+      var file = fileInput.files[0];
+      if (!file) return;
+      if (!file.type.match(/^image\//)) { F.toast('Please choose an image file'); return; }
+      var reader = new FileReader();
+      reader.onload = function () {
+        var dataUrl = reader.result;
+        // Downscale huge images to keep localStorage usable (max 1200px side, JPEG .85)
+        var img = new Image();
+        img.onload = function () {
+          var maxSide = 1200;
+          var scale = Math.min(1, maxSide / Math.max(img.width, img.height));
+          var canvas = document.createElement('canvas');
+          canvas.width = Math.round(img.width * scale);
+          canvas.height = Math.round(img.height * scale);
+          canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+          var finalUrl = canvas.toDataURL('image/jpeg', .85);
+          var cols = getCols();
+          var c = cols.filter(function (x) { return x.id === id; })[0];
+          if (!c) return;
+          c.items = c.items || [];
+          c.items.push({ kind: 'upload', uid: 'u' + Date.now(), name: file.name, dataUrl: finalUrl, added: new Date().toISOString() });
+          if (setCols(cols)) { F.toast('Screenshot added'); renderDetail(id, all); }
+          else F.toast('Storage full — could not save this image');
+          fileInput.value = '';
+        };
+        img.onerror = function () { F.toast('Could not read that image'); };
+        img.src = dataUrl;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  /* ---- shared-link import -------------------------------------------------- */
+  function trySharedLink(all) {
+    var h = window.location.hash;
+    if (!h || h.indexOf('#c=') !== 0) return false;
+    try {
+      var payload = JSON.parse(decodeURIComponent(escape(atob(h.slice(3)))));
+      if (!payload || !Array.isArray(payload.items)) return false;
+      sharedView = {
+        name: payload.name || 'Shared collection',
+        items: payload.items.map(function (i) {
+          return { kind: i.kind, id: String(i.id), uid: 'u' + Math.random().toString(16).slice(2) };
+        })
+      };
+      renderDetail(null, all, true);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    D.loadAll().then(function (all) {
+      if (D.hadErrors()) F.showDataError(D.getErrors());
+      if (!trySharedLink(all)) renderList(all);
+    });
+  });
+})();
+</script>
+</body>
+</html>

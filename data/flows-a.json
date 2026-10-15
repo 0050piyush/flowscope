@@ -1,0 +1,341 @@
+[
+ {
+  "id": "finpulse-send-money",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money to a contact",
+  "description": "Pick a contact, enter an amount and confirm — an instant, fee-free transfer from the FinPulse home screen.",
+  "category": "Finance",
+  "platform": "iOS",
+  "popularity": 92,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "finpulse-home-03",
+    "caption": "Start from Home",
+    "hotspot": {
+     "x": 22,
+     "y": 30,
+     "label": "Tap Send"
+    }
+   },
+   {
+    "screen_id": "finpulse-send-contacts-12",
+    "caption": "Choose Lukas Meyer",
+    "hotspot": {
+     "x": 50,
+     "y": 62,
+     "label": "Tap a contact"
+    }
+   },
+   {
+    "screen_id": "finpulse-send-amount-13",
+    "caption": "Enter €85.00",
+    "hotspot": {
+     "x": 50,
+     "y": 92,
+     "label": "Tap Continue"
+    }
+   },
+   {
+    "screen_id": "finpulse-send-confirm-14",
+    "caption": "Review the transfer",
+    "hotspot": {
+     "x": 50,
+     "y": 92,
+     "label": "Tap Send €85.00"
+    }
+   },
+   {
+    "screen_id": "finpulse-send-success-15",
+    "caption": "Transfer delivered",
+    "hotspot": {
+     "x": 50,
+     "y": 78,
+     "label": "Tap Done"
+    }
+   }
+  ]
+ },
+ {
+  "id": "pulsefit-start-workout",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Start a guided workout",
+  "description": "From the home screen into a leg-day session: preview the plan, check the first exercise, train live and review the summary.",
+  "category": "Health & Fitness",
+  "platform": "iOS",
+  "popularity": 88,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "pulsefit-home-02",
+    "caption": "Open today's workout",
+    "hotspot": {
+     "x": 50,
+     "y": 62,
+     "label": "Tap Start workout"
+    }
+   },
+   {
+    "screen_id": "pulsefit-workout-detail-13",
+    "caption": "Review the plan",
+    "hotspot": {
+     "x": 50,
+     "y": 90,
+     "label": "Tap Start workout"
+    }
+   },
+   {
+    "screen_id": "pulsefit-workout-preview-14",
+    "caption": "Preview exercise 1",
+    "hotspot": {
+     "x": 50,
+     "y": 92,
+     "label": "Tap Begin set 1"
+    }
+   },
+   {
+    "screen_id": "pulsefit-workout-active-15",
+    "caption": "Train with live stats",
+    "hotspot": {
+     "x": 74,
+     "y": 90,
+     "label": "Tap Complete set"
+    }
+   },
+   {
+    "screen_id": "pulsefit-workout-summary-16",
+    "caption": "Save the summary",
+    "hotspot": {
+     "x": 50,
+     "y": 76,
+     "label": "Tap Save & share"
+    }
+   }
+  ]
+ },
+ {
+  "id": "wanderly-book-flight",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Book a flight",
+  "description": "Search Bremen to Barcelona, compare results, review flight details and check out — ending with a boarding-pass confirmation.",
+  "category": "Travel",
+  "platform": "iOS",
+  "popularity": 90,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "wanderly-search-02",
+    "caption": "Search flights",
+    "hotspot": {
+     "x": 50,
+     "y": 88,
+     "label": "Tap Search 240 flights"
+    }
+   },
+   {
+    "screen_id": "wanderly-results-13",
+    "caption": "Compare results",
+    "hotspot": {
+     "x": 80,
+     "y": 40,
+     "label": "Tap Select"
+    }
+   },
+   {
+    "screen_id": "wanderly-flight-detail-14",
+    "caption": "Check flight details",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Tap Continue to checkout"
+    }
+   },
+   {
+    "screen_id": "wanderly-checkout-05",
+    "caption": "Pay for the trip",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Tap Pay €190.00"
+    }
+   },
+   {
+    "screen_id": "wanderly-confirm-15",
+    "caption": "Booking confirmed",
+    "hotspot": {
+     "x": 50,
+     "y": 86,
+     "label": "Tap View my trips"
+    }
+   }
+  ]
+ },
+ {
+  "id": "crave-order-lunch",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Order lunch",
+  "description": "Find a nearby restaurant, build a cart, check out and follow the courier on the live tracking map.",
+  "category": "Food & Drink",
+  "platform": "iOS",
+  "popularity": 86,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "crave-home-01",
+    "caption": "Browse restaurants",
+    "hotspot": {
+     "x": 32,
+     "y": 56,
+     "label": "Tap Bella Napoli"
+    }
+   },
+   {
+    "screen_id": "crave-restaurant-03",
+    "caption": "Add dishes",
+    "hotspot": {
+     "x": 90,
+     "y": 52,
+     "label": "Tap + to add"
+    }
+   },
+   {
+    "screen_id": "crave-cart-04",
+    "caption": "Review your cart",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Tap Go to checkout"
+    }
+   },
+   {
+    "screen_id": "crave-checkout-05",
+    "caption": "Place the order",
+    "hotspot": {
+     "x": 50,
+     "y": 93,
+     "label": "Tap Place order"
+    }
+   },
+   {
+    "screen_id": "crave-map-07",
+    "caption": "Track the courier live",
+    "hotspot": {
+     "x": 50,
+     "y": 90,
+     "label": "View courier details"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tempo-create-playlist",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Create a playlist",
+  "description": "Name a new playlist, pick songs from suggestions and land on the finished playlist, ready to shuffle.",
+  "category": "Music",
+  "platform": "iOS",
+  "popularity": 84,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "tempo-profile-08",
+    "caption": "Open your playlists",
+    "hotspot": {
+     "x": 50,
+     "y": 88,
+     "label": "Tap Playlists"
+    }
+   },
+   {
+    "screen_id": "tempo-playlist-new-13",
+    "caption": "Name the playlist",
+    "hotspot": {
+     "x": 50,
+     "y": 92,
+     "label": "Tap Create playlist"
+    }
+   },
+   {
+    "screen_id": "tempo-playlist-add-14",
+    "caption": "Choose songs",
+    "hotspot": {
+     "x": 50,
+     "y": 92,
+     "label": "Tap Add 3 songs"
+    }
+   },
+   {
+    "screen_id": "tempo-playlist-06",
+    "caption": "Playlist ready",
+    "hotspot": {
+     "x": 88,
+     "y": 84,
+     "label": "Tap the play button"
+    }
+   }
+  ]
+ },
+ {
+  "id": "finpulse-add-payment-method",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add a payment method",
+  "description": "From the wallet, add a new card: enter the details, verify with a one-time code and get a confirmation.",
+  "category": "Finance",
+  "platform": "Android",
+  "popularity": 89,
+  "created": "2026-10-15",
+  "steps": [
+   {
+    "screen_id": "finpulse-wallet-04",
+    "caption": "Open Wallet",
+    "hotspot": {
+     "x": 50,
+     "y": 32,
+     "label": "View your cards"
+    }
+   },
+   {
+    "screen_id": "finpulse-payment-method-05",
+    "caption": "Add a new card",
+    "hotspot": {
+     "x": 88,
+     "y": 80,
+     "label": "Tap the + button"
+    }
+   },
+   {
+    "screen_id": "finpulse-card-form-16",
+    "caption": "Enter card details",
+    "hotspot": {
+     "x": 50,
+     "y": 90,
+     "label": "Tap Continue"
+    }
+   },
+   {
+    "screen_id": "finpulse-card-verify-17",
+    "caption": "Verify with the code",
+    "hotspot": {
+     "x": 70,
+     "y": 70,
+     "label": "Tap Verify card"
+    }
+   },
+   {
+    "screen_id": "finpulse-card-done-18",
+    "caption": "Card added",
+    "hotspot": {
+     "x": 50,
+     "y": 68,
+     "label": "Tap Back to wallet"
+    }
+   }
+  ]
+ }
+]

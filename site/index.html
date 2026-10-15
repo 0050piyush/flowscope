@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowscope — Every mobile UI pattern. Free forever.</title>
+  <meta name="description" content="Flowscope is a free, open-source UI/UX pattern library. Browse thousands of mobile app screens, user flows and UI elements. No paywall, no account, open API.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow" style="color:var(--hero-muted)">Free · Open source · No paywall</span>
+      <h1>Every mobile UI pattern.<br>Free forever.</h1>
+      <p class="lead">Explore real app screens, complete user flows and battle-tested UI elements — the open alternative to Mobbin. No account, no credit card, no locked collections.</p>
+      <div class="hero-cta">
+        <a class="btn btn-hero" href="browse.html">Browse the library →</a>
+        <a class="btn btn-hero-ghost" href="api.html">Open API docs</a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge">✓ 100% free</span>
+        <span class="hero-badge">✓ No sign-up</span>
+        <span class="hero-badge">✓ Open API, no key</span>
+        <span class="hero-badge">✓ CC0 data</span>
+      </div>
+      <div class="stats-row" id="stats-row">
+        <div class="stat skeleton" style="height:110px"></div>
+        <div class="stat skeleton" style="height:110px"></div>
+        <div class="stat skeleton" style="height:110px"></div>
+        <div class="stat skeleton" style="height:110px"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Browse by category</span>
+      <h2>Find patterns for any product</h2>
+      <div class="grid grid-cats" id="category-tiles" style="margin-top:16px"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED PATTERNS -->
+  <section class="section-sm" style="background:var(--bg-soft)">
+    <div class="container">
+      <span class="eyebrow">Popular patterns</span>
+      <h2>Start with the classics</h2>
+      <div class="grid grid-patterns" id="pattern-grid" style="margin-top:16px"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED APPS -->
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">App teardowns</span>
+      <h2>Learn from the best products</h2>
+      <div class="grid grid-apps" id="app-row" style="margin-top:16px"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="panel" style="text-align:center; padding:48px 24px; background:var(--hero-bg); color:var(--hero-text); border:none">
+        <h2 style="color:var(--hero-text)">Design research shouldn't cost $300/year.</h2>
+        <p class="lead" style="color:var(--hero-muted); margin:0 auto 24px">Flowscope is community-powered and MIT-licensed. Save collections, compare screens side-by-side, and pull everything through the open API.</p>
+        <div class="hero-cta" style="margin-bottom:0">
+          <a class="btn btn-hero" href="browse.html?tab=flows">Explore user flows →</a>
+          <a class="btn btn-hero-ghost" href="collections.html">My collections</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* index.html — hero stats, category tiles, featured patterns & apps */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+
+  var CATEGORIES = ['Finance', 'Health & Fitness', 'Travel', 'Food & Drink', 'Music',
+                    'Productivity', 'Shopping', 'Social', 'Education', 'Lifestyle'];
+  var CAT_EMOJI = {
+    'Finance': '💳', 'Health & Fitness': '💪', 'Travel': '✈️', 'Food & Drink': '🍔',
+    'Music': '🎵', 'Productivity': '✅', 'Shopping': '🛍️', 'Social': '💬',
+    'Education': '🎓', 'Lifestyle': '🌿'
+  };
+  var FEATURED_PATTERNS = ['Onboarding', 'Checkout', 'Paywall', 'Home', 'Search', 'Profile', 'Settings', 'Chat'];
+
+  function counts(list, key) {
+    var m = {};
+    list.forEach(function (x) { var k = x[key]; if (k) m[k] = (m[k] || 0) + 1; });
+    return m;
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Category tiles render immediately (static taxonomy).
+    document.getElementById('category-tiles').innerHTML = CATEGORIES.map(function (c) {
+      return '<a class="card card-link" href="browse.html?category=' + encodeURIComponent(c) + '" style="text-decoration:none">' +
+        '<div class="card-body" style="text-align:center; padding:24px 12px">' +
+          '<div style="font-size:2rem; margin-bottom:8px">' + (CAT_EMOJI[c] || '✨') + '</div>' +
+          '<div class="card-title">' + esc(c) + '</div>' +
+          '<div class="card-sub" data-cat-count="' + esc(c) + '">…</div>' +
+        '</div></a>';
+    }).join('');
+
+    D.loadAll().then(function (all) {
+      if (D.hadErrors()) F.showDataError(D.getErrors());
+
+      var screens = all.screens, flows = all.flows, apps = all.apps, patterns = all.patterns;
+
+      // Live stats
+      document.getElementById('stats-row').innerHTML = [
+        [screens.length, 'screens'],
+        [flows.length, 'user flows'],
+        [apps.length, 'apps'],
+        [patterns.length || 24, 'patterns']
+      ].map(function (s) {
+        return '<div class="stat"><div class="num">' + s[0].toLocaleString() + '</div><div class="label">' + s[1] + '</div></div>';
+      }).join('');
+
+      // Category counts
+      var cc = counts(screens, 'category');
+      document.querySelectorAll('[data-cat-count]').forEach(function (el) {
+        var c = el.getAttribute('data-cat-count');
+        el.textContent = (cc[c] || 0) + ' screens';
+      });
+
+      // Featured patterns (with real counts)
+      var pc = counts(screens, 'pattern');
+      document.getElementById('pattern-grid').innerHTML = FEATURED_PATTERNS.map(function (p) {
+        var n = pc[p] || 0;
+        return '<a class="card card-link" href="browse.html?pattern=' + encodeURIComponent(p) + '" style="text-decoration:none">' +
+          '<div class="card-body"><div class="card-title">' + esc(p) + '</div>' +
+          '<div class="card-sub">' + n + ' screens →</div></div></a>';
+      }).join('');
+
+      // Featured apps row
+      var featured = apps.filter(function (a) { return a.featured; });
+      var list = (featured.length ? featured : apps).slice(0, 4);
+      document.getElementById('app-row').innerHTML = list.map(function (a) {
+        var n = screens.filter(function (s) { return String(s.app_id) === String(a.id); }).length;
+        return '<a class="card card-link" href="app.html?id=' + encodeURIComponent(a.id) + '" style="text-decoration:none">' +
+          '<div class="card-body" style="display:flex; gap:12px; align-items:center">' +
+            '<img src="' + esc(D.assetUrl(a.icon)) + '" alt="" width="48" height="48" style="border-radius:12px" loading="lazy">' +
+            '<div><div class="card-title">' + esc(a.name) + '</div>' +
+            '<div class="card-sub">' + esc(a.tagline || '') + ' · ' + n + ' screens</div></div>' +
+          '</div></a>';
+      }).join('') || '<p class="muted">No apps yet.</p>';
+    });
+  });
+})();
+</script>
+</body>
+</html>

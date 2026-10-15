@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse the library — Flowscope</title>
+  <meta name="description" content="Search and filter thousands of mobile UI screens, user flows, apps and UI elements. Free forever.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="browse">
+<main>
+  <div class="container section-sm">
+    <h1 style="margin-bottom:8px">Library</h1>
+    <p class="lead" style="margin-bottom:16px">Every screen, flow and element — searchable, filterable, free.</p>
+
+    <div class="tabs" role="tablist" id="tabs">
+      <button class="tab active" data-tab="screens" role="tab">Screens</button>
+      <button class="tab" data-tab="flows" role="tab">Flows</button>
+      <button class="tab" data-tab="apps" role="tab">Apps</button>
+      <button class="tab" data-tab="elements" role="tab">UI Elements</button>
+    </div>
+
+    <div class="browse-layout">
+      <!-- Faceted sidebar -->
+      <aside class="sidebar" id="sidebar" aria-label="Filters">
+        <div class="btn-row" style="margin-bottom:16px">
+          <button class="btn btn-ghost btn-sm btn-block" id="clear-all">Clear all filters</button>
+          <button class="btn btn-ghost btn-sm btn-block mobile-filters-btn" id="close-filters">Done</button>
+        </div>
+        <div id="filter-groups"></div>
+      </aside>
+
+      <!-- Results -->
+      <div>
+        <div class="browse-toolbar">
+          <button class="btn btn-ghost btn-sm mobile-filters-btn" id="open-filters">☰ Filters</button>
+          <div class="toolbar-search">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input class="search-input" id="search" type="search" placeholder="Search screens, apps, patterns…" data-global-search autocomplete="off">
+          </div>
+          <select class="select" id="sort" aria-label="Sort results">
+            <option value="newest">Newest</option>
+            <option value="popular">Most popular</option>
+            <option value="az">A–Z</option>
+          </select>
+        </div>
+        <div id="active-facets" class="chip-row" style="margin-bottom:12px"></div>
+        <p class="results-meta" id="results-meta"></p>
+        <div class="grid" id="results"></div>
+        <div id="empty-state"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* browse.html — tabs, faceted filters, search, sort, lazy result grid */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+
+  var state = {
+    tab: 'screens',
+    query: '',
+    sort: 'newest',
+    platforms: new Set(), categories: new Set(), patterns: new Set(),
+    elements: new Set(), apps: new Set(), colors: new Set()
+  };
+  var ALL = { screens: [], flows: [], apps: [], patterns: [], elements: [] };
+  var searchTimer = null;
+
+  var els = {};
+  ['tabs', 'sidebar', 'filter-groups', 'search', 'sort', 'results', 'results-meta', 'empty-state', 'active-facets']
+    .forEach(function (id) { els[id] = document.getElementById(id); });
+
+  /* ---- sidebar construction ------------------------------------------- */
+  function checkboxGroup(id, title, options) {
+    // options: [{value, label, count, swatch?}]
+    var items = options.map(function (o) {
+      var sw = o.swatch ? '<span class="color-swatch-opt" style="background:' + esc(o.swatch) + '"></span>' : '';
+      return '<label class="filter-opt"><input type="checkbox" data-group="' + id + '" value="' + esc(o.value) + '">' +
+        sw + '<span>' + esc(o.label) + '</span><span class="count">' + (o.count || 0) + '</span></label>';
+    }).join('');
+    return '<div class="filter-group" data-fgroup="' + id + '"><h4>' + esc(title) +
+      ' <button class="filter-clear" data-clear="' + id + '">clear</button></h4>' +
+      '<div class="filter-opts">' + (items || '<p class="small muted">—</p>') + '</div></div>';
+  }
+
+  function withCounts(values, counter) {
+    return values.map(function (v) {
+      return { value: v, label: v, count: counter(v) };
+    }).filter(function (o) { return o.count > 0; })
+      .sort(function (a, b) { return b.count - a.count || a.label.localeCompare(b.label); });
+  }
+
+  function buildSidebar() {
+    var s = ALL.screens;
+    var uniq = function (key) {
+      var set = {};
+      s.forEach(function (x) { if (x[key]) set[x[key]] = true; });
+      return Object.keys(set).sort();
+    };
+    var countEq = function (key) {
+      return function (v) { return s.filter(function (x) { return x[key] === v; }).length; };
+    };
+
+    var html = '';
+    html += checkboxGroup('platforms', 'Platform', withCounts(uniq('platform'), countEq('platform')));
+    html += checkboxGroup('categories', 'Category', withCounts(uniq('category'), countEq('category')));
+    html += checkboxGroup('patterns', 'Pattern', withCounts(uniq('pattern'), countEq('pattern')));
+    html += checkboxGroup('elements', 'UI Element', withCounts(
+      Object.keys(s.reduce(function (m, x) { (x.elements || []).forEach(function (e) { m[e] = true; }); return m; }, {})).sort(),
+      function (v) { return s.filter(function (x) { return (x.elements || []).indexOf(v) !== -1; }).length; }
+    ));
+    html += checkboxGroup('apps', 'App', ALL.apps.map(function (a) {
+      return { value: a.id, label: a.name, count: s.filter(function (x) { return String(x.app_id) === String(a.id); }).length };
+    }).filter(function (o) { return o.count > 0; }).sort(function (a, b) { return b.count - a.count; }));
+    html += checkboxGroup('colors', 'Color', D.HUE_BUCKETS.map(function (b) {
+      return { value: b.id, label: b.name, swatch: b.swatch,
+               count: s.filter(function (x) { return D.screenMatchesColorBucket(x, b.id); }).length };
+    }));
+
+    els['filter-groups'].innerHTML = html;
+
+    // Wire checkboxes
+    els['filter-groups'].querySelectorAll('input[type=checkbox]').forEach(function (cb) {
+      cb.addEventListener('change', function () {
+        var set = state[cb.getAttribute('data-group')];
+        if (cb.checked) set.add(cb.value); else set.delete(cb.value);
+        render();
+      });
+    });
+    els['filter-groups'].querySelectorAll('[data-clear]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var g = btn.getAttribute('data-clear');
+        state[g].clear();
+        els['filter-groups'].querySelectorAll('input[data-group="' + g + '"]').forEach(function (cb) { cb.checked = false; });
+        render();
+      });
+    });
+  }
+
+  /* ---- active facet pills ------------------------------------------------ */
+  var GROUP_LABEL = { platforms: 'Platform', categories: 'Category', patterns: 'Pattern', elements: 'Element', apps: 'App', colors: 'Color' };
+  function renderFacets() {
+    var pills = [];
+    Object.keys(GROUP_LABEL).forEach(function (g) {
+      state[g].forEach(function (v) {
+        var label = v;
+        if (g === 'apps') { var a = D.byId(ALL.apps, v); label = a ? a.name : v; }
+        if (g === 'colors') { var b = D.HUE_BUCKETS.filter(function (x) { return x.id === v; })[0]; label = b ? b.name : v; }
+        pills.push('<button class="chip" data-unfacet="' + g + '" data-value="' + esc(v) + '">' + esc(GROUP_LABEL[g]) + ': ' + esc(label) + ' ✕</button>');
+      });
+    });
+    els['active-facets'].innerHTML = pills.join('');
+    els['active-facets'].querySelectorAll('[data-unfacet]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var g = b.getAttribute('data-unfacet'), v = b.getAttribute('data-value');
+        state[g].delete(v);
+        var cb = els['filter-groups'].querySelector('input[data-group="' + g + '"][value="' + CSS.escape(v) + '"]');
+        if (cb) cb.checked = false;
+        render();
+      });
+    });
+  }
+
+  /* ---- result cards ------------------------------------------------------- */
+  function screenCard(x) {
+    F.cacheTrayMeta(x);
+    return '<article class="card">' +
+      '<div class="card-thumb">' +
+        '<a class="card-link" href="screen.html?id=' + encodeURIComponent(x.id) + '" aria-label="' + esc(x.title) + '">' +
+          '<img src="' + esc(D.assetUrl(x.image)) + '" alt="' + esc(x.title) + '" loading="lazy">' +
+        '</a>' +
+        '<div class="screen-card-actions">' +
+          '<button class="chip-btn" data-tray-add="' + esc(x.id) + '" title="Add to compare (c)" aria-label="Add to compare">▦</button>' +
+          '<button class="chip-btn" data-save="' + esc(x.id) + '" title="Save to collection" aria-label="Save to collection">♥</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="card-body"><div class="card-title">' + esc(x.title) + '</div>' +
+      '<div class="card-sub">' + esc(x.app_name || '') + ' · ' + esc(x.pattern || '') + '</div></div>' +
+    '</article>';
+  }
+
+  function flowCard(f) {
+    var first = f.steps && f.steps.length ? D.byId(ALL.screens, f.steps[0].screen_id) : null;
+    var thumb = first ? D.assetUrl(first.image) : '';
+    return '<article class="card"><div class="card-thumb">' +
+      '<a class="card-link" href="flow.html?id=' + encodeURIComponent(f.id) + '" aria-label="' + esc(f.title) + '">' +
+        (thumb ? '<img src="' + esc(thumb) + '" alt="" loading="lazy">' : '') +
+        '<span class="steps-badge">' + (f.steps ? f.steps.length : 0) + ' steps</span>' +
+      '</a></div>' +
+      '<div class="card-body"><div class="card-title">' + esc(f.title) + '</div>' +
+      '<div class="card-sub">' + esc(f.app_name || '') + ' · ' + esc(f.category || '') + '</div></div></article>';
+  }
+
+  function appCard(a) {
+    var n = ALL.screens.filter(function (s) { return String(s.app_id) === String(a.id); }).length;
+    var nf = ALL.flows.filter(function (f) { return String(f.app_id) === String(a.id); }).length;
+    return '<a class="card card-link" href="app.html?id=' + encodeURIComponent(a.id) + '" style="text-decoration:none">' +
+      '<div class="card-body" style="display:flex; gap:12px; align-items:center; padding:16px">' +
+        '<img src="' + esc(D.assetUrl(a.icon)) + '" alt="" width="56" height="56" style="border-radius:14px; flex:none" loading="lazy">' +
+        '<div><div class="card-title">' + esc(a.name) + '</div>' +
+        '<div class="card-sub">' + esc(a.tagline || '') + '</div>' +
+        '<div class="card-sub">' + n + ' screens · ' + nf + ' flows</div></div>' +
+      '</div></a>';
+  }
+
+  function elementCard(e) {
+    var n = ALL.screens.filter(function (s) { return (s.elements || []).indexOf(e.name) !== -1; }).length;
+    return '<a class="card card-link" href="browse.html?element=' + encodeURIComponent(e.name) + '" style="text-decoration:none">' +
+      '<div class="card-body"><div class="card-title">' + esc(e.name) + '</div>' +
+      '<div class="card-sub">' + esc(e.description || '').slice(0, 90) + '</div>' +
+      '<div class="card-sub" style="margin-top:6px">' + n + ' screens →</div></div></a>';
+  }
+
+  /* ---- render -------------------------------------------------------------- */
+  function render() {
+    renderFacets();
+    var grid = els.results, meta = els['results-meta'], empty = els['empty-state'];
+    empty.innerHTML = '';
+
+    if (state.tab === 'screens') {
+      grid.className = 'grid grid-screens';
+      var list = D.sortScreens(D.filterScreens(ALL.screens, state), state.sort);
+      meta.textContent = list.length + ' screen' + (list.length === 1 ? '' : 's');
+      grid.innerHTML = list.map(screenCard).join('');
+    } else if (state.tab === 'flows') {
+      grid.className = 'grid grid-flows';
+      var q = state.query.trim().toLowerCase();
+      var fl = ALL.flows.filter(function (f) {
+        if (!q) return true;
+        return (f.title + ' ' + f.app_name + ' ' + (f.description || '')).toLowerCase().indexOf(q) !== -1;
+      });
+      meta.textContent = fl.length + ' flow' + (fl.length === 1 ? '' : 's');
+      grid.innerHTML = fl.map(flowCard).join('');
+    } else if (state.tab === 'apps') {
+      grid.className = 'grid grid-apps';
+      var qa = state.query.trim().toLowerCase();
+      var ap = ALL.apps.filter(function (a) {
+        if (!qa) return true;
+        return (a.name + ' ' + (a.tagline || '') + ' ' + (a.description || '')).toLowerCase().indexOf(qa) !== -1;
+      });
+      meta.textContent = ap.length + ' app' + (ap.length === 1 ? '' : 's');
+      grid.innerHTML = ap.map(appCard).join('');
+    } else { // elements
+      grid.className = 'grid grid-patterns';
+      var qe = state.query.trim().toLowerCase();
+      var el = ALL.elements.filter(function (e) {
+        if (!qe) return true;
+        return (e.name + ' ' + (e.description || '')).toLowerCase().indexOf(qe) !== -1;
+      });
+      meta.textContent = el.length + ' UI element' + (el.length === 1 ? '' : 's');
+      grid.innerHTML = el.map(elementCard).join('');
+    }
+
+    if (!grid.innerHTML) {
+      empty.innerHTML = '<div class="state-box"><div class="big">🔍</div><h3>No results</h3>' +
+        '<p>Try removing a filter or searching for something else.</p>' +
+        '<button class="btn btn-ghost btn-sm" id="empty-clear">Clear filters</button></div>';
+      document.getElementById('empty-clear').addEventListener('click', clearAll);
+    }
+    wireCardButtons(grid);
+  }
+
+  function wireCardButtons(root) {
+    root.querySelectorAll('[data-tray-add]').forEach(function (b) {
+      b.addEventListener('click', function (e) { e.preventDefault(); F.compare.add(b.getAttribute('data-tray-add')); });
+    });
+    root.querySelectorAll('[data-save]').forEach(function (b) {
+      b.addEventListener('click', function (e) { e.preventDefault(); saveToCollectionDialog(b.getAttribute('data-save'), 'screen'); });
+    });
+  }
+
+  function saveToCollectionDialog(itemId, kind) {
+    var cols = F.lsGet('collections', []);
+    var opts = cols.map(function (c) {
+      return '<label class="filter-opt"><input type="radio" name="col" value="' + esc(c.id) + '"> ' + esc(c.name) + '</label>';
+    }).join('');
+    F.openModal(
+      '<h3>Save to collection</h3>' +
+      (opts || '<p class="muted small">No collections yet — create one below.</p>') +
+      '<div class="btn-row" style="margin-top:12px">' +
+        '<button class="btn btn-primary btn-sm" id="sc-save">Save</button>' +
+        '<button class="btn btn-ghost btn-sm" id="sc-new">+ New collection</button>' +
+        '<button class="btn btn-ghost btn-sm" id="sc-cancel">Cancel</button>' +
+      '</div>'
+    );
+    document.getElementById('sc-cancel').addEventListener('click', F.closeModal);
+    document.getElementById('sc-new').addEventListener('click', function () {
+      var name = prompt('Collection name:');
+      if (!name) return;
+      var c = { id: 'c' + Date.now(), name: name, items: [], created: new Date().toISOString() };
+      cols.push(c); F.lsSet('collections', cols);
+      F.closeModal(); saveToCollectionDialog(itemId, kind);
+    });
+    document.getElementById('sc-save').addEventListener('click', function () {
+      var sel = document.querySelector('input[name=col]:checked');
+      if (!sel) { F.toast('Pick a collection first'); return; }
+      var cols2 = F.lsGet('collections', []);
+      var c = cols2.filter(function (x) { return x.id === sel.value; })[0];
+      if (c && !c.items.some(function (i) { return i.kind === kind && String(i.id) === String(itemId); })) {
+        c.items.push({ kind: kind, id: String(itemId), added: new Date().toISOString() });
+        F.lsSet('collections', cols2);
+        F.toast('Saved to "' + c.name + '"');
+      } else { F.toast('Already in that collection'); }
+      F.closeModal();
+    });
+  }
+  // Shared with screen.html
+  F.saveToCollectionDialog = saveToCollectionDialog;
+
+  function clearAll() {
+    ['platforms', 'categories', 'patterns', 'elements', 'apps', 'colors'].forEach(function (g) { state[g].clear(); });
+    state.query = ''; els.search.value = '';
+    els['filter-groups'].querySelectorAll('input[type=checkbox]').forEach(function (cb) { cb.checked = false; });
+    render();
+  }
+
+  function setTab(tab) {
+    state.tab = tab;
+    els.tabs.querySelectorAll('.tab').forEach(function (t) {
+      t.classList.toggle('active', t.getAttribute('data-tab') === tab);
+    });
+    // Sidebar filters only apply to the screens tab; hide it otherwise.
+    els.sidebar.style.display = (tab === 'screens') ? '' : 'none';
+    render();
+  }
+
+  /* ---- boot ------------------------------------------------------------------ */
+  document.addEventListener('DOMContentLoaded', function () {
+    // Tabs
+    els.tabs.querySelectorAll('.tab').forEach(function (t) {
+      t.addEventListener('click', function () { setTab(t.getAttribute('data-tab')); });
+    });
+
+    // Search (debounced)
+    els.search.addEventListener('input', function () {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(function () { state.query = els.search.value; render(); }, 180);
+    });
+    // Sort
+    els.sort.addEventListener('change', function () { state.sort = els.sort.value; render(); });
+    // Clear all
+    document.getElementById('clear-all').addEventListener('click', clearAll);
+    // Mobile filter drawer
+    document.getElementById('open-filters').addEventListener('click', function () { els.sidebar.classList.add('open'); });
+    document.getElementById('close-filters').addEventListener('click', function () { els.sidebar.classList.remove('open'); });
+
+    F.skeletons(els.results, 8);
+
+    D.loadAll().then(function (all) {
+      ALL = all;
+      if (D.hadErrors()) F.showDataError(D.getErrors());
+      buildSidebar();
+
+      // Deep-link params: ?tab=, ?category=, ?pattern=, ?element=, ?q=
+      var p = new URLSearchParams(window.location.search);
+      var tab = p.get('tab');
+      if (tab && ['screens', 'flows', 'apps', 'elements'].indexOf(tab) !== -1) state.tab = tab;
+      var applySet = function (key, param) {
+        var v = p.get(param);
+        if (v) {
+          state[key].add(v);
+          var cb = els['filter-groups'].querySelector('input[data-group="' + key + '"][value="' + CSS.escape(v) + '"]');
+          if (cb) cb.checked = true;
+        }
+      };
+      applySet('categories', 'category');
+      applySet('patterns', 'pattern');
+      applySet('elements', 'element');
+      var q = p.get('q');
+      if (q) { state.query = q; els.search.value = q; }
+
+      setTab(state.tab);
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API docs — Flowscope</title>
+  <meta name="description" content="Flowscope open API: query screens, flows, apps, patterns and elements. No key required.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="api">
+<main>
+  <div class="container section-sm" style="max-width:900px">
+    <span class="eyebrow">Developers</span>
+    <h1 style="margin-bottom:8px">Open API</h1>
+    <p class="lead" style="margin-bottom:24px">Every Flowscope dataset is a static JSON file. <strong>No API key, no auth, no rate limits.</strong> Fetch them straight from any static host — or self-host the <code>data/</code> folder yourself.</p>
+
+    <div class="panel" style="margin-bottom:24px">
+      <h3>Base URL</h3>
+      <div class="code-block" id="base-url">https://flowscope.example.com/data</div>
+      <p class="small muted" style="margin-top:8px">On this site the files live at <code>../data/*.json</code> relative to any page. Replace the base URL with wherever you host them.</p>
+    </div>
+
+    <h2>Endpoints</h2>
+    <div id="endpoints" style="margin-top:16px"></div>
+
+    <h2 style="margin-top:32px">Schemas</h2>
+    <div id="schemas" style="margin-top:16px"></div>
+
+    <h2 style="margin-top:32px">Live example</h2>
+    <p class="muted" style="margin-bottom:12px">This query runs against the real dataset backing this page:</p>
+    <div class="panel">
+      <div class="btn-row" style="margin-bottom:12px">
+        <input class="search-input" id="api-q" placeholder='Try "checkout" or "onboarding"' style="max-width:280px">
+        <button class="btn btn-primary btn-sm" id="api-run">Run GET /api/search</button>
+      </div>
+      <div class="code-block" id="api-out">// results appear here</div>
+    </div>
+
+    <h2 style="margin-top:32px">License</h2>
+    <p>Dataset: <strong>CC0</strong> (public domain). Code samples: <strong>MIT</strong>. Screens belong to their respective app owners and are shown for design research.</p>
+  </div>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* api.html — human-readable API docs with runnable live example */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+
+  var ENDPOINTS = [
+    { method: 'GET', route: '/api/screens', file: 'screens.json', desc: 'List all screens. Supports ?pattern=, ?category=, ?platform=, ?app=, ?q= filters client-side.' },
+    { method: 'GET', route: '/api/screens/:id', file: 'screens.json', desc: 'One screen by id (filter the array client-side).' },
+    { method: 'GET', route: '/api/flows', file: 'flows.json', desc: 'List all user flows with steps, captions and hotspot coordinates.' },
+    { method: 'GET', route: '/api/flows/:id', file: 'flows.json', desc: 'One flow by id.' },
+    { method: 'GET', route: '/api/apps', file: 'apps.json', desc: 'List all apps with metadata and brand colors.' },
+    { method: 'GET', route: '/api/patterns', file: 'patterns.json', desc: 'The pattern taxonomy (id, name, description).' },
+    { method: 'GET', route: '/api/elements', file: 'elements.json', desc: 'The UI-element taxonomy (id, name, description).' },
+    { method: 'GET', route: '/api/search?q=', file: 'screens.json', desc: 'Full-text search across title, app, pattern, elements and on-screen copy.' }
+  ];
+
+  var EXAMPLE_SCREEN = {
+    id: 'fintech-001',
+    app_id: 'nova-bank',
+    app_name: 'Nova Bank',
+    title: 'Card checkout',
+    pattern: 'Checkout',
+    elements: ['Button', 'Card', 'Text Field'],
+    platform: 'iOS',
+    category: 'Finance',
+    colors: ['#0f172a', '#6366f1', '#ffffff'],
+    tokens: { bg: '#0f172a', surface: '#1e293b', primary: '#6366f1', text: '#f8fafc', muted: '#94a3b8', radius: '16px', font: 'Inter, system-ui' },
+    text: 'Pay now Total $42.00 Confirm payment',
+    image: 'assets/screens/fintech-001.png',
+    width: 390, height: 844, popularity: 98, created: '2026-09-12'
+  };
+
+  var EXAMPLE_FLOW = {
+    id: 'flow-checkout-01',
+    app_id: 'nova-bank',
+    app_name: 'Nova Bank',
+    title: 'Guest checkout',
+    description: 'From cart to order confirmation in 4 steps.',
+    category: 'Finance',
+    platform: 'iOS',
+    steps: [
+      { screen_id: 'fintech-001', caption: 'Review the cart', hotspot: { x: 50, y: 88, label: 'Checkout' } },
+      { screen_id: 'fintech-002', caption: 'Enter payment details' }
+    ],
+    popularity: 91, created: '2026-09-12'
+  };
+
+  function code(json) {
+    return '<div class="code-block">' + esc(JSON.stringify(json, null, 2)) + '</div>';
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Resolve the real data URL relative to this page (../data/ from site/)
+    var base = new URL('../data/', window.location.href).href;
+    if (window.location.protocol === 'file:') base = '(relative) ../data/*.json';
+    document.getElementById('base-url').textContent = base;
+
+    document.getElementById('endpoints').innerHTML = ENDPOINTS.map(function (e) {
+      return '<div class="api-endpoint"><span class="method">' + e.method + '</span>' +
+        '<code class="route">' + esc(e.route) + '</code>' +
+        '<p class="small muted" style="margin:8px 0 0">' + esc(e.desc) + ' <br>File: <code>' + esc(e.file) + '</code></p></div>';
+    }).join('');
+
+    document.getElementById('schemas').innerHTML =
+      '<div class="api-endpoint"><h3>Screen</h3>' + code(EXAMPLE_SCREEN) + '</div>' +
+      '<div class="api-endpoint"><h3>Flow</h3>' + code(EXAMPLE_FLOW) + '</div>';
+
+    // Live example: real client-side search
+    var run = function () {
+      var q = document.getElementById('api-q').value.trim() || 'checkout';
+      var out = document.getElementById('api-out');
+      out.textContent = '// GET /api/search?q=' + q + ' …';
+      D.loadAll().then(function (all) {
+        var hits = D.searchScreens(all.screens, q).slice(0, 3).map(function (s) {
+          return { id: s.id, title: s.title, app: s.app_name, pattern: s.pattern };
+        });
+        out.textContent = 'GET /api/search?q=' + q + '\n// ' + hits.length + ' result(s)\n' + JSON.stringify(hits, null, 2);
+      });
+    };
+    document.getElementById('api-run').addEventListener('click', run);
+    document.getElementById('api-q').addEventListener('keydown', function (e) { if (e.key === 'Enter') run(); });
+  });
+})();
+</script>
+</body>
+</html>

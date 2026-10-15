@@ -1,0 +1,132 @@
+[
+ {
+  "id": "onboarding",
+  "name": "Onboarding",
+  "description": "First-run screens that introduce the app and its value."
+ },
+ {
+  "id": "welcome",
+  "name": "Welcome",
+  "description": "Branded entry screen with a clear next step."
+ },
+ {
+  "id": "login",
+  "name": "Login",
+  "description": "Sign-in form for returning users."
+ },
+ {
+  "id": "sign-up",
+  "name": "Sign Up",
+  "description": "Registration form for new accounts."
+ },
+ {
+  "id": "forgot-password",
+  "name": "Forgot Password",
+  "description": "Password reset request flow."
+ },
+ {
+  "id": "otp-verification",
+  "name": "OTP Verification",
+  "description": "One-time code entry to verify identity."
+ },
+ {
+  "id": "home",
+  "name": "Home",
+  "description": "Main landing screen after sign-in."
+ },
+ {
+  "id": "feed",
+  "name": "Feed",
+  "description": "Scrolling content stream."
+ },
+ {
+  "id": "search",
+  "name": "Search",
+  "description": "Find content with filters and results."
+ },
+ {
+  "id": "profile",
+  "name": "Profile",
+  "description": "User identity, stats and account menu."
+ },
+ {
+  "id": "settings",
+  "name": "Settings",
+  "description": "Preferences, toggles and account controls."
+ },
+ {
+  "id": "notifications",
+  "name": "Notifications",
+  "description": "Activity alerts grouped by time."
+ },
+ {
+  "id": "cart",
+  "name": "Cart",
+  "description": "Review selected items before purchase."
+ },
+ {
+  "id": "checkout",
+  "name": "Checkout",
+  "description": "Address, shipping and order review steps."
+ },
+ {
+  "id": "payment-method",
+  "name": "Payment Method",
+  "description": "Card entry and payment options."
+ },
+ {
+  "id": "subscription",
+  "name": "Subscription",
+  "description": "Plan selection for recurring billing."
+ },
+ {
+  "id": "paywall",
+  "name": "Paywall",
+  "description": "Upgrade prompt gating premium features."
+ },
+ {
+  "id": "empty-state",
+  "name": "Empty State",
+  "description": "Friendly placeholder for no content."
+ },
+ {
+  "id": "error-state",
+  "name": "Error State",
+  "description": "Recovery screen for failed loads."
+ },
+ {
+  "id": "calendar",
+  "name": "Calendar",
+  "description": "Month grid and scheduled items."
+ },
+ {
+  "id": "map",
+  "name": "Map",
+  "description": "Location view with pins and place cards."
+ },
+ {
+  "id": "chat",
+  "name": "Chat",
+  "description": "Conversation thread with message bubbles."
+ },
+ {
+  "id": "activity-stats",
+  "name": "Activity/Stats",
+  "description": "Charts and metrics summarizing activity."
+ },
+ {
+  "id": "post-composer",
+  "name": "Post Composer",
+  "description": "Create-and-publish sheet for new posts."
+ },
+ {
+  "id": "product-detail",
+  "name": "Product Detail",
+  "description": "Item page with options and purchase CTA."
+ },
+ {
+  "id": "course-detail",
+  "name": "Course Detail",
+  "description": "Course overview with curriculum and enroll CTA."
+ }
+]

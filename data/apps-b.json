@@ -1,0 +1,72 @@
+[
+ {
+  "id": "noted",
+  "name": "Noted",
+  "tagline": "A calmer to-do list",
+  "category": "Productivity",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#4F46E5",
+  "icon": "assets/apps/noted.png",
+  "description": "Noted is a calm task manager that turns chaotic days into clear, finishable plans. Capture tasks in seconds, time-block your calendar, and build streaks with gentle reminders — without the noise of traditional productivity apps.",
+  "featured": true
+ },
+ {
+  "id": "maison",
+  "name": "Maison",
+  "tagline": "Furniture for slow living",
+  "category": "Shopping",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#111111",
+  "icon": "assets/apps/maison.png",
+  "description": "Maison is a curated furniture store for warm minimalism. Browse editorial collections, filter by material and room, and check out in a few taps — with carbon-neutral delivery and a 30-day home trial on every piece.",
+  "featured": true
+ },
+ {
+  "id": "orbit",
+  "name": "Orbit",
+  "tagline": "Share your world",
+  "category": "Social",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#7C3AED",
+  "icon": "assets/apps/orbit.png",
+  "description": "Orbit is a photo-first social network for people who chase light. Share moments, discover creators through a human-curated explore feed, and grow an audience with built-in insights — no algorithmic doomscrolling.",
+  "featured": true
+ },
+ {
+  "id": "bright",
+  "name": "Bright",
+  "tagline": "Learn anything, anywhere",
+  "category": "Education",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#2563EB",
+  "icon": "assets/apps/bright.png",
+  "description": "Bright makes learning a daily habit with bite-size video courses from working professionals. Follow adaptive study plans, chat with an AI tutor, earn shareable certificates, and keep a streak with just 15 minutes a day.",
+  "featured": false
+ },
+ {
+  "id": "vitalis",
+  "name": "Vitalis",
+  "tagline": "Build habits that stick",
+  "category": "Lifestyle",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "brand_color": "#0D9488",
+  "icon": "assets/apps/vitalis.png",
+  "description": "Vitalis is a habit companion for water, movement, mindfulness and sleep. Log in seconds, get nudges from an adaptive AI coach, find nearby studios on the map, and watch streaks compound into a healthier routine.",
+  "featured": false
+ }
+]
