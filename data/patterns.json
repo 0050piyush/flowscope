@@ -1,0 +1,137 @@
+[
+ {
+  "id": "onboarding",
+  "name": "Onboarding",
+  "description": "Full-screen first-run carousel that teaches value props before signup."
+ },
+ {
+  "id": "welcome",
+  "name": "Welcome",
+  "description": "Branded entry screen with a single clear call to action."
+ },
+ {
+  "id": "login",
+  "name": "Login",
+  "description": "Credential entry with remember-me, biometrics and recovery paths."
+ },
+ {
+  "id": "home",
+  "name": "Home",
+  "description": "The app hub: greeting, key metrics and shortcuts to top tasks."
+ },
+ {
+  "id": "feed",
+  "name": "Feed",
+  "description": "Vertically scrolling content stream of cards from followed sources."
+ },
+ {
+  "id": "search",
+  "name": "Search",
+  "description": "Query entry with filters, suggestions and ranked results."
+ },
+ {
+  "id": "profile",
+  "name": "Profile",
+  "description": "User identity, stats and personal collections in one place."
+ },
+ {
+  "id": "settings",
+  "name": "Settings",
+  "description": "Toggles, preferences and account controls grouped by topic."
+ },
+ {
+  "id": "notifications",
+  "name": "Notifications",
+  "description": "Chronological inbox of alerts, updates and promos."
+ },
+ {
+  "id": "wallet",
+  "name": "Wallet",
+  "description": "Overview of accounts, balances and stored value."
+ },
+ {
+  "id": "payment-method",
+  "name": "Payment Method",
+  "description": "Manage cards and accounts used for paying."
+ },
+ {
+  "id": "checkout",
+  "name": "Checkout",
+  "description": "Review order, choose payment and confirm purchase."
+ },
+ {
+  "id": "cart",
+  "name": "Cart",
+  "description": "Editable list of selected items with totals before checkout."
+ },
+ {
+  "id": "subscription",
+  "name": "Subscription",
+  "description": "Plan picker with pricing tiers and feature comparison."
+ },
+ {
+  "id": "paywall",
+  "name": "Paywall",
+  "description": "Upsell screen converting free users with trial offers."
+ },
+ {
+  "id": "empty-state",
+  "name": "Empty State",
+  "description": "Friendly illustration explaining a screen with no content yet."
+ },
+ {
+  "id": "error-state",
+  "name": "Error State",
+  "description": "Clear failure explanation with retry and escape actions."
+ },
+ {
+  "id": "calendar",
+  "name": "Calendar",
+  "description": "Month grid or date strip for picking and viewing dates."
+ },
+ {
+  "id": "map",
+  "name": "Map",
+  "description": "Geographic view with pins, routes and location-based cards."
+ },
+ {
+  "id": "chat",
+  "name": "Chat",
+  "description": "Message thread with bubbles, composer and quick replies."
+ },
+ {
+  "id": "activity-stats",
+  "name": "Activity/Stats",
+  "description": "Charts and summaries of user behaviour over time."
+ },
+ {
+  "id": "sign-up",
+  "name": "Sign Up",
+  "description": "Registration form for new accounts."
+ },
+ {
+  "id": "forgot-password",
+  "name": "Forgot Password",
+  "description": "Password reset request flow."
+ },
+ {
+  "id": "otp-verification",
+  "name": "OTP Verification",
+  "description": "One-time code entry to verify identity."
+ },
+ {
+  "id": "post-composer",
+  "name": "Post Composer",
+  "description": "Create-and-publish sheet for new posts."
+ },
+ {
+  "id": "product-detail",
+  "name": "Product Detail",
+  "description": "Item page with options and purchase CTA."
+ },
+ {
+  "id": "course-detail",
+  "name": "Course Detail",
+  "description": "Course overview with curriculum and enroll CTA."
+ }
+]

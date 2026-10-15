@@ -1,0 +1,142 @@
+[
+ {
+  "id": "button",
+  "name": "Button",
+  "description": "Primary, ghost and soft actions with clear labels."
+ },
+ {
+  "id": "card",
+  "name": "Card",
+  "description": "Elevated container grouping related content."
+ },
+ {
+  "id": "tab-bar",
+  "name": "Tab Bar",
+  "description": "iOS bottom navigation with icon and label tabs."
+ },
+ {
+  "id": "bottom-sheet",
+  "name": "Bottom Sheet",
+  "description": "Slide-up panel presenting details over the current screen."
+ },
+ {
+  "id": "modal",
+  "name": "Modal",
+  "description": "Centered dialog demanding a decision before continuing."
+ },
+ {
+  "id": "search-bar",
+  "name": "Search Bar",
+  "description": "Rounded query field with icon and placeholder."
+ },
+ {
+  "id": "carousel",
+  "name": "Carousel",
+  "description": "Horizontally snapping row of cards."
+ },
+ {
+  "id": "toggle",
+  "name": "Toggle",
+  "description": "On/off switch for a single setting."
+ },
+ {
+  "id": "slider",
+  "name": "Slider",
+  "description": "Draggable track for choosing a value in a range."
+ },
+ {
+  "id": "progress-bar",
+  "name": "Progress Bar",
+  "description": "Linear fill showing completion toward a goal."
+ },
+ {
+  "id": "avatar",
+  "name": "Avatar",
+  "description": "Circular identity mark with initials or photo."
+ },
+ {
+  "id": "badge",
+  "name": "Badge",
+  "description": "Small pill highlighting status, counts or promos."
+ },
+ {
+  "id": "chip",
+  "name": "Chip",
+  "description": "Compact filter or category selector."
+ },
+ {
+  "id": "fab",
+  "name": "FAB",
+  "description": "Floating action button for the screen\u2019s primary action."
+ },
+ {
+  "id": "segmented-control",
+  "name": "Segmented Control",
+  "description": "Inline switcher between two to four views."
+ },
+ {
+  "id": "list-item",
+  "name": "List Item",
+  "description": "Row with icon, title, subtitle and optional chevron."
+ },
+ {
+  "id": "text-field",
+  "name": "Text Field",
+  "description": "Labeled input with placeholder and icon support."
+ },
+ {
+  "id": "checkbox",
+  "name": "Checkbox",
+  "description": "Multi-select square with label."
+ },
+ {
+  "id": "radio",
+  "name": "Radio",
+  "description": "Single-select circle within a group."
+ },
+ {
+  "id": "dropdown",
+  "name": "Dropdown",
+  "description": "Collapsed selector revealing options on tap."
+ },
+ {
+  "id": "date-picker",
+  "name": "Date Picker",
+  "description": "Strip or grid for choosing calendar dates."
+ },
+ {
+  "id": "chart",
+  "name": "Chart",
+  "description": "Bar, line, ring or donut visualisation of data."
+ },
+ {
+  "id": "skeleton",
+  "name": "Skeleton",
+  "description": "Shimmering placeholder shown while content loads."
+ },
+ {
+  "id": "toast",
+  "name": "Toast",
+  "description": "Transient confirmation message floating above content."
+ },
+ {
+  "id": "banner",
+  "name": "Banner",
+  "description": "Inline informational strip with icon and dismiss."
+ },
+ {
+  "id": "accordion",
+  "name": "Accordion",
+  "description": "Expandable Q&A rows revealing answers on tap."
+ },
+ {
+  "id": "stepper",
+  "name": "Stepper",
+  "description": "Minus/plus control for numeric values."
+ },
+ {
+  "id": "rating",
+  "name": "Rating",
+  "description": "Star display or input for scores."
+ }
+]

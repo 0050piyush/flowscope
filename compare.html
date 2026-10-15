@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare screens — Flowscope</title>
+  <meta name="description" content="Compare up to 4 UI screens side by side.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="compare">
+<main>
+  <div class="container section-sm">
+    <h1 style="margin-bottom:8px">Compare</h1>
+    <p class="lead" style="margin-bottom:16px">Side-by-side screen comparison. Add screens from the library or any screen page <kbd>c</kbd>.</p>
+    <div id="content"></div>
+  </div>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* compare.html — side-by-side synchronized comparison of up to 4 screens.
+   Tray lives in localStorage (shared with the floating tray on other pages).
+   "Synchronized" = one zoom control scales every column together. */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+  var zoomLevel = 1;
+
+  function applyZoom() {
+    document.querySelectorAll('.compare-col img').forEach(function (img) {
+      img.style.transform = 'scale(' + zoomLevel + ')';
+      img.style.transformOrigin = 'top center';
+    });
+    var lbl = document.getElementById('zoom-label');
+    if (lbl) lbl.textContent = Math.round(zoomLevel * 100) + '%';
+  }
+
+  function render() {
+    var tray = F.compare.get();
+    var box = document.getElementById('content');
+
+    if (!tray.length) {
+      box.innerHTML = '<div class="state-box"><div class="big">▦</div><h3>Tray is empty</h3>' +
+        '<p>Add screens from the <a href="browse.html">library</a> with the ▦ button, or press <kbd>c</kbd> on any screen page.</p></div>';
+      return;
+    }
+
+    D.loadAll().then(function (all) {
+      var screens = tray.map(function (id) { return D.byId(all.screens, id); }).filter(Boolean);
+      if (!screens.length) {
+        box.innerHTML = '<div class="state-box"><div class="big">▦</div><h3>Nothing to compare</h3>' +
+          '<p>Those screens are no longer in the library.</p>' +
+          '<button class="btn btn-ghost" id="c-clear2">Clear tray</button></div>';
+        document.getElementById('c-clear2').addEventListener('click', function () { F.compare.clear(); render(); });
+        return;
+      }
+      var n = Math.min(screens.length, 4);
+
+      box.innerHTML =
+        '<div class="browse-toolbar">' +
+          '<button class="btn btn-ghost btn-sm" id="zoom-out" aria-label="Zoom out">−</button>' +
+          '<span class="small muted" id="zoom-label">100%</span>' +
+          '<button class="btn btn-ghost btn-sm" id="zoom-in" aria-label="Zoom in">+</button>' +
+          '<span class="small muted" style="margin-left:8px">Synchronized zoom</span>' +
+          '<span style="flex:1"></span>' +
+          '<button class="btn btn-ghost btn-sm" id="c-clear">Clear all</button>' +
+        '</div>' +
+        '<div class="compare-grid n' + n + '" id="cmp-grid">' +
+          screens.map(function (s) {
+            return '<div class="compare-col">' +
+              '<div style="overflow:hidden"><img src="' + esc(D.assetUrl(s.image)) + '" alt="' + esc(s.title) + '"></div>' +
+              '<div class="meta">' +
+                '<div class="card-title"><a href="screen.html?id=' + encodeURIComponent(s.id) + '">' + esc(s.title) + '</a></div>' +
+                '<div class="card-sub">' + esc(s.app_name || '') + ' · ' + esc(s.platform || '') + '</div>' +
+                '<div class="chip-row" style="margin-top:8px"><span class="chip">' + esc(s.pattern || '—') + '</span><span class="chip">' + esc(s.category || '—') + '</span></div>' +
+                '<div class="color-dots" style="margin-top:8px">' + (s.colors || []).slice(0, 5).map(function (c) {
+                  return '<span class="color-swatch-opt" style="background:' + esc(c) + '; cursor:default" title="' + esc(c) + '"></span>';
+                }).join('') + '</div>' +
+                '<button class="btn btn-ghost btn-sm" style="margin-top:8px" data-rm="' + esc(s.id) + '">Remove</button>' +
+              '</div></div>';
+          }).join('') +
+        '</div>';
+
+      document.getElementById('zoom-in').addEventListener('click', function () { zoomLevel = Math.min(2, zoomLevel + .25); applyZoom(); });
+      document.getElementById('zoom-out').addEventListener('click', function () { zoomLevel = Math.max(.5, zoomLevel - .25); applyZoom(); });
+      document.getElementById('c-clear').addEventListener('click', function () { F.compare.clear(); render(); });
+      box.querySelectorAll('[data-rm]').forEach(function (b) {
+        b.addEventListener('click', function () { F.compare.remove(b.getAttribute('data-rm')); render(); });
+      });
+      applyZoom();
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', render);
+})();
+</script>
+</body>
+</html>

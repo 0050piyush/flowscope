@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen — Flowscope</title>
+  <meta name="description" content="Inspect a mobile UI screen: design tokens, colors, elements and related patterns.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="screen">
+<main>
+  <div class="container section-sm" id="content">
+    <div class="state-box"><div class="skeleton" style="height:400px; max-width:420px; margin:0 auto"></div></div>
+  </div>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+/* screen.html — large screen view: zoom, metadata, design tokens, notes,
+   related screens, download, compare, prev/next. Exposes window.FlowscopeScreen
+   for global keyboard shortcuts (arrows + "c"). */
+(function () {
+  'use strict';
+  var F = window.Flowscope, D = F.data, esc = F.esc;
+  var currentId = null;
+  var ordered = []; // all screens in current sort order for prev/next
+
+  function cssTokens(screen) {
+    var t = screen.tokens || {};
+    var lines = [':root {'];
+    if (t.bg) lines.push('  --color-bg: ' + t.bg + ';');
+    if (t.surface) lines.push('  --color-surface: ' + t.surface + ';');
+    if (t.primary) lines.push('  --color-primary: ' + t.primary + ';');
+    if (t.text) lines.push('  --color-text: ' + t.text + ';');
+    if (t.muted) lines.push('  --color-muted: ' + t.muted + ';');
+    if (t.radius) lines.push('  --radius: ' + t.radius + ';');
+    if (t.font) lines.push('  --font: ' + t.font + ';');
+    lines.push('  --spacing-1: 4px;  --spacing-2: 8px;  --spacing-3: 16px;  --spacing-4: 24px;');
+    lines.push('}');
+    return lines.join('\n');
+  }
+
+  function render(screen, all) {
+    currentId = screen.id;
+    window.FlowscopeScreen = {
+      currentId: screen.id,
+      step: function (dir) { goNeighbor(dir); }
+    };
+    F.cacheTrayMeta(screen);
+    document.title = screen.title + ' — Flowscope';
+
+    var app = D.byId(all.apps, screen.app_id);
+    var colors = (screen.colors || []).map(function (c) {
+      return '<button class="color-dot" style="background:' + esc(c) + '" data-copy="' + esc(c) + '" title="Copy ' + esc(c) + '" aria-label="Copy color ' + esc(c) + '"></button>';
+    }).join('');
+    var elementChips = (screen.elements || []).map(function (e) {
+      return '<a class="chip" href="browse.html?element=' + encodeURIComponent(e) + '">' + esc(e) + '</a>';
+    }).join('');
+    var related = D.relatedScreens(all.screens, screen, 8).map(function (s) {
+      return '<a class="card card-link" href="screen.html?id=' + encodeURIComponent(s.id) + '" style="text-decoration:none">' +
+        '<div class="card-thumb" style="aspect-ratio:390/520"><img src="' + esc(D.assetUrl(s.image)) + '" alt="' + esc(s.title) + '" loading="lazy"></div>' +
+        '<div class="card-body"><div class="card-title">' + esc(s.title) + '</div>' +
+        '<div class="card-sub">' + esc(s.app_name || '') + '</div></div></a>';
+    }).join('');
+
+    document.getElementById('content').innerHTML =
+      '<p style="margin-bottom:16px"><a href="browse.html">← Back to library</a></p>' +
+      '<div class="detail-layout">' +
+        '<div>' +
+          '<div class="zoom-stage" id="zoom-stage">' +
+            '<img id="zoom-img" src="' + esc(D.assetUrl(screen.image)) + '" alt="' + esc(screen.title) + '">' +
+          '</div>' +
+          '<div class="btn-row" style="margin-top:12px">' +
+            '<button class="btn btn-ghost btn-sm" id="zoom-toggle">🔍 Toggle zoom</button>' +
+            '<button class="btn btn-ghost btn-sm" id="dl">⬇ Download PNG</button>' +
+          '</div>' +
+        '</div>' +
+        '<div class="meta-panel">' +
+          '<div>' +
+            '<span class="eyebrow">' + esc(screen.pattern || '') + '</span>' +
+            '<h1 style="font-size:2rem">' + esc(screen.title) + '</h1>' +
+            '<p class="muted">' + esc(screen.app_name || '') + ' · ' + esc(screen.platform || '') + ' · ' + esc(screen.category || '') + '</p>' +
+          '</div>' +
+          '<div class="panel"><h3>Details</h3>' +
+            '<div class="meta-row"><span class="k">App</span><span>' + (app ? '<a href="app.html?id=' + encodeURIComponent(app.id) + '">' + esc(app.name) + '</a>' : esc(screen.app_name || '—')) + '</span></div>' +
+            '<div class="meta-row"><span class="k">Pattern</span><span><a href="browse.html?pattern=' + encodeURIComponent(screen.pattern || '') + '">' + esc(screen.pattern || '—') + '</a></span></div>' +
+            '<div class="meta-row"><span class="k">Platform</span><span>' + esc(screen.platform || '—') + '</span></div>' +
+            '<div class="meta-row"><span class="k">Category</span><span>' + esc(screen.category || '—') + '</span></div>' +
+            '<div class="meta-row"><span class="k">Size</span><span>' + esc(screen.width || 390) + ' × ' + esc(screen.height || 844) + ' px</span></div>' +
+          '</div>' +
+          '<div class="panel"><h3>UI Elements</h3><div class="chip-row">' + (elementChips || '<span class="muted small">—</span>') + '</div></div>' +
+          '<div class="panel"><h3>Dominant colors <span class="muted small">— click to copy</span></h3><div class="color-dots">' + (colors || '<span class="muted small">—</span>') + '</div></div>' +
+          '<div class="panel"><h3>Design tokens</h3>' +
+            '<div class="code-block" id="tokens-code">' + esc(cssTokens(screen)) + '</div>' +
+            '<div class="btn-row" style="margin-top:12px">' +
+              '<button class="btn btn-primary btn-sm" id="copy-tokens">Copy tokens</button>' +
+              '<button class="btn btn-ghost btn-sm" id="copy-colors">Copy palette</button>' +
+            '</div></div>' +
+          '<div class="panel"><h3>Actions</h3><div class="btn-row">' +
+            '<button class="btn btn-ghost btn-sm" id="add-compare">▦ Add to compare <kbd>c</kbd></button>' +
+            '<button class="btn btn-ghost btn-sm" id="save-col">♥ Save to collection</button>' +
+          '</div></div>' +
+          '<div class="panel"><h3>My notes</h3>' +
+            '<div id="notes-list"></div>' +
+            '<textarea class="textarea" id="note-input" rows="3" placeholder="Add a note about this screen…" style="margin-top:8px"></textarea>' +
+            '<div class="btn-row" style="margin-top:8px"><button class="btn btn-primary btn-sm" id="note-add">Add note</button></div>' +
+            '<p class="small muted" style="margin-top:8px">Notes are stored privately in your browser.</p>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      (related ? '<div class="section-sm"><h2>Related screens</h2><div class="grid grid-screens" style="margin-top:16px">' + related + '</div></div>' : '') +
+      '<div class="prev-next">' +
+        '<button class="btn btn-ghost" id="prev">← Previous</button>' +
+        '<button class="btn btn-ghost" id="next">Next →</button>' +
+      '</div>';
+
+    // Zoom toggle
+    var stage = document.getElementById('zoom-stage');
+    var toggleZoom = function () { stage.classList.toggle('zoomed'); };
+    document.getElementById('zoom-toggle').addEventListener('click', toggleZoom);
+    document.getElementById('zoom-img').addEventListener('click', toggleZoom);
+
+    // Copy helpers
+    document.querySelectorAll('[data-copy]').forEach(function (b) {
+      b.addEventListener('click', function () { F.copyText(b.getAttribute('data-copy'), 'Color ' + b.getAttribute('data-copy')); });
+    });
+    document.getElementById('copy-tokens').addEventListener('click', function () {
+      F.copyText(cssTokens(screen), 'Design tokens');
+    });
+    document.getElementById('copy-colors').addEventListener('click', function () {
+      F.copyText((screen.colors || []).join(', '), 'Color palette');
+    });
+
+    // Download PNG
+    document.getElementById('dl').addEventListener('click', function () {
+      var url = D.assetUrl(screen.image);
+      fetch(url).then(function (r) { if (!r.ok) throw new Error('fetch failed'); return r.blob(); })
+        .then(function (blob) {
+          var a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'flowscope-' + screen.id + '.png';
+          document.body.appendChild(a); a.click(); a.remove();
+          setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+          F.toast('Download started');
+        })
+        .catch(function () {
+          // Fallback: open the image itself
+          window.open(url, '_blank');
+        });
+    });
+
+    // Compare + collections
+    document.getElementById('add-compare').addEventListener('click', function () { F.compare.add(screen.id); });
+    document.getElementById('save-col').addEventListener('click', function () { F.saveToCollectionDialog(screen.id, 'screen'); });
+
+    // Notes (localStorage, keyed by screen id)
+    var NOTES_KEY = 'notes';
+    function getNotes() { var n = F.lsGet(NOTES_KEY, {}); return n[String(screen.id)] || []; }
+    function drawNotes() {
+      var notes = getNotes();
+      document.getElementById('notes-list').innerHTML = notes.length
+        ? notes.map(function (n, i) {
+            return '<div class="note"><div>' + esc(n.text) + '</div>' +
+              '<div class="note-date">' + esc(new Date(n.at).toLocaleString()) +
+              ' · <button class="filter-clear" data-note-del="' + i + '">delete</button></div></div>';
+          }).join('')
+        : '<p class="small muted">No notes yet.</p>';
+      document.querySelectorAll('[data-note-del]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var allN = F.lsGet(NOTES_KEY, {});
+          var arr = allN[String(screen.id)] || [];
+          arr.splice(parseInt(b.getAttribute('data-note-del'), 10), 1);
+          allN[String(screen.id)] = arr;
+          F.lsSet(NOTES_KEY, allN);
+          drawNotes();
+        });
+      });
+    }
+    drawNotes();
+    document.getElementById('note-add').addEventListener('click', function () {
+      var ta = document.getElementById('note-input');
+      var text = ta.value.trim();
+      if (!text) return;
+      var allN = F.lsGet(NOTES_KEY, {});
+      var arr = allN[String(screen.id)] || [];
+      arr.push({ text: text, at: new Date().toISOString() });
+      allN[String(screen.id)] = arr;
+      if (F.lsSet(NOTES_KEY, allN)) { ta.value = ''; drawNotes(); F.toast('Note saved'); }
+      else F.toast('Could not save note (storage full)');
+    });
+
+    // Prev / next
+    document.getElementById('prev').addEventListener('click', function () { goNeighbor(-1); });
+    document.getElementById('next').addEventListener('click', function () { goNeighbor(1); });
+  }
+
+  function goNeighbor(dir) {
+    if (!ordered.length || !currentId) return;
+    var i = -1;
+    for (var k = 0; k < ordered.length; k++) {
+      if (String(ordered[k].id) === String(currentId)) { i = k; break; }
+    }
+    if (i === -1) return;
+    var n = ordered[(i + dir + ordered.length) % ordered.length];
+    window.location.href = 'screen.html?id=' + encodeURIComponent(n.id);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var id = F.getParam('id');
+    D.loadAll().then(function (all) {
+      if (D.hadErrors() && !all.screens.length) { F.showDataError(D.getErrors()); return; }
+      var screen = D.byId(all.screens, id);
+      if (!screen) {
+        document.getElementById('content').innerHTML =
+          '<div class="state-box"><div class="big">🖼️</div><h3>Screen not found</h3>' +
+          '<p>The screen you\'re looking for doesn\'t exist.</p>' +
+          '<a class="btn btn-ghost" href="browse.html">Back to library</a></div>';
+        return;
+      }
+      ordered = D.sortScreens(all.screens, 'newest');
+      render(screen, all);
+    });
+  });
+})();
+</script>
+</body>
+</html>

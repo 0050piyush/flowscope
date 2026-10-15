@@ -1,0 +1,5272 @@
+[
+ {
+  "id": "finpulse-onboarding-01",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Onboarding",
+  "pattern": "Onboarding",
+  "elements": [
+   "Carousel",
+   "Button",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "FinPulse Skip +\u20ac250.00 Rent paid \u2713 All your money, one clear view Link every account and card. FinPulse shows your true balance in real time. Get started I already have an account",
+  "image": "assets/screens/finpulse-onboarding-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-login-02",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Login",
+  "pattern": "Login",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Checkbox"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Welcome back Log in to keep your money moving. Email ava.sharma@mail.de Password \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 Remember me Stay logged in on this device Log in or Continue with Face ID New to FinPulse? Create account",
+  "image": "assets/screens/finpulse-login-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 70,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-home-03",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Home \u2014 balance overview",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Card",
+   "Progress Bar",
+   "Avatar",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#1E293B",
+   "#22D3EE",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 AS Good morning Ava Sharma TOTAL BALANCE EUR \u2193 \u20ac4,280.50 \u25b2 \u20ac312.40 this month Send Request Top up Japan trip fund \u20ac1,840 / \u20ac2,500 \u20ac660 to go \u00b7 on track for September Recent activity See all S Spotify \u2212\u20ac9.99 Music \u00b7 Today A Ava Sharma +\u20ac250.00 Received \u00b7 Yesterday R REWE \u2212\u20ac64.20 Groceries \u00b7 Yesterday Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-home-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 72,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-wallet-04",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Wallet",
+  "pattern": "Wallet",
+  "elements": [
+   "Card",
+   "List Item",
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#A855F7"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Wallet FinPulse \u00b7\u00b7\u00b7 4021 5312 \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 4021 Card holder AVA SHARMA Expires 09/29 Add money Card details All accounts G Girokonto \u00b7\u00b7\u00b74821 \u20ac3,104.22 Sparkasse Bremen S Savings vault \u20ac1,840.00 4.1% p.a. C Cashback pot \u20ac36.28 This month Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-wallet-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 69,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-payment-method-05",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Payment methods",
+  "pattern": "Payment Method",
+  "elements": [
+   "Radio",
+   "List Item",
+   "FAB",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment methods VISA DEFAULT \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 4021 09/29 \u00b7 Ava Sharma Mastercard \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 8814 04/28 \u00b7 Ava Sharma Bank accounts Sparkasse Bremen DE89 \u00b7\u00b7\u00b7\u00b74821 \u00b7 Instant transfers Cards are tokenised and never stored on this device. 3-D Secure enabled. Home Wallet Stats Profile",
+  "image": "assets/screens/finpulse-payment-method-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 91,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-activity-06",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Activity & stats",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Segmented Control",
+   "Chart",
+   "List Item",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#FB7185"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Activity Week Month Year SPENT IN OCTOBER \u20ac1,284.90 \u22128% vs Sep Oct 1 Oct 15 Top categories Groceries \u20ac412.30 Dining out \u20ac238.15 Transport \u20ac186.40 Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-activity-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-notifications-07",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Banner",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications Invite friends, earn \u20ac15 each. 3 invites left this month. TODAY Money received 9:12 Lukas Meyer sent you \u20ac250.00 \u00b7 \u201cDinner split\u201d Suspicious login blocked 8:03 New sign-in from Hamburg was stopped. Was this you? EARLIER Budget alert Yesterday You have spent 80% of your Dining out budget. Card ending 4021 Tue Your new virtual card is ready to use online. Cashback earned Mon \u20ac4.20 cashback from REWE landed in your pot. Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-notifications-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-settings-08",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "List Item",
+   "Dropdown",
+   "Modal"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#FB7185"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings Push notifications Transfers, budgets, security Face ID login Unlock with biometrics Currency EUR \u20ac Privacy & security Linked banks 3 connected Help & support Statement language English Log out FinPulse v4.2.1 \u00b7 Made in Bremen Log out? You will need your password and 2FA code to log back in. Stay Log out Home Wallet Stats Profile",
+  "image": "assets/screens/finpulse-settings-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 55,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-profile-09",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#A3E635"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile AS Ava Sharma ava.sharma@mail.de VERIFIED PLUS \u20ac48.2k Moved in 2026 126 Transfers 4.9 Trust score Personal details Name, address, tax ID Verification DONE Identity verified 12 Mar 2026 Referrals 6 friends joined \u00b7 \u20ac90 earned About FinPulse Licenses, terms, imprint Home Wallet Stats Profile",
+  "image": "assets/screens/finpulse-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 96,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-empty-10",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Empty state \u2014 no transactions",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Activity No transactions yet Your activity will appear here once you send, receive or spend money. It only takes a minute to get started. Make first transfer Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-error-11",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Error state \u2014 connection failed",
+  "pattern": "Error State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#FB7185",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Activity Connection lost We could not reach FinPulse servers. Check your connection and try again \u2014 your money is safe. Try again Go back Home Wallet Stats Alerts",
+  "image": "assets/screens/finpulse-error-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 80,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-contacts-12",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money \u2014 contacts",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Avatar",
+   "List Item",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Send money Name, @handle or IBAN All Favorites Recent FinPulse FAVORITES LM L PS P JT J MK M ALL CONTACTS LM Lukas Meyer @lukas_m \u00b7 DE12 \u00b7\u00b7\u00b7\u00b79912 PS Priya Singh @priya_s \u00b7 DE44 \u00b7\u00b7\u00b7\u00b73302 JT Jonas Weber @jonasw \u00b7 DE09 \u00b7\u00b7\u00b7\u00b77718 MK Maria Klein @mariak \u00b7 DE77 \u00b7\u00b7\u00b7\u00b72210",
+  "image": "assets/screens/finpulse-send-contacts-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-amount-13",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money \u2014 amount",
+  "pattern": "Checkout",
+  "elements": [
+   "Button",
+   "Banner"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Send money LM Lukas Meyer DE12 \u00b7\u00b7\u00b7\u00b79912 \u00b7 Instant YOU SEND \u20ac85 .00 No fees \u00b7 Arrives in seconds Balance after transfer: \u20ac4,195.50 . Still within your weekly budget. 1 2 3 4 5 6 7 8 9 \u00b7 0 \u232b Continue",
+  "image": "assets/screens/finpulse-send-amount-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 98,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-confirm-14",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money \u2014 confirm",
+  "pattern": "Checkout",
+  "elements": [
+   "Card",
+   "List Item",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Send money \u20ac85.00 AS LM Ava Sharma \u2192 Lukas Meyer Recipient Lukas Meyer \u00b7 DE12 \u00b7\u00b7\u00b7\u00b79912 Speed FREE Instant \u00b7 free Message \u201cDinner split \ud83c\udf5d\u201d Protected by FinPulse Shield \u00b7 3-D Secure Send \u20ac85.00 By sending you agree to the transfer terms",
+  "image": "assets/screens/finpulse-send-confirm-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-send-success-15",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Send money \u2014 success",
+  "pattern": "Checkout",
+  "elements": [
+   "Toast",
+   "Button",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#10B981",
+   "#1E293B",
+   "#F8FAFC",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 \u20ac85.00 sent Lukas Meyer received your transfer instantly \u00b7 9:41 AM +12 CASHBACK PTS LM Lukas Meyer Delivered DE12 \u00b7\u00b7\u00b7\u00b79912 Done Send another Transfer complete \u2014 receipt saved",
+  "image": "assets/screens/finpulse-send-success-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 90,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-card-form-16",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add card \u2014 details",
+  "pattern": "Payment Method",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Checkbox"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Add card NEW CARD \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 Card preview updates as you type Card number 5312 4401 8877 Name on card AVA SHARMA Expiry 09/29 CVC 123 Set as default card Use for instant top-ups Continue to verification",
+  "image": "assets/screens/finpulse-card-form-16.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-card-verify-17",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add card \u2014 verify",
+  "pattern": "Payment Method",
+  "elements": [
+   "Modal",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1E293B",
+   "#F8FAFC",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Card number 5312 4401 8877 Continue to verification Verify it's you 4 8 \u2022 \u2022 We sent a 6-digit code to +49 171 \u00b7\u00b7\u00b7 4420 . Enter it to link your card. Resend code Verify card",
+  "image": "assets/screens/finpulse-card-verify-17.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "finpulse-card-done-18",
+  "app_id": "finpulse",
+  "app_name": "FinPulse",
+  "title": "Add card \u2014 done",
+  "pattern": "Payment Method",
+  "elements": [
+   "Toast",
+   "Card",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Finance",
+  "colors": [
+   "#0B1220",
+   "#22D3EE",
+   "#1B2740",
+   "#F8FAFC",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#0B1220",
+   "surface": "#16203A",
+   "primary": "#22D3EE",
+   "text": "#F8FAFC",
+   "muted": "#8FA0B8",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment methods VISA 5312 \u00b7\u00b7\u00b7\u00b7 \u00b7\u00b7\u00b7\u00b7 8877 Verified \u00b7 Ready to use Card linked securely Tokenised with 3-D Secure. Your full number never touches our servers. Back to wallet Card ending 8877 added successfully",
+  "image": "assets/screens/finpulse-card-done-18.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 57,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-welcome-01",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button",
+   "Carousel"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PulseFit Strength 24 plans HIIT 18 plans Cardio 31 plans Training that adapts to your body AI coaching, real-time form feedback, and plans that evolve every week. Start free trial Log in 7 days free \u00b7 No card required",
+  "image": "assets/screens/pulsefit-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 69,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-home-02",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Home \u2014 today's workout",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Card",
+   "Chart",
+   "Avatar",
+   "Button",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 AR Tuesday, Oct 13 Morning, Arjun \ud83d\udcaa \ud83d\udd25 12 72% MOVE Daily activity Move 612 / 850 kcal Exercise 34 / 45 min Stand 9 / 12 hr Today's workout Week 4 \u00b7 Day 2 Upper Body Power 45 min \u00b7 8 exercises \u00b7 Intermediate 3 of 5 sessions done this week Start workout Continue HIIT Burn 20 20 min \u00b7 320 kcal Morning Yoga Flow 25 min \u00b7 Recovery Home Train Stats You",
+  "image": "assets/screens/pulsefit-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-stats-03",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Activity & stats",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Segmented Control",
+   "Chart",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Your stats Week Month 6M ACTIVE CALORIES 4,218 kcal +14% Mon Wed Fri Sun 3:42 Avg pace /km 128 Avg HR bpm 42.6 VO\u2082 max Personal records Fastest 5K 24:18 12 Oct 2026 \u00b7 Riverside loop Bench press 92.5 kg 8 Oct 2026 \u00b7 5 reps Home Train Stats You",
+  "image": "assets/screens/pulsefit-stats-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-calendar-04",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Schedule calendar",
+  "pattern": "Calendar",
+  "elements": [
+   "Date Picker",
+   "CalendarGrid",
+   "Card",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Schedule October 2026 M T W T F S S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Thu, Oct 15 Leg Day \u2014 Strength TODAY 18:00 \u00b7 50 min \u00b7 with Coach Mia Yoga Flow Tomorrow \u00b7 07:30 \u00b7 25 min Book a session Home Plan Stats You",
+  "image": "assets/screens/pulsefit-calendar-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 70,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-map-05",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Run map",
+  "pattern": "Map",
+  "elements": [
+   "FAB",
+   "Chip",
+   "Card",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#22D3EE"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Start 5.2 km Search routes, parks, trails Nearby 5\u201310 km 10 km+ Riverside Loop 5.2 km \u00b7 mostly flat \u00b7 4.8 \u2605 (212) POPULAR Start run",
+  "image": "assets/screens/pulsefit-map-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 49,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-search-06",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Search exercises",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Carousel",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Exercises kettlebell All Chest Legs Back Core Arms Featured Goblet Squat Legs \u00b7 Dumbbell Deadlift Back \u00b7 Barbell Plank Core \u00b7 Bodyweight Legs \u00b7 48 results Barbell Squat 4 sets \u00b7 8\u201310 reps \u00b7 Video guide Romanian Deadlift 3 sets \u00b7 10\u201312 reps \u00b7 Video guide Walking Lunge 3 sets \u00b7 20 steps \u00b7 Video guide Home Explore Stats You",
+  "image": "assets/screens/pulsefit-search-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 52,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-paywall-07",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Subscription \u2014 paywall",
+  "pattern": "Subscription",
+  "elements": [
+   "Button",
+   "Accordion",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PulseFit Pro Unlock the coach that never sleeps. Yearly SAVE 40% \u20ac71.99 /yr \u20ac6.00/mo Monthly \u20ac9.99 /mo AI workout plans Adaptive programs rebuilt every week Form check Real-time camera feedback on 40+ lifts Nutrition sync Meal plans matched to training days Start 7-day free trial Questions Can I cancel anytime? Yes. Cancel in two taps from Settings \u2014 you keep Pro until the end of the billing period. Does it work offline? Is there a student discount? Recurring billing \u00b7 Cancel anytime",
+  "image": "assets/screens/pulsefit-paywall-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 51,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-profile-08",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Chart",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile AR Arjun Rao Intermediate \u00b7 Goal: Build muscle Edit profile This week 80% 4/5 Workouts 4 Streak 12 days Minutes 186 Achievements 18 badges earned Health sync Apple Health \u00b7 connected Friends Train with 6 friends Home Train Stats You",
+  "image": "assets/screens/pulsefit-profile-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-settings-09",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Slider",
+   "Dropdown",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings WORKOUT Default intensity Moderate Rest timer beep GENERAL Workout reminders Mon\u2013Fri \u00b7 6:30 AM Auto-detect workouts Use motion sensors Units Metric Voice coach language English (UK) Home Train Stats You",
+  "image": "assets/screens/pulsefit-settings-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 73,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-notifications-10",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications MC Coach Mia 2m \u201cGreat squat depth today! Try 2.5 kg more next set.\u201d Streak at risk NEW Work out today to keep your 12-day streak alive. DK Dev K. beat you 1h Dev finished Riverside Loop in 24:02 \u2014 16s faster. New plan available 3h \u201cMarathon Base \u2014 12 weeks\u201d was added to your library. Mark all as read Home Train Inbox You",
+  "image": "assets/screens/pulsefit-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 79,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-empty-11",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Empty state \u2014 no workouts",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 History No workouts logged Your completed sessions will live here with stats, PRs and progress photos. Ready when you are. Browse plans Home Train Stats You",
+  "image": "assets/screens/pulsefit-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-chat-12",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Coach chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 MC Coach Mia \u25cf Online \u00b7 replies instantly Today Morning Arjun! I reviewed yesterday's deadlift video \u2014 your back is rounding on rep 4. Drop to 70 kg and focus on bracing. \ud83d\udcaa 8:02 Got it. Should I still do the accessory work? 8:15 Yes, but swap barbell rows for chest-supported rows. Less fatigue on the lower back. 8:16 I've updated today's plan accordingly. Tap below to open it \ud83d\udc47 8:16 Leg Day \u2014 updated 50 min \u00b7 7 exercises Message Coach Mia\u2026",
+  "image": "assets/screens/pulsefit-chat-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 50,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-detail-13",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Workout detail",
+  "pattern": "Search",
+  "elements": [
+   "Rating",
+   "List Item",
+   "Button",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 STRENGTH INTERMEDIATE Leg Day \u2014 Strength 4.8 (2.1k ratings) 50 min 420 kcal High intensity Exercises \u00b7 5 1 Barbell Squat 4 \u00d7 8\u201310 \u00b7 80 kg 2 Romanian Deadlift 3 \u00d7 10\u201312 \u00b7 60 kg 3 Walking Lunge 3 \u00d7 20 steps \u00b7 2\u00d716 kg 4 Leg Curl 3 \u00d7 12 \u00b7 machine 5 Calf Raise 4 \u00d7 15 \u00b7 bodyweight Start workout",
+  "image": "assets/screens/pulsefit-workout-detail-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-preview-14",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Exercise preview",
+  "pattern": "Search",
+  "elements": [
+   "Stepper",
+   "Button",
+   "Progress Bar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#8FA0B8"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Up next \u25b6 0:42 demo Barbell Squat Stand with feet shoulder-width apart, bar resting on your upper back. Brace your core, push your hips back and bend your knees until thighs are parallel to the floor. Drive up through your heels. Sets \u2212 4 + Reps per set \u2212 10 + Weight (kg) \u2212 80 + 90s rest between sets \u00b7 auto timer Begin set 1",
+  "image": "assets/screens/pulsefit-workout-preview-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 73,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-active-15",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Active workout",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Progress Bar",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#EC4899"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 \u25cf LIVE Set 2 of 4 Barbell Squat 64% 8 REPS LEFT 128 \u2764 BPM 2:14 ELAPSED 186 KCAL Heart-rate zone Warm-up Fat burn Peak Pause Complete set",
+  "image": "assets/screens/pulsefit-workout-active-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 91,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "pulsefit-workout-summary-16",
+  "app_id": "pulsefit",
+  "app_name": "PulseFit",
+  "title": "Workout summary",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Rating",
+   "Toast",
+   "Button",
+   "Card",
+   "Chart"
+  ],
+  "platform": "iOS",
+  "category": "Health & Fitness",
+  "colors": [
+   "#0A0F0D",
+   "#A3E635",
+   "#111714",
+   "#F4F7F2",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#0A0F0D",
+   "surface": "#131A16",
+   "primary": "#A3E635",
+   "text": "#F4F7F2",
+   "muted": "#93A396",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Workout complete! Leg Day \u2014 Strength \u00b7 48 min 420 kcal 3.2t volume +2 PRs How did it feel? Tap to rate Save & share Back to home New PR! Squat 82.5 kg \u00d7 8 \ud83c\udf89",
+  "image": "assets/screens/pulsefit-workout-summary-16.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 81,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-home-01",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Home \u2014 explore",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Search Bar",
+   "Carousel",
+   "Card",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 SL Where to next, Sofia? \u2708\ufe0f Search destinations, hotels, flights Trending now See all \u26e9\ufe0f Kyoto Japan from \u20ac486 round trip \ud83c\udf0a Lisbon Portugal from \u20ac89 round trip \ud83c\udfd4\ufe0f Reykjavik Iceland from \u20ac214 round trip Your upcoming trip \ud83c\uddea\ud83c\uddf8 Barcelona, Spain Oct 24 \u2013 Oct 28 \u00b7 2 travelers \u2713 Flights booked \u00b7 hotel pending Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-home-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-search-02",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Search flights",
+  "pattern": "Search",
+  "elements": [
+   "Segmented Control",
+   "Date Picker",
+   "Stepper",
+   "Text Field",
+   "Button",
+   "Chip"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Find flights Round trip One way Multi-city From Bremen (BRE) To Where to? Barcelona Lisbon Rome Athens Dates Thu 15 Fri 16 Sat 17 Sun 18 Mon 19 Tue 20 Adults \u2212 2 + Children \u2212 0 + Search 240 flights Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-search-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 46,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-results-13",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Flight results",
+  "pattern": "Search",
+  "elements": [
+   "Chip",
+   "List Item",
+   "Dropdown",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 BRE \u2192 BCN Filters \u00b7 2 Nonstop Morning Sort by Cheapest first 07:05 \u2192 09:35 CHEAPEST Wanderly Air \u00b7 2h 30m \u00b7 Direct \u20ac89 Select 12:40 \u2192 15:10 Nordwind \u00b7 2h 30m \u00b7 Direct \u20ac104 Select 18:20 \u2192 20:50 FLEX Wanderly Air \u00b7 2h 30m \u00b7 Direct \u20ac129 Select Set price alert for this route",
+  "image": "assets/screens/wanderly-results-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 66,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-flight-detail-14",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Flight detail",
+  "pattern": "Search",
+  "elements": [
+   "Rating",
+   "Card",
+   "Button",
+   "Badge",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Flight WA 214 07:05 BRE Bremen 2h 30m \u00b7 Direct 09:35 BCN Barcelona 4.6 \u00b7 8.2k reviews ON TIME What's included Cabin bag + personal item Up to 10 kg combined Seat selection Standard seat included Wi-Fi & power Free messaging, USB-C at seat Total for 2 travelers \u20ac178.00 \u221212% today Continue to checkout",
+  "image": "assets/screens/wanderly-flight-detail-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-map-03",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Destinations map",
+  "pattern": "Map",
+  "elements": [
+   "Bottom Sheet",
+   "Search Bar",
+   "Chip",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 \u20ac89 \u20ac104 \u20ac129 \u20ac76 Where to? Flights Hotels Experiences Lisbon, Portugal 4.9 \u2605 \u00b7 12k reviews \u00b7 Best in October \ud83c\udf0a Flights from \u20ac89 2h 55m direct \u00b7 14 hotels from \u20ac64/nt \u2600 21\u00b0C \u00b7 Perfect beach weather Explore Lisbon",
+  "image": "assets/screens/wanderly-map-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-calendar-04",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Trip calendar",
+  "pattern": "Calendar",
+  "elements": [
+   "CalendarGrid",
+   "Button",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 October 2026 M T W T F S S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Selected dates Fri, Oct 24 \u2192 Tue, Oct 28 4 nights \u00b7 flexible \u00b12 days 4 NIGHTS Price trend \u2713 Oct 24 is the cheapest departure this month Apply dates",
+  "image": "assets/screens/wanderly-calendar-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-checkout-05",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Booking checkout",
+  "pattern": "Checkout",
+  "elements": [
+   "Card",
+   "List Item",
+   "Checkbox",
+   "Button",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Checkout Your trip \ud83c\uddea\ud83c\uddf8 Bremen \u2192 Barcelona Fri, Oct 24 \u00b7 07:05 \u00b7 2 travelers \u20ac178 Travelers SL Sofia Lindqvist Adult \u00b7 Passport \u00b7\u00b7\u00b7\u00b78821 + Add traveler Second passenger details Extras Priority boarding \u20ac12 \u00b7 board first, extra cabin bag Travel insurance \u20ac18 \u00b7 cancellation + medical I accept the fare conditions and privacy policy Total incl. taxes \u20ac190.00 Pay \u20ac190.00",
+  "image": "assets/screens/wanderly-checkout-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 50,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-confirm-15",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Booking confirmation",
+  "pattern": "Checkout",
+  "elements": [
+   "Banner",
+   "Button",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#0F766E",
+   "#FFFFFF",
+   "#1C1917",
+   "#EA580C"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 You're going to Barcelona! \ud83c\udf89 Booking WDL-8X42KQ \u00b7 confirmation sent to sofia@mail.de BOARDING PASS CONFIRMED BRE 07:05 WA 214 \u00b7 2h 30m BCN 09:35 Sofia Lindqvist \u00b7 Seat 14A Fri, Oct 24 Add your hotel in Barcelona \u2014 members save an extra 10% when bundled. View my trips Back to explore",
+  "image": "assets/screens/wanderly-confirm-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 80,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-payment-06",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Payment method",
+  "pattern": "Payment Method",
+  "elements": [
+   "Radio",
+   "Card",
+   "Button",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment method Visa \u00b7\u00b7\u00b7\u00b7 4021 Expires 09/29 \u00b7 default Mastercard \u00b7\u00b7\u00b7\u00b7 8814 Expires 04/28 PayPal \u00b7\u00b7\u00b7\u00b7 sofia@mail.de Instant \u00b7 buyer protection Add new card Billing address Feldstra\u00dfe 12, 28203 Bremen Germany \u00b7 matches card Save & continue Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-payment-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 76,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-chat-07",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Support chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Chip",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 W Wanderly Support \u25cf Online \u00b7 avg reply 2 min Today Hi Sofia! \ud83d\udc4b I'm Nia from Wanderly support. How can I help with booking WDL-8X42KQ? 10:02 Can I change my return flight to Oct 29? 10:04 Of course! Moving BCN \u2192 BRE to Thu, Oct 29 adds \u20ac24 fare difference. Want me to apply it? 10:05 Yes, change it Show options Talk to agent Quick answers \u00b7 Free cancellation within 24h \u00b7 Baggage allowance by fare \u00b7 Check-in opens 48h before Type your message\u2026",
+  "image": "assets/screens/wanderly-chat-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-profile-08",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Badge",
+   "List Item",
+   "Card",
+   "Progress Bar"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile SL Sofia Lindqvist Explorer level 7 320 pts to Gold status 23 Trips 14 Countries 8.2k Points My bookings 2 2 upcoming \u00b7 21 past Saved places 18 destinations \u00b7 6 collections Rewards 8,200 pts \u00b7 \u20ac41 value Travel buddies Invite friends, earn points Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-profile-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-notifications-09",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications \u2708\ufe0f Check-in is open 2h WA 214 to Barcelona departs in 48h. Grab seat 14A now. \ud83d\udcb0 Price drop: Lisbon 5h Round trips BRE \u2192 LIS fell to \u20ac76 (\u221215%). \ud83c\udfe8 Hotel deal in Barcelona Yesterday Hotel Brummell has 3 rooms left at \u20ac112/nt for your dates. \ud83c\udf92 Trip reminder 2d Packing list for Barcelona is ready \u2014 14 items. Explore Search Alerts Profile",
+  "image": "assets/screens/wanderly-notifications-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-empty-10",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Empty state \u2014 no saved trips",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Saved \ud83e\uddf3 No saved trips yet Tap the heart on any destination, hotel or experience and it will wait for you right here. Discover destinations Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 55,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-feed-11",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Travel stories feed",
+  "pattern": "Feed",
+  "elements": [
+   "Carousel",
+   "Skeleton",
+   "Avatar",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Stories From travelers you follow \u26e9\ufe0f Kyoto \ud83c\udf0a Lisbon \ud83c\udfdd\ufe0f Bali \ud83e\udd99 Peru MC Maya Chen Kyoto, Japan \u00b7 2h ago Follow \u26e9\ufe0f 1,284 likes Maya Three perfect days in Kyoto \u2014 save this itinerary \ud83d\udc47 TB Tom Becker Lisbon, Portugal \u00b7 2h ago Follow \ud83c\udf0a 862 likes Tom Three perfect days in Lisbon \u2014 save this itinerary \ud83d\udc47 Loading more stories\u2026 Explore Stories Saved Profile",
+  "image": "assets/screens/wanderly-feed-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 42,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "wanderly-settings-12",
+  "app_id": "wanderly",
+  "app_name": "Wanderly",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Accordion",
+   "Dropdown",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Travel",
+  "colors": [
+   "#FFF7ED",
+   "#EA580C",
+   "#FFFFFF",
+   "#1C1917",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFF7ED",
+   "surface": "#FFFFFF",
+   "primary": "#EA580C",
+   "text": "#1C1917",
+   "muted": "#78716C",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings Deal alerts Price drops on saved routes Nearby suggestions Use location while traveling Currency EUR \u20ac App language English Help How do price alerts work? We track your saved routes daily and notify you when fares drop more than 10% or hit a 30-day low. Can I book for someone else? What is the cancellation policy? Explore Search Saved Profile",
+  "image": "assets/screens/wanderly-settings-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 96,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-home-01",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Home \u2014 restaurants",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Search Bar",
+   "Chip",
+   "Carousel",
+   "Card",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Deliver to Feldstra\u00dfe 12 Search restaurants, dishes\u2026 All Pizza Sushi Burgers Indian Healthy LUNCH RUSH 30% off until 2 PM On 40+ spots near you \u00b7 code LUNCH30 \ud83c\udf55 Popular near you See all \ud83c\udf55 25\u201335 min Bella Napoli \u2b50 4.8 Italian \u00b7 Pizza \ud83c\udf63 20\u201330 min Sushi Yama \u2b50 4.9 Japanese \u00b7 Sushi \ud83c\udf54 15\u201325 min Burger Werk \u2b50 4.7 American \u00b7 Burgers Top rated \ud83c\udf55 Bella Napoli \u2b50 4.8 Margherita Pizza \u00b7 25\u201335 min \ud83c\udf63 Sushi Yama \u2b50 4.9 Salmon Nigiri Set \u00b7 20\u201330 min Home Search Orders Profile",
+  "image": "assets/screens/crave-home-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-search-02",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Search food",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Search ramen Under 30 min 4.5+ rated Offers Top rated TRENDING SEARCHES \ud83c\udf5c ramen \ud83e\udd57 poke bowl \ud83c\udf2f burrito \ud83c\udf70 tiramisu Results for \u201cramen\u201d \u00b7 12 \ud83c\udf5c Tonkotsu Ramen \u20ac13.90 Ramen Bar Kibo \u00b7 20\u201330 min \ud83c\udf5c Spicy Miso Ramen \u20ac14.50 Ramen Bar Kibo \u00b7 20\u201330 min \ud83c\udf5c Shoyu Ramen \u20ac12.90 Tokyo Express \u00b7 25\u201335 min Home Search Orders Profile",
+  "image": "assets/screens/crave-search-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 65,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-restaurant-03",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Restaurant detail",
+  "pattern": "Search",
+  "elements": [
+   "Rating",
+   "Segmented Control",
+   "List Item",
+   "Accordion",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 \ud83c\udf55 Bella Napoli OPEN 4.8 (1.2k) \u00b7 Italian \u00b7 25\u201335 min Popular Pizza Pasta Desserts \ud83c\udf55 Margherita Pizza San Marzano tomato, fior di latte, basil \u20ac11.90 \ud83c\udf55 Diavola Spicy salami, tomato, mozzarella, honey \u20ac13.50 \ud83c\udf5d Tagliatelle al Rag\u00f9 Slow-cooked beef rag\u00f9, parmigiano \u20ac14.90 About Delivery info Free delivery over \u20ac15 \u00b7 25\u201335 min average \u00b7 Contactless drop-off available. Allergens View cart \u00b7 \u20ac25.80",
+  "image": "assets/screens/crave-restaurant-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 44,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-cart-04",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Cart",
+  "pattern": "Cart",
+  "elements": [
+   "Stepper",
+   "Banner",
+   "List Item",
+   "Button",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Your cart Bella Napoli \u00b7 25\u201335 min Add \u20ac4.20 more for free delivery \ud83c\udf89 \ud83c\udf55 Margherita Pizza \u20ac11.90 \u2212 1 + \ud83c\udf5d Tagliatelle al Rag\u00f9 \u20ac14.90 \u2212 1 + Subtotal \u20ac26.80 Delivery fee \u20ac1.90 Service fee \u20ac0.99 Total \u20ac29.69 Add promo code Go to checkout \u00b7 \u20ac29.69",
+  "image": "assets/screens/crave-cart-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-checkout-05",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Checkout",
+  "pattern": "Checkout",
+  "elements": [
+   "Radio",
+   "Card",
+   "List Item",
+   "Button",
+   "Dropdown"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#0F766E"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Checkout Delivery address Feldstra\u00dfe 12, 28203 Bremen Apartment 4 \u00b7 2nd floor Delivery time ASAP \u00b7 25\u201335 min Schedule Payment Visa \u00b7\u00b7\u00b7\u00b7 4021 Expires 09/29 \u20ac29.69 Cash on delivery Pay the courier directly Cutlery preference No cutlery \u2014 save plastic \ud83c\udf3f By placing this order you agree to Crave's terms. The restaurant starts preparing after confirmation. Place order \u00b7 \u20ac29.69",
+  "image": "assets/screens/crave-checkout-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-payment-06",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Payment methods",
+  "pattern": "Payment Method",
+  "elements": [
+   "Radio",
+   "Card",
+   "Button",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Payment Cards Visa \u00b7\u00b7\u00b7\u00b7 4021 Ava Sharma \u00b7 09/29 DEFAULT Mastercard \u00b7\u00b7\u00b7\u00b7 8814 Ava Sharma \u00b7 04/28 Add new card Other Crave Pay balance Use \u20ac12.40 available Gift cards 2 active \u00b7 \u20ac25.00 total Payments encrypted \u00b7 PCI-DSS compliant Home Search Orders Profile",
+  "image": "assets/screens/crave-payment-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-map-07",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Order tracking map",
+  "pattern": "Map",
+  "elements": [
+   "Bottom Sheet",
+   "Progress Bar",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 You Bella Napoli Arriving in 12 min Live Order confirmed On the way Arriving Your courier Order #CRV-88231 \u00b7 Bella Napoli DK Denis K. 4.9 \u00b7 2.3k deliveries \u260e \u201cPicked up your order \u2014 2 stops away, see you soon!\u201d \u00b7 2 min ago",
+  "image": "assets/screens/crave-map-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-chat-08",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Courier chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Chip"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 DK Denis K. \u25cf Delivering your order Today Hi! I'm on my way with your Bella Napoli order \ud83c\udf55 12:41 I'm at Feldstra\u00dfe \u2014 which entrance should I use? 12:52 Side entrance, I'll meet you there! 12:53 Perfect, 2 minutes away \ud83d\udc4d 12:53 Leave at door I'm outside Call me Message Denis\u2026",
+  "image": "assets/screens/crave-chat-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 59,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-notifications-09",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications \ud83d\udef5 Order on its way 2m Denis picked up your order from Bella Napoli . Arriving in ~12 min. \ud83c\udf89 Weekend deal 1h 40% off sushi this weekend with code SUSHI40. \u2b50 Rate your last order Yesterday How was Ramen Bar Kibo ? Your review helps the kitchen. \ud83c\udf81 \u20ac10 voucher earned 2d You unlocked a voucher for 5 orders this month. Home Search Orders Profile",
+  "image": "assets/screens/crave-notifications-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-profile-10",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Badge",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile AS Ava Sharma Gold member \u00b7 since 2024 \u2605 1,240 PTS \u20ac10 voucher available Expires Oct 31 \u00b7 min. order \u20ac20 Use My orders 48 orders \u00b7 \u20ac612 spent Addresses Home \u00b7 Work \u00b7 1 more Favorites 12 restaurants Vouchers 3 active Home Search Orders Profile",
+  "image": "assets/screens/crave-profile-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 82,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-empty-11",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Empty state \u2014 no orders",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Orders \ud83c\udf54 No orders yet Hungry? Your order history will appear here \u2014 along with one-tap reorders of your favorites. Find food near you Home Search Orders Profile",
+  "image": "assets/screens/crave-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 57,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "crave-stats-12",
+  "app_id": "crave",
+  "app_name": "Crave",
+  "title": "Order history & stats",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "List Item",
+   "Segmented Control",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Food & Drink",
+  "colors": [
+   "#FFFFFF",
+   "#F43F5E",
+   "#FB7185",
+   "#18181B",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#FFFFFF",
+   "primary": "#F43F5E",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Your year in food 2026 \u00b7 48 orders Month Cuisine Spending TOTAL SPENT \u20ac612.40 TOP 5% Jan Jun Dec Most ordered \ud83c\udf55 Margherita Pizza \u20ac11.90 Ordered 9 times \u00b7 Bella Napoli \ud83c\udf5c Tonkotsu Ramen \u20ac13.90 Ordered 7 times \u00b7 Ramen Bar Kibo Reorder favorites Home Search Orders Profile",
+  "image": "assets/screens/crave-stats-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-welcome-01",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button",
+   "Carousel"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Tempo Every song you love. Zero ads. Zero skips limits. Neon Skyline Midnight Parade Golden Hour Sahara Bloom Deep Blue Coral Echoes Try Premium free for 1 month Continue free or log in",
+  "image": "assets/screens/tempo-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 71,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-home-02",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Home",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Carousel",
+   "List Item",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Good evening NK All Music Podcasts Live Jump back in \ud83c\udfa7 After Hours Mix Your weekly blend \ud83c\udfaf Focus Flow Deep work beats \u26a1 Gym Energy 124 BPM club hits Recently played See all Blinding Lights The Weekends 3:20 2 Levitating Dua Lipa Tribute 3:23 3 Golden Hour Sahara Bloom 3:18 Blinding Lights The Weekends Home Search Library Profile",
+  "image": "assets/screens/tempo-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-search-03",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Search music",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Search synthwave Top Songs Artists Albums Podcasts Top result Synthwave Essentials Playlist \u00b7 84 songs Play Songs 1 Midnight Drive Neon Coast 4:02 2 Chrome Hearts Glass Petal 3:47 3 Nightcall \u201984 Vector Seven 5:11 Home Search Library Profile",
+  "image": "assets/screens/tempo-search-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 98,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-feed-04",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "New releases feed",
+  "pattern": "Feed",
+  "elements": [
+   "Carousel",
+   "Card",
+   "Avatar",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 New releases Friday drops \u00b7 updated weekly \ud83c\udf03 NEW Neon Skyline Midnight Parade \u00b7 Album \u00b7 12 tracks \ud83c\udf0a Salt & Static Coral Echoes \u00b7 Album \u00b7 12 tracks More this week Velvet Static Nova Rae Paper Moons Elif Aydin Home Search Library Profile",
+  "image": "assets/screens/tempo-feed-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-now-playing-05",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Now playing",
+  "pattern": "Feed",
+  "elements": [
+   "Progress Bar",
+   "Slider",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PLAYING FROM PLAYLIST After Hours Mix SYNTH POP \u00b7 2026 Blinding Lights The Weekends 2:05 3:20",
+  "image": "assets/screens/tempo-now-playing-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 57,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-playlist-06",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Playlist detail",
+  "pattern": "Feed",
+  "elements": [
+   "FAB",
+   "List Item",
+   "Card",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 PLAYLIST Gym Energy Nina K. \u00b7 48 songs \u00b7 2h 51m PUBLIC Shuffle play Power Kanye West Tribute Band 3:42 2 Titanium Iron Vocals 4:05 3 Can't Hold Us Brass Collective 4:18 4 Lose Yourself Mic Masters 5:26",
+  "image": "assets/screens/tempo-playlist-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 59,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-paywall-07",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Subscription \u2014 paywall",
+  "pattern": "Paywall",
+  "elements": [
+   "Button",
+   "Accordion",
+   "Badge",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Hear everything. Ad-free. Tempo Premium \u00b7 1 month free, then \u20ac10.99/mo No ads, unlimited skips Play any song, anytime Offline downloads 10,000 songs per device HiFi audio Lossless 24-bit sound Try free for 1 month Then \u20ac10.99/month \u00b7 Cancel anytime FAQ What happens after the trial? You are charged \u20ac10.99/month unless you cancel. We remind you 3 days before the trial ends. Can I share with family? Is there a student plan?",
+  "image": "assets/screens/tempo-paywall-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-profile-08",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Chart",
+   "List Item",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Profile NK Nina Kaur @ninahears \u00b7 1.2k followers PREMIUM Listening this week Pop 18h 20m Hip-hop 11h 05m Jazz 9h 40m 32h total \u00b7 top 2% of listeners \ud83c\udfc6 Playlists \u00b7 12 Gym Energy 48 songs \u00b7 by you Focus Flow 112 songs \u00b7 by you Home Search Library Profile",
+  "image": "assets/screens/tempo-profile-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 44,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-settings-09",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Dropdown",
+   "List Item",
+   "Slider"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Settings PLAYBACK Crossfade 6s Gapless playback No silence between tracks Download over Wi-Fi only Save mobile data ACCOUNT New release alerts Artists you follow Private session Hide listening activity Audio quality Very high \u00b7 320 kbps Home Search Library Profile",
+  "image": "assets/screens/tempo-settings-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 67,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-notifications-10",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Notifications \ud83c\udf03 New album: Neon Skyline 1h Midnight Parade just dropped 12 tracks. JR Jonas shared a playlist 3h \u201cRoadtrip \u201926\u201d \u00b7 32 songs \u00b7 for you \ud83c\udfab Presale: Sahara Bloom 1d Live in Hamburg, Nov 28 \u00b7 fans first. Home Search Inbox Profile",
+  "image": "assets/screens/tempo-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 48,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-empty-11",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Empty state \u2014 no liked songs",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Liked songs No liked songs yet Tap the heart on any track and it will be saved here \u2014 your personal greatest-hits collection. Discover music Home Search Library Profile",
+  "image": "assets/screens/tempo-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-chat-12",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Share with friends chat",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 JR Jonas R. \u25cf Listening now Today You HAVE to hear this one \ud83c\udfa7 18:02 Midnight Drive Neon Coast Instant add to Gym Energy \ud83d\udd25 18:05 Knew you'd like it. Blend playlist updated btw! 18:06 Message Jonas\u2026",
+  "image": "assets/screens/tempo-chat-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 85,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-playlist-new-13",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "New playlist",
+  "pattern": "Feed",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 New playlist Add cover Playlist name Autumn Drives \ud83c\udf42 Description (optional) What is this playlist for? Make public Anyone can find and follow it You can add songs right after creating it. Create playlist",
+  "image": "assets/screens/tempo-playlist-new-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "tempo-playlist-add-14",
+  "app_id": "tempo",
+  "app_name": "Tempo",
+  "title": "Add songs to playlist",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Checkbox",
+   "List Item",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Music",
+  "colors": [
+   "#12071F",
+   "#A855F7",
+   "#EC4899",
+   "#FAF5FF",
+   "#1B0E2C"
+  ],
+  "tokens": {
+   "bg": "#12071F",
+   "surface": "#1D1030",
+   "primary": "#A855F7",
+   "text": "#FAF5FF",
+   "muted": "#B79FD4",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "9:41 Add songs Search to add songs Suggested for this playlist 1 Golden Hour Sahara Bloom 3:18 2 Paper Moons Elif Aydin 4:02 3 Salt Air Coral Echoes 3:44 4 Velvet Static Nova Rae 3:29 5 Amber Lines Glass Petal 4:11 Add 3 songs",
+  "image": "assets/screens/tempo-playlist-add-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 74,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-home-04",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Home \u2014 today",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Card",
+   "Checkbox",
+   "Avatar",
+   "FAB",
+   "Progress Bar",
+   "Banner",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Tuesday, October 15 \u00b7 3 of 6 done Morning briefing 3 tasks due before noon View 50% complete Today\u2019s progress 3 of 6 tasks finished 2h 15m in focus so far Up next See all Review Q4 roadmap deck 9:30 AM \u00b7 with Lena Fischer Work Send invoice #1042 Overdue since yesterday Finance Book dentist appointment Done at 8:05 AM Health Water the monstera 6:00 PM \u00b7 recurring Home Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-home-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-product-04",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Product detail",
+  "pattern": "Product Detail",
+  "elements": [
+   "Carousel",
+   "Rating",
+   "Stepper",
+   "Button",
+   "Accordion",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#E4D6BE"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Bestseller MAISON ATELIER Aria Lounge Chair 4.8 212 reviews \u20ac349 \u20ac429 -19% Only 3 left Fabric \u2014 Oat Boucl\u00e9 Quantity 1 Details & materials Solid oak frame, high-resilience foam and a washable boucl\u00e9 cover. W 68 \u00d7 D 72 \u00d7 H 76 cm. Shipping & returns Care guide Total \u20ac349.00 Add to bag",
+  "image": "assets/screens/maison-product-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 42,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-feed-12",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Feed",
+  "pattern": "Feed",
+  "elements": [
+   "Tab Bar",
+   "Avatar",
+   "Badge",
+   "Card",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B",
+   "#F4F4F5"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "orbit 3 You JW jonas.w MK mia.k LT leo.t AS ava.s JW jonas.weber 2h \u00b7 Hamburg 1/3 2,418 likes jonas.weber Golden hour over the harbor. No filter needed. View all 184 comments MK mia.kim 5h \u00b7 Berlin Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-feed-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 71,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-onboarding-01",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Onboarding",
+  "pattern": "Onboarding",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "A calmer to-do list Capture tasks in seconds, plan your day with focus, and actually finish things. Get started I already have an account",
+  "image": "assets/screens/noted-onboarding-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-login-02",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Login",
+  "pattern": "Login",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Checkbox"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "N Welcome back Log in to pick up where you left off. Email jonas.weber@mail.de Password \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 Remember me Forgot password? Log in or continue with Google Apple New to Noted? Create account",
+  "image": "assets/screens/noted-login-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 49,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-forgot-password-03",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Forgot password",
+  "pattern": "Forgot Password",
+  "elements": [
+   "Text Field",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Back Reset password Enter the email you signed up with and we\u2019ll send you a reset link. Email jonas.weber@mail.de Send reset link Back to log in",
+  "image": "assets/screens/noted-forgot-password-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 68,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-calendar-05",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Calendar \u2014 month",
+  "pattern": "Calendar",
+  "elements": [
+   "Calendar",
+   "List Item",
+   "FAB"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Calendar October 2026 S M T W T F S 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Thursday, Oct 15 Sprint review 10:00 \u2013 11:00 AM \u00b7 Studio room Lunch with Priya 12:30 PM \u00b7 Caf\u00e9 Kr\u00e4mer Deep work: thesis 3:00 \u2013 5:00 PM \u00b7 Focus block Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-calendar-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 54,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-search-06",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Search",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "roadmap All Tasks Projects Notes Files 3 RESULTS Review Q4 roadmap deck Task \u00b7 Work \u00b7 Due today Roadmap 2026 Project \u00b7 14 tasks \u00b7 Updated 2h ago Roadmap feedback notes Note \u00b7 Edited yesterday RECENT dentist invoice template Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-search-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 58,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-chat-07",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Chat \u2014 team",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Text Field",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Design team Today Morning! The Q4 deck is ready for review \u2014 link is in the task. 9:12 AM On it. I\u2019ll leave comments before the 10 AM review. 9:18 AM Perfect. Also, can you add the onboarding metrics slide? 9:20 AM Already added \u2014 check slide 14. Numbers look strong. 9:24 AM LF Lena is typing\u2026 Message the team\u2026",
+  "image": "assets/screens/noted-chat-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-settings-08",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Segmented Control",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Settings JW Jonas Weber jonas.weber@mail.de \u00b7 Free plan PREFERENCES Notifications Reminders & mentions Sync Across all devices Sounds Task complete chime APPEARANCE Light System Dark GENERAL Account Privacy Help & feedback Log out Noted 4.2.0 \u00b7 Made with care in Bremen Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-settings-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 73,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-profile-09",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Button",
+   "List Item",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Profile JW Jonas Weber Product designer \u00b7 Bremen Free plan 12-day streak 128 Tasks 96 Done 75% Rate My tasks 6 due today 6 Shared with me 3 projects Pinned 8 items Settings Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 81,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-notifications-10",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#EF4444"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Mark all read Notifications TODAY Reminder: Sprint review Starts in 30 minutes \u00b7 Studio room 9:30 AM Lena mentioned you \u201cCan you add the metrics slide?\u201d 8:42 AM EARLIER Streak milestone 12-day streak! Keep it going. Yesterday Task completed \u201cBook dentist appointment\u201d done Yesterday Weekly report ready You finished 21 tasks this week Mon Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 94,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-empty-state-11",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Empty state \u2014 projects",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Projects No projects yet Group related tasks into projects to keep big goals on track. Create project Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-empty-state-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-subscription-12",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Subscription \u2014 Noted Plus",
+  "pattern": "Subscription",
+  "elements": [
+   "Radio",
+   "Accordion",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#EEF2FF",
+   "#4F46E5",
+   "#0F172A",
+   "#F59E0B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Noted Plus Do more with fewer taps. Unlimited projects & file uploads Smart reminders with location Calendar sync & team workspaces Monthly per month, billed monthly \u20ac4.99 Yearly Save 33% per year \u00b7 \u20ac3.33/mo \u20ac39.99 Start 7-day free trial Free for 7 days, then \u20ac39.99/year. Cancel anytime. Can I cancel anytime? Is there a student discount?",
+  "image": "assets/screens/noted-subscription-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 96,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-new-task-13",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "New task \u2014 bottom sheet",
+  "pattern": "Home",
+  "elements": [
+   "Bottom Sheet",
+   "Text Field",
+   "Chip",
+   "Dropdown",
+   "Toggle",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Today\u2019s progress New task What needs doing? Today Tomorrow Next week No date Project Work Reminder Tue, Oct 20 \u00b7 9:00 AM Add task",
+  "image": "assets/screens/noted-new-task-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 85,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-date-picker-14",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Set reminder \u2014 date picker",
+  "pattern": "Home",
+  "elements": [
+   "Date Picker",
+   "Calendar",
+   "Chip",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "New task Set reminder \u201cCall the tax office\u201d M 19 T 20 W 21 T 22 F 23 S 24 S 25 October 2026 S M T W T F S 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 Time 9:00 AM 12:30 PM 3:00 PM 6:00 PM Set reminder",
+  "image": "assets/screens/noted-date-picker-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "noted-task-done-15",
+  "app_id": "noted",
+  "app_name": "Noted",
+  "title": "Task created \u2014 toast",
+  "pattern": "Home",
+  "elements": [
+   "Toast",
+   "Tab Bar",
+   "Card",
+   "Checkbox",
+   "FAB"
+  ],
+  "platform": "iOS",
+  "category": "Productivity",
+  "colors": [
+   "#FFFFFF",
+   "#F1F5F9",
+   "#4F46E5",
+   "#0F172A",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F1F5F9",
+   "primary": "#4F46E5",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "14px",
+   "font": "Inter"
+  },
+  "text": "Today Tuesday, October 15 \u00b7 3 of 7 done Just added Call the tax office Tue, Oct 20 \u00b7 9:00 AM \u00b7 Reminder on Work Up next See all Review Q4 roadmap deck 9:30 AM \u00b7 with Lena Fischer Work Send invoice #1042 Overdue since yesterday Finance Task created \u00b7 Reminder Tue 9:00 AM Today Calendar Search Chat Profile",
+  "image": "assets/screens/noted-task-done-15.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 78,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-welcome-01",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#EFE9DD",
+   "#111111",
+   "#D97706",
+   "#FFFFFF"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "MAISON Furniture for slow living Timeless pieces, honest materials, delivered to your door. Start shopping Log in",
+  "image": "assets/screens/maison-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 45,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-home-02",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Home \u2014 editorial",
+  "pattern": "Home",
+  "elements": [
+   "Carousel",
+   "Banner",
+   "Card",
+   "Search Bar",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "MAISON 2 Search furniture The Autumn Edit Up to 30% off warm minimalism Shop Editorial View all The Reading Corner 12 pieces Soft Light 9 pieces Small Spaces 15 pieces Shop by room Living room Bedroom Dining Office New arrivals See all Aria Lounge Chair \u20ac349 Duna Side Table \u20ac129 Halo Floor Lamp \u20ac189 Fjord 2-Seat Sofa \u20ac899 Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-search-03",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Search \u2014 filters",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Slider",
+   "Radio",
+   "Bottom Sheet",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "lounge chair 24 results -19% Aria Lounge Chair \u20ac349 Nube Accent Chair \u20ac279 Fjord 2-Seat Sofa \u20ac899 New Pouf Ottoman \u20ac89 Filters Max price \u00b7 \u20ac350 \u20ac0 \u20ac500 Availability In stock On sale Solid oak Under \u20ac200 Sort by Most popular Price: low to high Newest Show 24 results",
+  "image": "assets/screens/maison-search-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 46,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-cart-05",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Cart",
+  "pattern": "Cart",
+  "elements": [
+   "List Item",
+   "Stepper",
+   "Text Field",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Bag (2) Aria Lounge Chair Oat Boucl\u00e9 \u00b7 Qty 1 \u20ac349 1 Duna Side Table Smoked oak \u00b7 Qty 2 \u20ac258 2 Promo code Apply Subtotal \u20ac607.00 Shipping Free Total \u20ac607.00 Free carbon-neutral delivery \u00b7 arrives Fri, Oct 23 Checkout \u00b7 \u20ac607.00",
+  "image": "assets/screens/maison-cart-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-checkout-06",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Checkout \u2014 shipping",
+  "pattern": "Checkout",
+  "elements": [
+   "Text Field",
+   "Radio",
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Checkout 1 Shipping \u2014 2 Payment \u2014 3 Review Delivery address Sofia Rossi Osterstra\u00dfe 14 28199 Bremen Shipping method Standard 3\u20135 business days Free Express 1\u20132 business days \u20ac9.00 Continue to payment",
+  "image": "assets/screens/maison-checkout-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 93,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-payment-07",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Payment method",
+  "pattern": "Payment Method",
+  "elements": [
+   "Text Field",
+   "Radio",
+   "Checkbox",
+   "Button",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#1C1917",
+   "#111111",
+   "#D97706",
+   "#FFFFFF"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Payment MAISON \u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 4021 Card holder SOFIA ROSSI Expires 08/28 Card details Card number MM / YY CVC Pay with Card PayPal Klarna \u00b7 pay in 3 Save card for next time Pay \u20ac607.00",
+  "image": "assets/screens/maison-payment-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 88,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-orders-08",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Orders",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Progress Bar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Orders Track, return, reorder 12 Orders \u20ac2.4k Spent \u20ac312 Saved #MS-8421 Delivered Oct 10 \u00b7 2 items \u00b7 undefined #MS-8390 In transit Oct 13 \u00b7 1 item \u00b7 65 #MS-8274 Delivered Sep 28 \u00b7 3 items \u00b7 undefined Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-orders-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-profile-09",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "List Item",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Profile SR Sofia Rossi sofia.rossi@mail.de Gold member Orders 12 orders Wishlist 4 saved pieces 4 Addresses Home \u00b7 Office Payment methods Visa \u00b7\u00b7\u00b7\u00b7 4021 Help center Maison 3.8.1 Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 70,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-notifications-10",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Notifications Price drop Aria Lounge Chair is now \u20ac349 2h ago -19% Order shipped #MS-8390 is on its way 5h ago Back in stock Duna Side Table \u00b7 Smoked oak 1d ago Sale ends Sunday The Autumn Edit \u00b7 up to 30% off 2d ago Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-notifications-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 59,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-empty-11",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Empty state \u2014 wishlist",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#D97706",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Wishlist Your wishlist is empty Save pieces you love and we\u2019ll keep an eye on the price for you. Discover pieces Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-empty-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 97,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-error-12",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Error state",
+  "pattern": "Error State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#DC2626",
+   "#F5F5F4"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "New arrivals Something went wrong We couldn\u2019t load this collection. Check your connection and try again. Try again Back to home Home Search Bag Saved Profile",
+  "image": "assets/screens/maison-error-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 64,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "maison-order-confirmed-13",
+  "app_id": "maison",
+  "app_name": "Maison",
+  "title": "Order confirmed",
+  "pattern": "Checkout",
+  "elements": [
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Shopping",
+  "colors": [
+   "#FAFAF9",
+   "#FFFFFF",
+   "#111111",
+   "#10B981",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#FAFAF9",
+   "surface": "#FFFFFF",
+   "primary": "#111111",
+   "text": "#111111",
+   "muted": "#78716C",
+   "radius": "10px",
+   "font": "Inter"
+  },
+  "text": "Order confirmed Order #MS-8421 \u00b7 Arriving Fri, Oct 23 Standard delivery \u00b7 Free Osterstra\u00dfe 14, 28199 Bremen Aria Lounge Chair Qty 1 \u00b7 Oat Boucl\u00e9 \u20ac349 Track order Continue shopping",
+  "image": "assets/screens/maison-order-confirmed-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 55,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-signup-01",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Sign up",
+  "pattern": "Sign Up",
+  "elements": [
+   "Text Field",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F5F3FF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "orbit Create your account Join 2M+ people sharing their world. Name Jonas Weber Email jonas.weber@mail.de Password \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 Phone +49 170 123 456 Sign up By signing up you agree to our Terms and Privacy Policy. Have an account? Log in",
+  "image": "assets/screens/orbit-signup-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 88,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-otp-02",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "OTP verification",
+  "pattern": "OTP Verification",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F5F3FF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Back Verify your number We sent a 4-digit code to +49 170 123 456 4 7 Didn\u2019t get it? Resend in 0:42 Verify",
+  "image": "assets/screens/orbit-otp-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 71,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-home-03",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Home",
+  "pattern": "Home",
+  "elements": [
+   "Tab Bar",
+   "Avatar",
+   "Badge",
+   "Card",
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Good evening, Jonas 3 JW Share a moment\u2026 MK mia.k LT leo.t AS ava.s DR dan.r EP emi.p LT leo.teller 1h \u00b7 Munich Just shipped our new studio site. Three months of work, finally live. Link in bio. 842 96 Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-home-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 61,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-explore-04",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Explore",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Search Orbit For you Travel Food Design Music Santorini Ramen Dolomites Studio Concert Ceramics Lisbon Brunch Norway Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-explore-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-composer-05",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "New post \u2014 composer",
+  "pattern": "Post Composer",
+  "elements": [
+   "Bottom Sheet",
+   "Text Field",
+   "Button",
+   "Radio",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "orbit Golden hour over the harbor\u2026 Cancel New post Share Write a caption\u2026 Add location Tag people Who can reply Everyone Share",
+  "image": "assets/screens/orbit-composer-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 66,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-profile-06",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Segmented Control",
+   "Button",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "jonas.weber JW 248 Posts 12.4k Followers 890 Following Jonas Weber Photographer \u00b7 Hamburg Chasing light since 2019 Edit profile Share profile Posts Reels Tagged Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-profile-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-dms-07",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Messages",
+  "pattern": "Chat",
+  "elements": [
+   "List Item",
+   "Avatar",
+   "Badge",
+   "Search Bar"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#22C55E"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Messages Search conversations MK mia.kim That sunset shot is unreal 2m 2 LT leo.teller Sent you the studio link 1h AS ava.santos Are we still on for Saturday? 3h 1 DR dan.richter Thanks for the feedback! Yesterday EP emi.park Loved your latest reel Yesterday Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-dms-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 74,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-notifications-08",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Activity",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Avatar",
+   "Button",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#E11D48",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Activity TODAY mia.kim liked your photo. 12m leo.teller started following you. 1h Follow ava.santos mentioned you in a comment. 3h THIS WEEK Your reel hit 10k views. Keep going! 2d dan.richter and 48 others followed you. 4d Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-notifications-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 79,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-settings-09",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "List Item",
+   "Dropdown"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#71717A"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Settings ACCOUNT Private account Only followers see posts Push notifications Likes, comments, follows Autoplay videos On Wi-Fi only PREFERENCES Language English Privacy Blocked accounts Help center Log out Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-settings-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 68,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-empty-10",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Empty state \u2014 saved",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Saved No saved posts yet Tap the bookmark on any post to build your collection of favorites. Explore Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 98,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-insights-11",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Insights",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Segmented Control",
+   "Card",
+   "Badge"
+  ],
+  "platform": "Android",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#10B981"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Insights 7 days 30 days 90 days Reach 48.2k +12.4% Likes 9,148 +8.1% Follows 312 -2.3% Profile visits This week M T W T F S S Top post Golden hour over the harbor 2,418 likes \u00b7 184 comments Home Explore Post Activity Profile",
+  "image": "assets/screens/orbit-insights-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 92,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-caption-13",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "New post \u2014 caption",
+  "pattern": "Post Composer",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Chip",
+   "Radio"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F4F4F5",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Cancel New post Share 1/3 Golden hour over the harbor. No filter needed. 48 / 220 Add location Tag people Add music Audience Everyone Followers only Share",
+  "image": "assets/screens/orbit-caption-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 43,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "orbit-otp-success-13",
+  "app_id": "orbit",
+  "app_name": "Orbit",
+  "title": "Verified \u2014 success",
+  "pattern": "OTP Verification",
+  "elements": [
+   "Button",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Social",
+  "colors": [
+   "#FFFFFF",
+   "#F5F3FF",
+   "#7C3AED",
+   "#EC4899",
+   "#18181B"
+  ],
+  "tokens": {
+   "bg": "#FFFFFF",
+   "surface": "#F4F4F5",
+   "primary": "#7C3AED",
+   "text": "#18181B",
+   "muted": "#71717A",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "You\u2019re verified! Your number is confirmed. Let\u2019s set up your profile and find your people. JW MK LT Mia, Leo and 3 friends are already here Continue",
+  "image": "assets/screens/orbit-otp-success-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 88,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-onboarding-01",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Onboarding",
+  "pattern": "Onboarding",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Learn anything, anywhere Bite-size video courses from world-class instructors. 15 minutes a day is enough. Get started Log in",
+  "image": "assets/screens/bright-onboarding-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 51,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-welcome-02",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Welcome \u2014 interests",
+  "pattern": "Welcome",
+  "elements": [
+   "Button",
+   "Chip",
+   "Segmented Control"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Welcome to Bright, Jonas Pick what you want to learn. We\u2019ll build your path. I\u2019m interested in Design Coding Business Languages Photography Music Marketing Data My level Beginner Intermediate Advanced Daily goal 15 min 30 min 1 hour Continue",
+  "image": "assets/screens/bright-welcome-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-home-03",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Home \u2014 continue learning",
+  "pattern": "Home",
+  "elements": [
+   "Card",
+   "Progress Bar",
+   "Avatar",
+   "Search Bar",
+   "Banner",
+   "Carousel",
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Hi, Jonas Search courses, topics\u2026 12-day streak! You\u2019re on fire. 3 more days to beat your record. Continue learning DESIGN Design Systems 101 Lesson 16 of 24 \u00b7 12 min left Resume lesson Recommended for you See all Figma Masterclass 18 lessons \u00b7 4.9 Color Theory Basics 12 lessons \u00b7 4.8 UX Research 20 lessons \u00b7 4.7 Home Search Plan Profile",
+  "image": "assets/screens/bright-home-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 45,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-search-04",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Search \u2014 courses",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Dropdown",
+   "Skeleton",
+   "Rating",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "design All Beginner Certificate Popular DESIGN Design Systems 101 24 lessons \u00b7 8h \u00b7 4.9 (3.2k) \u20ac49 DESIGN Figma Masterclass 18 lessons \u00b7 6h \u00b7 4.9 (5.1k) \u20ac39 Home Search Plan Profile",
+  "image": "assets/screens/bright-search-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 78,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-course-05",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Course detail",
+  "pattern": "Course Detail",
+  "elements": [
+   "Rating",
+   "Accordion",
+   "Button",
+   "Avatar",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#1D4ED8",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "DESIGN \u00b7 BEGINNER Design Systems 101 AR Amara Rossi Design Lead \u00b7 12 courses Follow 4.9 3,214 ratings \u00b7 24 lessons \u00b7 8h Certificate included \u00b7 shareable on LinkedIn Curriculum 1 Foundations Tokens & variables \u00b7 12 min Done Component anatomy \u00b7 18 min Hands-on: build a button \u00b7 24 min 8 lessons \u00b7 2h 10m 2 Components in depth 10 lessons \u00b7 3h 05m 3 Shipping your system 6 lessons \u00b7 2h 40m One-time \u20ac49.00 Enroll now",
+  "image": "assets/screens/bright-course-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-stats-06",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Your progress",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Progress Bar",
+   "Card",
+   "Banner"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Your progress 72% of goal Weekly goal 5h 24m of 7h 30m 2 lessons to go Study time Minutes / day M T W T F S S 24h Learned 3 Courses 12 Day streak Level 7 reached You earned 420 XP this week. Home Search Plan Profile",
+  "image": "assets/screens/bright-stats-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 63,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-calendar-07",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Study plan",
+  "pattern": "Calendar",
+  "elements": [
+   "Date Picker",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#8B5CF6"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Study plan 3 sessions this week T 14 W 15 T 16 F 17 S 18 S 19 M 20 Today \u00b7 Wednesday 6:00 PM Design Systems 101 Lesson 16 \u00b7 Tokens & variables 7:30 PM Spanish: Unit 4 15 min review \u00b7 Flashcards Tomorrow 8:00 AM Figma Masterclass Lesson 3 \u00b7 Auto layout Home Search Plan Profile",
+  "image": "assets/screens/bright-calendar-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 49,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-paywall-08",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Bright Pro \u2014 paywall",
+  "pattern": "Paywall",
+  "elements": [
+   "Button",
+   "Card",
+   "Radio"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#FACC15",
+   "#0F172A"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Bright Pro Unlock every course, certificate and offline download. Unlimited access to 2,400+ courses Certificates for every completion Offline downloads & 1.5x audio Priority help from tutors Yearly Best value \u20ac6.58/month, billed yearly \u20ac79 Monthly Billed monthly, cancel anytime \u20ac9.99 Start 7-day free trial Free for 7 days, then \u20ac79/year. Cancel anytime in Settings.",
+  "image": "assets/screens/bright-paywall-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 95,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-profile-09",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Button",
+   "List Item",
+   "Progress Bar"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Profile JW Jonas Weber Learning since Mar 2026 PRO Level 7 \u00b7 4,280 XP 3 Courses 2 Certificates 12 Day streak My courses Certificates 2 Downloads Settings Home Search Plan Profile",
+  "image": "assets/screens/bright-profile-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 89,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-settings-10",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Dropdown",
+   "List Item"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#64748B"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Settings LEARNING Study reminders Daily at 6:00 PM Downloads Wi-Fi only Streak freeze Protect 1 missed day / month PLAYBACK Default speed 1.25x Video quality Auto (HD on Wi-Fi) GENERAL Language English Help center Log out Home Search Plan Profile",
+  "image": "assets/screens/bright-settings-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 94,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-notifications-11",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#D97706"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Notifications New lesson dropped Design Systems 101 \u00b7 Lesson 16 10m Streak reminder Study 12 min to keep your 12-day streak 2h Certificate ready Figma Masterclass \u00b7 Download PDF 1d Study group invite Mia invited you to \u201cDesign Buddies\u201d 2d Home Search Plan Profile",
+  "image": "assets/screens/bright-notifications-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-tutor-12",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Chat \u2014 AI tutor",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Text Field",
+   "Chip"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#7C3AED"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Back Mira \u00b7 AI Tutor Online M Hi Jonas! I see you\u2019re on Lesson 16: Tokens & variables . Want a quick recap before you start? Yes please \u2014 what\u2019s the difference between a token and a variable? M Great question! A token is the raw value (e.g. #4F46E5 ). A variable in Figma is the container that holds it \u2014 so one token can feed many variables. Got it. And when would I use modes? Explain with example Quiz me Show lesson Summarize Ask Mira anything\u2026",
+  "image": "assets/screens/bright-tutor-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 87,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-checkout-13",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Checkout",
+  "pattern": "Checkout",
+  "elements": [
+   "Text Field",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#0F172A",
+   "#047857"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "Course Checkout Design Systems 101 Amara Rossi \u00b7 24 lessons \u20ac49.00 Payment Visa \u00b7\u00b7\u00b7\u00b7 4021 Expires 08/28 Change Promo code Course price \u20ac49.00 Launch discount \u2212\u20ac10.00 Total \u20ac39.00 30-day money-back guarantee Pay \u20ac39.00",
+  "image": "assets/screens/bright-checkout-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 42,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "bright-enrolled-14",
+  "app_id": "bright",
+  "app_name": "Bright",
+  "title": "Enrolled \u2014 success",
+  "pattern": "Subscription",
+  "elements": [
+   "Toast",
+   "Button",
+   "Progress Bar",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Education",
+  "colors": [
+   "#EFF6FF",
+   "#FFFFFF",
+   "#2563EB",
+   "#10B981",
+   "#0F172A"
+  ],
+  "tokens": {
+   "bg": "#EFF6FF",
+   "surface": "#FFFFFF",
+   "primary": "#2563EB",
+   "text": "#0F172A",
+   "muted": "#64748B",
+   "radius": "16px",
+   "font": "Inter"
+  },
+  "text": "You\u2019re enrolled! Design Systems 101 is now in your library. Design Systems 101 24 lessons \u00b7 8 hours Start learning Browse more courses Welcome aboard \u2014 lesson 1 unlocked",
+  "image": "assets/screens/bright-enrolled-14.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 50,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-welcome-01",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Welcome",
+  "pattern": "Welcome",
+  "elements": [
+   "Button"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#FACC15"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Build habits that stick Track water, movement and mindfulness. Small steps, every day. Get started Log in",
+  "image": "assets/screens/vitalis-welcome-01.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-home-02",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Home \u2014 habits",
+  "pattern": "Home",
+  "elements": [
+   "Card",
+   "Progress Bar",
+   "Checkbox",
+   "FAB",
+   "Avatar",
+   "Banner"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "TUESDAY, OCT 15 Good morning, Jonas JW 1.2 of 2.5 L 3 glasses to go today Log water Today\u2019s habits Edit Meditate \u00b7 10 min Done at 7:15 AM Walk \u00b7 8,000 steps 6,240 so far Read \u00b7 20 pages Atomic Habits \u00b7 p. 112 No sugar Day 4 of 7 12-week streak Your longest streak ever. Keep it alive today. Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-home-02.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 40,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-stats-03",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Activity",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Chart",
+   "Segmented Control",
+   "Progress Bar"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Activity Week Month Year 86% habits 12 week streak \u00b7 personal best Habits completed per day M T W T F S S Water intake 2.1 L avg Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-stats-03.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-calendar-04",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Calendar",
+  "pattern": "Calendar",
+  "elements": [
+   "Calendar",
+   "Badge",
+   "List Item",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#4F46E5"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Calendar Every dot is a day you showed up October 2026 S M T W T F S 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 3 perfect weeks All habits completed, 3 weeks running Best Today\u2019s plan Water \u00b7 500 ml After lunch Strength \u00b7 30 min 6:00 PM \u00b7 Home workout Wind down \u00b7 10:30 PM No screens, herbal tea Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-calendar-04.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 48,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-coach-05",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Chat \u2014 coach",
+  "pattern": "Chat",
+  "elements": [
+   "Avatar",
+   "Text Field",
+   "Chip",
+   "Card"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Coach Ava Today A Morning Jonas! You\u2019re 800 ml behind your usual water pace. Big meeting day? Yeah \u2014 back to back until 4. Any quick tips? A Keep a glass at your desk and finish it every hour. I\u2019ll nudge you at 11, 1 and 3. Deal? Deal. Also \u2014 is my streak safe if I skip meditation once? A Totally. One rest day won\u2019t break a 12-week streak. Consistency beats perfection. Log water Start workout Breathing exercise Message Ava\u2026",
+  "image": "assets/screens/vitalis-coach-05.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 62,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-subscription-06",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Subscription \u2014 Vitalis Plus",
+  "pattern": "Subscription",
+  "elements": [
+   "Radio",
+   "Button",
+   "Card"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#5EEAD4"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Vitalis Plus Your habits, supercharged. AI coach with adaptive plans Advanced streaks & insights Apple Health & Garmin sync Guided meditations library Yearly 2 months free \u20ac4.99/month, billed yearly \u20ac59 Monthly Billed monthly \u20ac5.99 Start 14-day free trial Free for 14 days, then \u20ac59/year. Cancel anytime.",
+  "image": "assets/screens/vitalis-subscription-06.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 84,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-profile-07",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Profile",
+  "pattern": "Profile",
+  "elements": [
+   "Avatar",
+   "Button",
+   "List Item",
+   "Badge"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Profile JW Jonas Weber Member since January 2026 12-week streak 86% Adherence 214 Workouts 38 Meditations My stats Challenges 2 active 2 Achievements 14 unlocked Settings Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-profile-07.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 75,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-settings-08",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Settings",
+  "pattern": "Settings",
+  "elements": [
+   "Toggle",
+   "Dropdown",
+   "Slider",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#6B7280"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Settings GENERAL Units Metric (kg, km, ml) Week starts on Monday REMINDERS Habit reminders Gentle nudges through the day Water reminders Every 2 hours, 8 AM \u2013 8 PM Bedtime wind-down 30 min before sleep Reminder intensity Soft Firm CONNECTIONS Apple Health Connected Garmin Not connected Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-settings-08.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 64,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-notifications-09",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Notifications",
+  "pattern": "Notifications",
+  "elements": [
+   "List Item",
+   "Badge",
+   "Avatar"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#E11D48"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Mark all read Notifications Streak at risk! Meditation still open today 1h New studio nearby Atem Yoga \u00b7 400 m from you 4h Weekly report You hit 86% of habits \u2014 new best 1d Challenge update Mia overtook you in \u201cOctober Miles\u201d 2d Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-notifications-09.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 77,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-empty-10",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Empty state \u2014 saved studios",
+  "pattern": "Empty State",
+  "elements": [
+   "Button"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Saved studios No saved studios yet Discover yoga, pilates and gyms near you and save your favorites here. Find studios Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-empty-10.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 53,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-map-11",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Map \u2014 nearby studios",
+  "pattern": "Map",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "Card",
+   "Button",
+   "Avatar"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#F0FDFA",
+   "#FFFFFF",
+   "#0D9488",
+   "#FB7185",
+   "#BAE6FD"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Nearby studios Search studios, classes\u2026 Yoga Pilates Gym Swimming Atem Yoga Studio 4.9 \u00b7 400 m Book Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-map-11.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 41,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-search-12",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Search",
+  "pattern": "Search",
+  "elements": [
+   "Search Bar",
+   "Chip",
+   "List Item"
+  ],
+  "platform": "Android",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#B45309"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "Search habits, workouts, recipes All Habits Workouts Recipes Meditations POPULAR HABITS Drink 2.5 L water Hydration \u00b7 2.1M doing this Walk 10,000 steps Movement \u00b7 3.4M doing this Read 20 pages Mind \u00b7 1.8M doing this Sleep by 11 PM Recovery \u00b7 2.6M doing this TRENDING WORKOUTS Full-body HIIT \u00b7 20 min No equipment \u00b7 4.9 Morning yoga flow 15 min \u00b7 Beginner Home Activity Coach Profile",
+  "image": "assets/screens/vitalis-search-12.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 72,
+  "created": "2026-10-15"
+ },
+ {
+  "id": "vitalis-water-logger-13",
+  "app_id": "vitalis",
+  "app_name": "Vitalis",
+  "title": "Log water \u2014 modal",
+  "pattern": "Activity/Stats",
+  "elements": [
+   "Modal",
+   "Stepper",
+   "Button",
+   "Chip",
+   "Progress Bar"
+  ],
+  "platform": "iOS",
+  "category": "Lifestyle",
+  "colors": [
+   "#FDFDFD",
+   "#F0FDFA",
+   "#0D9488",
+   "#FB7185",
+   "#134E4A"
+  ],
+  "tokens": {
+   "bg": "#FDFDFD",
+   "surface": "#F0FDFA",
+   "primary": "#0D9488",
+   "text": "#134E4A",
+   "muted": "#6B7280",
+   "radius": "18px",
+   "font": "Inter"
+  },
+  "text": "TUESDAY, OCT 15 Good morning, Jonas 1.2 of 2.5 L Log water How much did you drink? 2 glasses 250 ml 500 ml 750 ml 500 ml Log water",
+  "image": "assets/screens/vitalis-water-logger-13.png",
+  "width": 390,
+  "height": 844,
+  "popularity": 82,
+  "created": "2026-10-15"
+ }
+]
