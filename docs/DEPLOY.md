@@ -40,3 +40,20 @@ The production site is **100% static** — everything the browser needs lives in
 - Open the site and click through: browse, search, open a flow.
 - If something looks stale, it's browser cache — hard-refresh.
 - To update: re-upload the changed files in `site/` (or `git push` if you're on Pages/Netlify/Vercel).
+
+## GitHub Pages (live: https://0050piyush.github.io/flowscope/)
+
+The repo publishes `site/` to GitHub Pages via the `gh-pages` branch
+(which holds the *contents* of `site/` at its root). Pages is set to
+deploy branch `gh-pages`, path `/`.
+
+To republish after changing anything under `site/`:
+
+```bash
+cd ~/workspace/flowscope
+git add -A && git commit -m "Update site"   # commit on main first
+git subtree push --prefix site origin gh-pages
+```
+
+GitHub rebuilds the site automatically (takes ~1 min). The `gh` CLI on
+this VM is already authenticated as 0050piyush, so no extra login needed.
